@@ -178,33 +178,6 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-custom_html = f"""
-    <style>
-    .white-metric {{
-        background-color: white;
-        color: black;
-        border: 1px solid #ddd;
-        border-radius: 5px;
-        padding: 10px;
-        text-align: center;
-        font-size: 18px;
-        font-weight: bold;
-    }}
-    </style>
-    <div class="white-metric">
-        <div>Average Track Temperature</div>
-        <div>{avg_track_temp:.1f}°C</div>
-    </div>
-    <div class="white-metric">
-        <div>Average Air Temperature</div>
-        <div>{avg_air_temp:.1f}°C</div>
-    </div>
-"""
-
-# Apply custom HTML and CSS
-st.write(custom_html, unsafe_allow_html=True)
-
-
 # In[10]:
 
 
@@ -320,6 +293,31 @@ with col[0]:
             
             avg_track_temp = df_weather['TrackTemp'].mean()
             avg_air_temp = df_weather['AirTemp'].mean()
+
+            custom_html = f"""
+            <style>
+            .white-metric {{
+            background-color: white;
+            color: black;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            }}
+            </style>
+            <div class="white-metric">
+            <div>Average Track Temperature</div>
+            <div>{avg_track_temp:.1f}°C</div>
+            </div>
+            <div class="white-metric">
+            <div>Average Air Temperature</div>
+            <div>{avg_air_temp:.1f}°C</div>
+            </div>
+            """
+
+            st.write(custom_html, unsafe_allow_html=True)
 
             col1, col2 = st.columns([1, 1])
 
