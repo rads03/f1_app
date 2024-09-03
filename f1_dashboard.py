@@ -195,35 +195,6 @@ css = """
 # Apply CSS to the Streamlit app
 st.markdown(css, unsafe_allow_html=True)
 
-css1 = """
-<style>
-/* Target the number input field */
-.stNumberInput input {
-    background-color: #333 !important; /* Change background color */
-    color: white !important; /* Change text color */
-    border: none !important; /* Remove border */
-}
-
-/* Target the up and down buttons */
-.stNumberInput .stNumberInputUp, 
-.stNumberInput .stNumberInputDown {
-    background-color: #444 !important; /* Change background color of buttons */
-    color: white !important; /* Change text color of buttons */
-    border: none !important; /* Remove border */
-}
-
-.stNumberInput .stNumberInputUp:hover, 
-.stNumberInput .stNumberInputDown:hover {
-    background-color: #555 !important; /* Change background color on hover */
-}
-</style>
-"""
-
-# Apply CSS to the Streamlit app
-st.markdown(css1, unsafe_allow_html=True)
-
-
-
 # In[10]:
 
 
