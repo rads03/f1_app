@@ -330,7 +330,7 @@ st.write("\n\n")
 st.write("\n\n")
 if 'df' in locals() and 'race' in locals() and 'results' in locals():
     try:
-        plot_type = st.selectbox('Select Plot Type', ['Track Dominance', 'Race Pace Comparison', 'Driver Stat Comparison'])
+        plot_type = st.selectbox('Select Plot Type', ['Race Pace Comparison', 'Track Dominance', 'Driver Stat Comparison'])
         
         default_driver1 = results.iloc[0]['Abbreviation']
         default_driver2 = results.iloc[1]['Abbreviation']
