@@ -74,35 +74,29 @@ def highlight_last_five_rows(df):
 
 
 def get_quali_results(q1, q2, q3):
+    def process_qualifying_data(df):
+        rows_to_append = []
+        for driver in df['Driver'].unique():
+            driver_data = df[df['Driver'] == driver]
+            if driver_data['LapTime'].notna().any(): 
+                rows_to_append.append(driver_data.loc[driver_data['LapTime'].idxmin()])
+            else:
+                rows_to_append.append(pd.Series({'Driver': driver, 'LapTime': np.nan, 'Position': np.nan,
+                                                 'FreshTyre': np.nan, 'TyreLife': np.nan, 'Compound': np.nan}))
+        pos_df = pd.DataFrame(rows_to_append)
+        pos_df['Position'] = pos_df['LapTime'].rank(method='min', ascending=True).astype(float)
+        pos_df = pos_df.sort_values(by='Position').reset_index(drop=True)
+        pos_df = pos_df[['Driver', 'LapTime', 'Position', 'FreshTyre', 'TyreLife', 'Compound']]
+        return pos_df
 
-    rows_to_append = []
-    for driver in q1['Driver'].unique():
-        rows_to_append.append(q1.loc[q1[q1['Driver'] == driver].LapTime.idxmin()])
-    q1_pos = pd.DataFrame(rows_to_append)
-    q1_pos['Position'] = q1_pos['LapTime'].rank(method='min', ascending=True).astype(int)
-    q1_pos = q1_pos.sort_values(by='Position').reset_index(drop=True)
-    q1_pos = q1_pos[['Driver', 'LapTime', 'Position', 'FreshTyre', 'TyreLife', 'Compound']]
-    q1_pos.reset_index(drop=True, inplace=True)
+    q1_pos = process_qualifying_data(q1)
     q1_pos = q1_pos.style.apply(highlight_last_five_rows, axis=None)
 
-    rows_to_append = []
-    for driver in q2['Driver'].unique():
-        rows_to_append.append(q2.loc[q2[q2['Driver'] == driver].LapTime.idxmin()])
-    q2_pos = pd.DataFrame(rows_to_append)
-    q2_pos['Position'] = q2_pos['LapTime'].rank(method='min', ascending=True).astype(int)
-    q2_pos = q2_pos.sort_values(by='Position').reset_index(drop=True)
-    q2_pos = q2_pos[['Driver', 'LapTime', 'Position', 'FreshTyre', 'TyreLife', 'Compound']]
+    q2_pos = process_qualifying_data(q2)
     q2_pos = q2_pos.style.apply(highlight_last_five_rows, axis=None)
 
-    rows_to_append = []
-    for driver in q3['Driver'].unique():
-        rows_to_append.append(q3.loc[q3[q3['Driver'] == driver].LapTime.idxmin()])
-    q3_pos = pd.DataFrame(rows_to_append)
-    q3_pos['Position'] = q3_pos['LapTime'].rank(method='min', ascending=True).astype(int)
-    q3_pos = q3_pos.sort_values(by='Position').reset_index(drop=True)
-    q3_pos = q3_pos[['Driver', 'LapTime', 'Position', 'FreshTyre', 'TyreLife', 'Compound']]
-    q3_pos.reset_index(drop=True, inplace=True)
-
+    q3_pos = process_qualifying_data(q3)
+    
     return q1_pos, q2_pos, q3_pos
 
 
