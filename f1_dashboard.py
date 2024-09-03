@@ -186,7 +186,7 @@ driver_images = {
     'L NORRIS': 'pics/NOR.png',
     'L HAMILTON': 'pics/HAM.png',
     'O PIASTRI': 'pics/PIA.png',
-    'G RUSSEL': 'pics/RUS.png',
+    'G RUSSELL': 'pics/RUS.png',
     'S PEREZ': 'pics/PER.png',
     'F ALONSO': 'pics/ALO.png',
     'L STROLL': 'pics/STR.png',
