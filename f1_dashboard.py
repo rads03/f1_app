@@ -178,6 +178,21 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+custom_css = """
+<style>
+.white-metric {
+    background-color: white;
+    color: black;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+</style>
+"""
+
+st.markdown(custom_css, unsafe_allow_html=True)
+
 
 # In[10]:
 
