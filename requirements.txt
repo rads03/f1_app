@@ -11,3 +11,4 @@ scikit-learn
 Pillow
 nbimporter
 nbformat
+IPython
