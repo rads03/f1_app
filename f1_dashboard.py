@@ -178,6 +178,17 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+css = """
+<style>
+.stMetricLabel, .stMetricValue {
+    color: white !important;
+}
+</style>
+"""
+
+# Inject CSS into the Streamlit app
+st.markdown(css, unsafe_allow_html=True)
+
 # In[10]:
 
 
