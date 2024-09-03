@@ -180,14 +180,21 @@ st.markdown(
 
 css = """
 <style>
-.stMetricLabel, .stMetricValue {
+/* Target the class used for metric values */
+.st-emotion-cache-1wivap2.e1i5pmia3 {
+    color: white !important;
+}
+
+/* Target the class used for metric labels */
+.st-emotion-cache-q49buc.e1i5pmia2 {
     color: white !important;
 }
 </style>
 """
 
-# Inject CSS into the Streamlit app
+# Apply CSS to the Streamlit app
 st.markdown(css, unsafe_allow_html=True)
+
 
 # In[10]:
 
