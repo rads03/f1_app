@@ -305,7 +305,7 @@ with col[0]:
             st.image(Image.open(driver_image_path), caption=f"Winning Driver: {WinningDriver}", use_column_width=True)  
             
             
-            fig3 = get_circuit_map(df, race, driver=None)
+            fig3 = get_circuit_map(df, driver=None)
             st.write("\n\n")
             st.pyplot(fig3)
             
@@ -329,7 +329,7 @@ with col[0]:
 
 with col[2]:
     try:
-        if 'q3' in locals() and 'q3_pos' in locals() and 'race' in locals() and 'results' in locals():
+        if 'q3' in locals() and 'q3_pos' in locals() and 'results' in locals():
 
             fig8 = create_race_results_table(results)
             fig8.update_layout(autosize=True, height=950)
@@ -371,7 +371,7 @@ if 'df' in locals() and 'race' in locals() and 'results' in locals():
             if driver1 and driver2:
                 col1, col2, col3 = st.columns([1, 2, 1])
                 with col2:
-                    fig5 = plot_track_dominance(race, driver1, driver2) 
+                    fig5 = plot_track_dominance(df, driver1, driver2) 
                     st.markdown("#### Track Dominance")
                     st.pyplot(fig5)
             else:
@@ -381,7 +381,7 @@ if 'df' in locals() and 'race' in locals() and 'results' in locals():
             stat = st.selectbox('Select Stat', ['Speed', 'nGear', 'Throttle', 'DRS'])
                 
             if driver1 and driver2 and stat:
-                fig7 = compare_driver_stats(df, race, driver1, driver2, stat)
+                fig7 = compare_driver_stats(df, driver1, driver2, stat)
                 st.markdown("#### Driver Comparison")
                 st.pyplot(fig7)
             else:
