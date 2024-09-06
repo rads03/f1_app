@@ -300,6 +300,9 @@ with col[1]:
         q1 = location_filtered_df.loc['Q1']
         q2 = location_filtered_df.loc['Q2']
         q3 = location_filtered_df.loc['Q3']
+        q1 = q1.reset_index()
+        q2 = q2.reset_index()
+        q3 = q3.reset_index()
         q1_pos, q2_pos, q3_pos = get_quali_results(q1, q2, q3)
         fig1 = get_gap_to_pole(q3_pos)
             
