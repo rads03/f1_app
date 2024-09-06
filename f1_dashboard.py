@@ -253,13 +253,10 @@ def get_available_locations(year):
 
 
 def filter_and_split(df, year, location):
-    filtered_df = df[(df['Year'] == year) & (df['Location'] == location)]
-    
-    q1 = filtered_df[filtered_df['Session'] == 'Q1']
-    q2 = filtered_df[filtered_df['Session'] == 'Q2']
-    q3 = filtered_df[filtered_df['Session'] == 'Q3']
-    
-    return q1, q2, q3
+    partial_filtered_df = df.loc[(year, slice(None)), :]
+    filtered_df = partial_filtered_df.loc[partial_filtered_df.index.get_level_values('Location') == location]
+
+    return filtered_df
 
 
 # In[13]:
@@ -298,7 +295,11 @@ col = st.columns((3, 3, 3), gap='large')
 
 with col[1]:
     try:
-        q1, q2, q3 = filter_and_split(qdf, year, location)
+        year_filtered_df = qdf.loc[year]
+        location_filtered_df = year_filtered_df.loc[location]
+        q1 = location_filtered_df.loc['Q1']
+        q2 = location_filtered_df.loc['Q2']
+        q3 = location_filtered_df.loc['Q3']
         q1_pos, q2_pos, q3_pos = get_quali_results(q1, q2, q3)
         fig1 = get_gap_to_pole(q3_pos)
             
@@ -315,10 +316,10 @@ with col[1]:
 
 
 with col[0]:
-    try: 
-        df = lap_df[(lap_df['Year'] == year) & (lap_df['Location'] == location)]
-        results = results_df[(results_df['Year'] == year) & (results_df['Location'] == location)]
-        df_weather = weather_dfs[(weather_dfs['Year'] == year) & (weather_dfs['Location'] == location)]
+    try:
+        df = filter_and_split(lap_df, year, location)
+        df_weather = filter_and_split(weather_dfs, year, location)
+        results = filter_and_split(results_df, year, location)
         
         WinningDriver = results.iloc[0]['BroadcastName']
         WinningDriver = WinningDriver.values[0] if isinstance(WinningDriver, pd.Series) else WinningDriver
