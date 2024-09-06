@@ -282,8 +282,8 @@ with col2:
 with col3:
     st.markdown("<br>", unsafe_allow_html=True)
     if st.button('Get Race Info'):
-        st.session_state.year = selected_year
-        st.session_state.location = selected_location
+        st.session_state.selected_year = selected_year
+        st.session_state.selected_location = selected_location
         st.session_state.load_data = True
 
 
@@ -316,9 +316,9 @@ with col[1]:
 
 with col[0]:
     try: 
-        df = lap_df[(lap_df['Year'] == year) & (lap_df['Location'] == location)]
-        results = results_df[(results_df['Year'] == year) & (results_df['Location'] == location)]
-        df_weather = weather_dfs[(weather_dfs['Year'] == year) & (weather_dfs['Location'] == location)]
+        df = lap_df[(lap_df['Year'] == selected_year) & (lap_df['Location'] == selected_location)]
+        results = results_df[(results_df['Year'] == selected_year) & (results_df['Location'] == selected_location)]
+        df_weather = weather_dfs[(weather_dfs['Year'] == selected_year) & (weather_dfs['Location'] == selected_location)]
         
         WinningDriver = results.iloc[0]['BroadcastName']
         WinningDriver = WinningDriver.values[0] if isinstance(WinningDriver, pd.Series) else WinningDriver
