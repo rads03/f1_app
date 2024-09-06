@@ -337,7 +337,7 @@ with col[2]:
     <style>
         .custom-heading {
             position: relative;
-            top: 10px; /* Adjust the value as needed */
+            top: 50px; /* Adjust the value as needed */
         }
     </style>
     <h4 class="custom-heading">Race Results</h4>
