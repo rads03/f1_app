@@ -268,22 +268,22 @@ def filter_and_split(df, year, location):
 col1, col2, col3 = st.columns((2.9, 2.9, 2.8), gap='large')
 
 with col1:
-    year = st.number_input('', min_value=2000, max_value=2024, value=2024)
+    selected_year = st.number_input('', min_value=2000, max_value=2024, value=2024)
 
 with col2:
-    locations, default_event, calendar = get_available_locations(year)
+    locations, default_event, calendar = get_available_locations(selected_year)
     if default_event in locations:
         default_location_index = locations.index(default_event)
     else:
         default_location_index = 0
-    location = st.selectbox('', locations, index=default_location_index)
+    selected_location = st.selectbox('', locations, index=default_location_index)
 
 
 with col3:
     st.markdown("<br>", unsafe_allow_html=True)
     if st.button('Get Race Info'):
-        st.session_state.year = year
-        st.session_state.location = location
+        st.session_state.year = selected_year
+        st.session_state.location = selected_location
         st.session_state.load_data = True
 
 
