@@ -336,8 +336,8 @@ with col[2]:
             st.markdown("""
     <style>
         .custom-heading {
+            margin-bottom: -20px; /* Adjust the value as needed */
             position: relative;
-            top: 50px; /* Adjust the value as needed */
         }
     </style>
     <h4 class="custom-heading">Race Results</h4>
