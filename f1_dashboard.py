@@ -298,7 +298,7 @@ col = st.columns((3, 3, 3), gap='large')
 
 with col[1]:
     try:
-        q1, q2, q3 = filter_and_split(qdf, year, location)
+        q1, q2, q3 = filter_and_split(qdf, selected_year, selected_location)
         q1_pos, q2_pos, q3_pos = get_quali_results(q1, q2, q3)
         fig1 = get_gap_to_pole(q3_pos)
             
