@@ -173,15 +173,14 @@ def get_sector_times(q3):
 # In[15]:
 
 
-def get_circuit_map(df, race, driver=None):
+def get_circuit_map(df, driver=None):
     if driver is None:
         driver = df['Driver'].unique()[0] 
     
     if driver not in df['Driver'].unique():
         raise ValueError(f"Driver {driver} did not participate in this race.")
     
-    lap = race.laps.pick_driver(driver).pick_fastest()
-    telemetry = lap.get_telemetry()
+    telemetry = df.iloc[[df[df['Driver']==driver].LapTime.idxmin()]].get_telemetry()
     x_pos = telemetry['X'].values
     y_pos = telemetry['Y'].values
     
