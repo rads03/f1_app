@@ -333,11 +333,16 @@ with col[2]:
             fig8 = create_race_results_table(results)
             fig8.update_layout(autosize=True, height=950)
 
-            st.markdown("""<style>.custom-heading {
-            margin-bottom: 10px; /* Adjust the value as needed */ }
-            </style>
-            <h4 class="custom-heading">Race Results</h4>
-            """, unsafe_allow_html=True)
+            st.markdown("""
+    <style>
+        .custom-heading {
+            margin-bottom: 50px; /* Adjust the value as needed */
+        }
+    </style>
+    <div class="custom-heading">
+        <h4>Race Results</h4>
+    </div>
+""", unsafe_allow_html=True)
             
             st.plotly_chart(fig8, use_container_width=True)
 
