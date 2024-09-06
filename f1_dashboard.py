@@ -336,7 +336,7 @@ with col[2]:
             st.markdown("""
     <style>
         .custom-heading {
-            margin-bottom: 50px; /* Adjust the value as needed */
+            margin-bottom: 10px; /* Adjust the value as needed */
         }
     </style>
     <div class="custom-heading">
