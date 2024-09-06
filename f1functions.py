@@ -207,14 +207,13 @@ def get_circuit_map(df, driver=None):
 # In[53]:
 
 
-def compare_driver_stats(df, race, driver1, driver2, stat):
+def compare_driver_stats(df, driver1, driver2, stat):
     
     drivers_list=df['Driver'].unique()
     telemetry_data={}
     flattened_data = []
     for driver in drivers_list:
-        lap = race.laps.pick_driver(driver).pick_fastest()
-        telemetry = lap.get_telemetry()
+        telemetry = df.iloc[[df[df['Driver']==driver].LapTime.idxmin()]].get_telemetry()
         telemetry_data[driver] = telemetry
     
     fig, ax = plt.subplots(figsize=(14, 6))
@@ -443,13 +442,10 @@ def get_circuit_corners_map():
 # In[69]:
 
 
-def plot_track_dominance(race, driver1, driver2):
+def plot_track_dominance(driver1, driver2):
     
-    lap1 = race.laps.pick_driver(driver1).pick_fastest()
-    lap2 = race.laps.pick_driver(driver2).pick_fastest()
-    
-    telemetry1 = lap1.get_telemetry().add_distance()
-    telemetry2 = lap2.get_telemetry().add_distance()
+    telemetry1 = df.iloc[[df[df['Driver']==driver1].LapTime.idxmin()]].get_telemetry().add_distance()
+    telemetry2 = df.iloc[[df[df['Driver']==driver2].LapTime.idxmin()]].get_telemetry().add_distance()
 
     x_pos1 = telemetry1['X'].values
     y_pos1 = telemetry1['Y'].values
