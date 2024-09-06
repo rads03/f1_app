@@ -1,12 +1,11 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[2]:
+# In[3]:
 
 
 import streamlit as st
 import pandas as pd
-import altair as alt
 import plotly.express as px
 import fastf1 as f1
 from fastf1 import plotting
@@ -27,7 +26,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 
-# In[3]:
+# In[4]:
 
 
 from f1functions import get_race_dfs
@@ -47,7 +46,20 @@ import warnings
 warnings.filterwarnings('ignore')
 
 
-# In[4]:
+# In[25]:
+
+
+weather_dfs = pd.read_csv('weather_data.csv')
+weather_dfs.set_index(['Year', 'Location'], inplace=True)
+lap_df = pd.read_csv('lap_data.csv')
+lap_df.set_index(['Year', 'Location'], inplace=True)
+qdf = pd.read_csv('quali_data.csv')
+qdf.set_index(['Year', 'Location', 'Session'], inplace=True)
+results_df = pd.read_csv('results_data.csv')
+results_df.set_index(['Year', 'Location'], inplace=True)
+
+
+# In[5]:
 
 
 st.set_page_config(
@@ -56,7 +68,7 @@ st.set_page_config(
     layout="wide")
 
 
-# In[5]:
+# In[6]:
 
 
 st.markdown(
@@ -75,7 +87,7 @@ st.markdown(
 )
 
 
-# In[6]:
+# In[7]:
 
 
 st.markdown(
@@ -93,7 +105,7 @@ st.markdown(
 )
 
 
-# In[7]:
+# In[8]:
 
 
 st.markdown(
@@ -111,7 +123,7 @@ st.markdown(
 )
 
 
-# In[8]:
+# In[9]:
 
 
 st.markdown(
@@ -127,7 +139,7 @@ st.markdown(
 )
 
 
-# In[9]:
+# In[10]:
 
 
 st.markdown(
@@ -161,8 +173,8 @@ st.markdown(
     .stSelectbox div[data-baseweb="select"] > div {
         border: none;
     }
-
-    /* Change background color of buttons */
+    
+     /* Change background color of buttons */
     .stButton button {
         background-color: #333333;
         color: white;
@@ -195,7 +207,8 @@ css = """
 # Apply CSS to the Streamlit app
 st.markdown(css, unsafe_allow_html=True)
 
-# In[10]:
+
+# In[11]:
 
 
 driver_images = {
@@ -222,7 +235,7 @@ driver_images = {
 }
 
 
-# In[11]:
+# In[12]:
 
 
 def get_available_locations(year):
@@ -236,7 +249,20 @@ def get_available_locations(year):
     return locations, default_event, calendar
 
 
-# In[12]:
+# In[21]:
+
+
+def filter_and_split(df, year, location):
+    filtered_df = df[(df['Year'] == year) & (df['Location'] == location)]
+    
+    q1 = filtered_df[filtered_df['Session'] == 'Q1']
+    q2 = filtered_df[filtered_df['Session'] == 'Q2']
+    q3 = filtered_df[filtered_df['Session'] == 'Q3']
+    
+    return q1, q2, q3
+
+
+# In[13]:
 
 
 col1, col2, col3 = st.columns((2.9, 2.9, 2.8), gap='large')
@@ -261,21 +287,19 @@ with col3:
         st.session_state.load_data = True
 
 
-# In[13]:
+# In[14]:
 
 
 col = st.columns((3, 3, 3), gap='large')
 
 
-# In[14]:
+# In[22]:
 
 
 with col[1]:
     try:
-        race, df, df_weather = get_race_dfs(year, location)
-        q1, q2, q3 = get_quali_dfs(year, location)
+        q1, q2, q3 = filter_and_split(qdf, year, location)
         q1_pos, q2_pos, q3_pos = get_quali_results(q1, q2, q3)
-        results = race.results
         fig1 = get_gap_to_pole(q3_pos)
             
         st.write("\n\n")
@@ -287,43 +311,46 @@ with col[1]:
         st.error(f"An error occurred: {e}")
 
 
-# In[19]:
+# In[26]:
 
 
 with col[0]:
-     if 'q3' in locals() and 'q3_pos' in locals() and 'race' in locals() and 'df_weather' in locals():
-        try: 
-            WinningDriver = results.iloc[0]['BroadcastName']
-            WinningDriver = WinningDriver.values[0] if isinstance(WinningDriver, pd.Series) else WinningDriver
+    try: 
+        df = lap_df[(lap_df['Year'] == year) & (lap_df['Location'] == location)]
+        results = results_df[(results_df['Year'] == year) & (results_df['Location'] == location)]
+        df_weather = weather_dfs[(weather_dfs['Year'] == year) & (weather_dfs['Location'] == location)]
+        
+        WinningDriver = results.iloc[0]['BroadcastName']
+        WinningDriver = WinningDriver.values[0] if isinstance(WinningDriver, pd.Series) else WinningDriver
             
-            driver_image_path = driver_images.get(WinningDriver, 'pics/default_driver.png')
+        driver_image_path = driver_images.get(WinningDriver, 'pics/default_driver.png')
             
-            st.write("\n\n")
-            st.write("\n\n")
-            st.write("\n\n")
-            st.image(Image.open(driver_image_path), caption=f"Winning Driver: {WinningDriver}", use_column_width=True)  
+        st.write("\n\n")
+        st.write("\n\n")
+        st.write("\n\n")
+        st.image(Image.open(driver_image_path), caption=f"Winning Driver: {WinningDriver}", use_column_width=True)  
             
             
-            fig3 = get_circuit_map(df, driver=None)
-            st.write("\n\n")
-            st.pyplot(fig3)
+        fig3 = get_circuit_map(df, driver=None)
+        st.write("\n\n")
+        st.pyplot(fig3)
             
-            avg_track_temp = df_weather['TrackTemp'].mean()
-            avg_air_temp = df_weather['AirTemp'].mean()
+        avg_track_temp = df_weather['TrackTemp'].mean()
+        avg_air_temp = df_weather['AirTemp'].mean()
 
-            col1, col2 = st.columns([1, 1])
+        col1, col2 = st.columns([1, 1])
 
-            with col1:
-                st.metric(label="Average Track Temperature", value=f"{avg_track_temp:.1f}°C")
-
-            with col2:
-                st.metric(label="Average Air Temperature", value=f"{avg_air_temp:.1f}°C")
+        with col1:
+            st.metric(label="Average Track Temperature", value=f"{avg_track_temp:.1f}°C")
+                
+        with col2:
+            st.metric(label="Average Air Temperature", value=f"{avg_air_temp:.1f}°C")
             
-        except Exception as e:
-            st.error(f'Error: {e}')
+    except Exception as e:
+        st.error(f'Error: {e}')
 
 
-# In[16]:
+# In[27]:
 
 
 with col[2]:
@@ -332,16 +359,6 @@ with col[2]:
 
             fig8 = create_race_results_table(results)
             fig8.update_layout(autosize=True, height=950)
-
-            st.markdown("""
-    <style>
-        .custom-heading {
-            margin-bottom: -40px; /* Adjust the value as needed */
-            position: relative;
-        }
-    </style>
-    <h4 class="custom-heading">Race Results</h4>
-""", unsafe_allow_html=True)
             
             st.plotly_chart(fig8, use_container_width=True)
 
@@ -349,12 +366,12 @@ with col[2]:
         st.error(f'Error: {e}')
 
 
-# In[17]:
+# In[29]:
 
 
 st.write("\n\n")
 st.write("\n\n")
-if 'df' in locals() and 'race' in locals() and 'results' in locals():
+if 'df' in locals() and 'results' in locals():
     try:
         plot_type = st.selectbox('Select Plot Type', ['Race Pace Comparison', 'Track Dominance', 'Driver Stat Comparison'])
         
@@ -375,7 +392,6 @@ if 'df' in locals() and 'race' in locals() and 'results' in locals():
                 st.pyplot(fig6)
             else:
                 st.error('Please select both drivers.')
-                
         elif plot_type == 'Track Dominance':
             if driver1 and driver2:
                 col1, col2, col3 = st.columns([1, 2, 1])
@@ -400,7 +416,7 @@ if 'df' in locals() and 'race' in locals() and 'results' in locals():
         st.error(f"An error occurred: {e}")
 
 
-# In[18]:
+# In[30]:
 
 
 st.write("\n\n")
@@ -417,12 +433,6 @@ if 'df' in locals():
         
     except Exception as e:
         st.error(f'Error: {e}') 
-
-
-# In[ ]:
-
-
-
 
 
 # In[ ]:
