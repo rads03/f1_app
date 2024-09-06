@@ -250,7 +250,7 @@ with col2:
         default_location_index = locations.index(default_event)
     else:
         default_location_index = 0
-    location = st.selectbox('Select Location:', locations, index=default_location_index)
+    location = st.selectbox('', locations, index=default_location_index)
 
 
 with col3:
