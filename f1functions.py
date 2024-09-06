@@ -442,7 +442,7 @@ def get_circuit_corners_map():
 # In[69]:
 
 
-def plot_track_dominance(driver1, driver2):
+def plot_track_dominance(df, driver1, driver2):
     
     telemetry1 = df.iloc[[df[df['Driver']==driver1].LapTime.idxmin()]].get_telemetry().add_distance()
     telemetry2 = df.iloc[[df[df['Driver']==driver2].LapTime.idxmin()]].get_telemetry().add_distance()
