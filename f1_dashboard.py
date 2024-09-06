@@ -271,21 +271,20 @@ col = st.columns((3, 3, 3), gap='large')
 
 
 with col[1]:
-    if 'load_data' in st.session_state and st.session_state.load_data:
-        try:
-            race, df, df_weather = get_race_dfs(year, location)
-            q1, q2, q3 = get_quali_dfs(year, location)
-            q1_pos, q2_pos, q3_pos = get_quali_results(q1, q2, q3)
-            results = race.results
-            fig1 = get_gap_to_pole(q3_pos)
+    try:
+        race, df, df_weather = get_race_dfs(year, location)
+        q1, q2, q3 = get_quali_dfs(year, location)
+        q1_pos, q2_pos, q3_pos = get_quali_results(q1, q2, q3)
+        results = race.results
+        fig1 = get_gap_to_pole(q3_pos)
             
-            st.write("\n\n")
-            st.write("\n\n")
-            st.markdown("#### Gap to Pole")
-            st.pyplot(fig1)
+        st.write("\n\n")
+        st.write("\n\n")
+        st.markdown("#### Gap to Pole")
+        st.pyplot(fig1)
                 
-        except Exception as e:
-            st.error(f"An error occurred: {e}")
+    except Exception as e:
+        st.error(f"An error occurred: {e}")
 
 
 # In[19]:
@@ -334,6 +333,7 @@ with col[2]:
             fig8 = create_race_results_table(results)
             fig8.update_layout(autosize=True, height=950)
 
+            st.markdown("#### Race Results")
             st.plotly_chart(fig8, use_container_width=True)
 
     except Exception as e:
