@@ -212,9 +212,12 @@ def compare_driver_stats(df, driver1, driver2, stat):
     drivers_list=df['Driver'].unique()
     telemetry_data={}
     flattened_data = []
-    for driver in drivers_list:
-        telemetry = df.iloc[[df[df['Driver']==driver].LapTime.idxmin()]].get_telemetry()
-        telemetry_data[driver] = telemetry
+
+    telemetry1 = df.iloc[[df[df['Driver']==driver1].LapTime.idxmin()]].get_telemetry()
+    telemetry_data[driver1] = telemetry1
+
+    telemetry2 = df.iloc[[df[df['Driver']==driver2].LapTime.idxmin()]].get_telemetry()
+    telemetry_data[driver2] = telemetry2
     
     fig, ax = plt.subplots(figsize=(14, 6))
     sns.lineplot(x=telemetry_data[driver1].Time, y=telemetry_data[driver1][stat], label=driver1, linewidth=3.5, 
