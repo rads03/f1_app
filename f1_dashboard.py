@@ -230,11 +230,10 @@ def get_available_locations(year):
     calendar['EventDate'] = pd.to_datetime(calendar['EventDate'])
     today = datetime.now()
     past_events = calendar[calendar['EventDate'] < today]
-    locations = past_events[['Location', 'Country']].drop_duplicates() 
+    locations = past_events['EventName'].drop_duplicates() 
     most_recent_event = calendar[calendar['EventDate'] <= today].sort_values(by='EventDate', ascending=False).iloc[0]
-    default_location = most_recent_event['Location']
-    default_country = most_recent_event['Country']
-    return locations, default_location, default_country, calendar
+    default_event = most_recent_event['EventName']
+    return locations, default_event, calendar
 
 
 # In[12]:
@@ -246,11 +245,9 @@ with col1:
     year = st.number_input('', min_value=2000, max_value=2024, value=2024)
 
 with col2:
-    locations, default_location, default_country, calendar = get_available_locations(year)
-    location_options = [f"{loc} ({country})" for loc, country in zip(locations['Location'], locations['Country'])]
-    default_location_index = location_options.index(f"{default_location} ({default_country})")
-    location_country = st.selectbox('', location_options, index=default_location_index)
-    location = location_country.split(' (')[0]
+    locations, default_event, calendar = get_available_locations(year)
+    default_location_index = locations.index(f"{default_event}")
+    location = st.selectbox('', locations, index=default_location_index)
 
 with col3:
     st.markdown("<br>", unsafe_allow_html=True)
