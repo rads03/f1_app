@@ -336,12 +336,11 @@ with col[2]:
             st.markdown("""
     <style>
         .custom-heading {
-            margin-bottom: 10px; /* Adjust the value as needed */
+            position: relative;
+            top: 30px; /* Adjust the value as needed */
         }
     </style>
-    <div class="custom-heading">
-        <h4>Race Results</h4>
-    </div>
+    <h4 class="custom-heading">Race Results</h4>
 """, unsafe_allow_html=True)
             
             st.plotly_chart(fig8, use_container_width=True)
