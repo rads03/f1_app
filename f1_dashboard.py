@@ -230,7 +230,7 @@ def get_available_locations(year):
     calendar['EventDate'] = pd.to_datetime(calendar['EventDate'])
     today = datetime.now()
     past_events = calendar[calendar['EventDate'] < today]
-    locations = past_events['EventName'].drop_duplicates() 
+    locations = past_events['EventName'].drop_duplicates().tolist()  # Convert to list
     most_recent_event = calendar[calendar['EventDate'] <= today].sort_values(by='EventDate', ascending=False).iloc[0]
     default_event = most_recent_event['EventName']
     return locations, default_event, calendar
@@ -246,8 +246,12 @@ with col1:
 
 with col2:
     locations, default_event, calendar = get_available_locations(year)
-    default_location_index = locations.index(f"{default_event}")
-    location = st.selectbox('', locations, index=default_location_index)
+    if default_event in locations:
+        default_location_index = locations.index(default_event)
+    else:
+        default_location_index = 0
+    location = st.selectbox('Select Location:', locations, index=default_location_index)
+
 
 with col3:
     st.markdown("<br>", unsafe_allow_html=True)
