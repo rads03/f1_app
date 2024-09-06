@@ -268,22 +268,22 @@ def filter_and_split(df, year, location):
 col1, col2, col3 = st.columns((2.9, 2.9, 2.8), gap='large')
 
 with col1:
-    selected_year = st.number_input('', min_value=2000, max_value=2024, value=2024)
+    year = st.number_input('', min_value=2000, max_value=2024, value=2024)
 
 with col2:
-    locations, default_event, calendar = get_available_locations(selected_year)
+    locations, default_event, calendar = get_available_locations(year)
     if default_event in locations:
         default_location_index = locations.index(default_event)
     else:
         default_location_index = 0
-    selected_location = st.selectbox('', locations, index=default_location_index)
+    location = st.selectbox('', locations, index=default_location_index)
 
 
 with col3:
     st.markdown("<br>", unsafe_allow_html=True)
     if st.button('Get Race Info'):
-        st.session_state.selected_year = selected_year
-        st.session_state.selected_location = selected_location
+        st.session_state.year = year
+        st.session_state.location = location
         st.session_state.load_data = True
 
 
@@ -298,22 +298,15 @@ col = st.columns((3, 3, 3), gap='large')
 
 with col[1]:
     try:
-        # Ensure these variables are accessed from session state
-        if 'selected_year' in st.session_state and 'selected_location' in st.session_state:
-            year = st.session_state.selected_year
-            location = st.session_state.selected_location
+        q1, q2, q3 = filter_and_split(qdf, year, location)
+        q1_pos, q2_pos, q3_pos = get_quali_results(q1, q2, q3)
+        fig1 = get_gap_to_pole(q3_pos)
             
-            # Ensure the DataFrame `qdf` has been properly loaded
-            q1, q2, q3 = filter_and_split(qdf, year, location)
-            q1_pos, q2_pos, q3_pos = get_quali_results(q1, q2, q3)
-            fig1 = get_gap_to_pole(q3_pos)
-
-            st.write("\n\n")
-            st.write("\n\n")
-            st.markdown("#### Gap to Pole")
-            st.pyplot(fig1)
-        else:
-            st.error("Year and location must be selected.")
+        st.write("\n\n")
+        st.write("\n\n")
+        st.markdown("#### Gap to Pole")
+        st.pyplot(fig1)
+                
     except Exception as e:
         st.error(f"An error occurred: {e}")
 
@@ -323,9 +316,9 @@ with col[1]:
 
 with col[0]:
     try: 
-        df = lap_df[(lap_df['Year'] == selected_year) & (lap_df['Location'] == selected_location)]
-        results = results_df[(results_df['Year'] == selected_year) & (results_df['Location'] == selected_location)]
-        df_weather = weather_dfs[(weather_dfs['Year'] == selected_year) & (weather_dfs['Location'] == selected_location)]
+        df = lap_df[(lap_df['Year'] == year) & (lap_df['Location'] == location)]
+        results = results_df[(results_df['Year'] == year) & (results_df['Location'] == location)]
+        df_weather = weather_dfs[(weather_dfs['Year'] == year) & (weather_dfs['Location'] == location)]
         
         WinningDriver = results.iloc[0]['BroadcastName']
         WinningDriver = WinningDriver.values[0] if isinstance(WinningDriver, pd.Series) else WinningDriver
