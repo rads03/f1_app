@@ -295,7 +295,6 @@ col = st.columns((3, 3, 3), gap='large')
 
 with col[1]:
     try:
-        st.write(year)
         year_filtered_df = qdf.loc[year]
         location_filtered_df = year_filtered_df.loc[location]
         q1 = location_filtered_df.loc['Q1']
@@ -321,6 +320,7 @@ with col[1]:
 
 with col[0]:
     try:
+        st.write(year)
         df = filter_and_split(lap_df, year, location)
         df_weather = filter_and_split(weather_dfs, year, location)
         results = filter_and_split(results_df, year, location)
