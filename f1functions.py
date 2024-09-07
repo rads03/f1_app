@@ -186,7 +186,6 @@ def get_circuit_map(df, driver=None):
     else:
         if driver not in df.index:
             raise ValueError(f"Driver {driver} did not participate in this race.")
-        driver_number = driver
     
     telemetry = df.loc[driver_number]
     x_pos = telemetry['X'].values
