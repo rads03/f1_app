@@ -57,6 +57,8 @@ qdf = pd.read_csv('quali_data.csv')
 qdf.set_index(['Year', 'Location', 'Session'], inplace=True)
 results_df = pd.read_csv('results_data.csv')
 results_df.set_index(['Year', 'Location'], inplace=True)
+tel = pd.read_csv('telemetry_data.csv')
+tel.set_index(['Year', 'Race', 'DriverNumber'], inplace=True)
 
 
 # In[5]:
