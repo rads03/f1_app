@@ -527,14 +527,21 @@ def create_race_results_table(results):
         else:
             return f"+ {total_seconds:.3f} seconds"
 
+    # Ensure the 'Time' column is in timedelta format
+    if results['Time'].dtype == 'object':
+        # Try to convert the 'Time' column to timedelta
+        results['Time'] = pd.to_timedelta(results['Time'], errors='coerce')
+
     results['Formatted_Time'] = results.apply(
         lambda row: format_timedelta(row['Time'], False, row['Status']), axis=1
     )
 
     if not results.empty:
         results.iloc[0, results.columns.get_loc('Formatted_Time')] = format_timedelta(results.iloc[0]['Time'], True, results.iloc[0]['Status'])
+
     df_results = results[['BroadcastName', 'TeamName', 'ClassifiedPosition', 'Formatted_Time']]
     df_results.columns = ['BroadcastName', 'TeamName', 'ClassifiedPosition', 'Formatted_Time']
+
 
     headerColor = '#333333'  # Dark grey for header
     rowEvenColor = '#444444'  # Slightly lighter grey for even rows
