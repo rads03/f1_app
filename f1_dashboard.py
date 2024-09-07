@@ -295,6 +295,7 @@ col = st.columns((3, 3, 3), gap='large')
 
 with col[1]:
     try:
+        st.write(year)
         year_filtered_df = qdf.loc[year]
         location_filtered_df = year_filtered_df.loc[location]
         q1 = location_filtered_df.loc['Q1']
