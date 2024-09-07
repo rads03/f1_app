@@ -321,8 +321,11 @@ with col[1]:
 with col[0]:
     try:
         df = filter_and_split(lap_df, year, location)
+        st.write('works')
         df_weather = filter_and_split(weather_dfs, year, location)
+        st.write('works')
         results = filter_and_split(results_df, year, location)
+        st.write('works')
         
         WinningDriver = results.iloc[0]['BroadcastName']
         WinningDriver = WinningDriver.values[0] if isinstance(WinningDriver, pd.Series) else WinningDriver
