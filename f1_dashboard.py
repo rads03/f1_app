@@ -411,10 +411,15 @@ def get_available_locations(year):
     calendar = f1.get_event_schedule(year)
     calendar['EventDate'] = pd.to_datetime(calendar['EventDate'])
     today = datetime.now()
+    
+    calendar = calendar[~calendar['EventName'].str.contains('Pre-Season', case=False, na=False)]
+    
     past_events = calendar[calendar['EventDate'] < today]
-    locations = past_events['EventName'].drop_duplicates().tolist()  # Convert to list
+    locations = past_events['EventName'].drop_duplicates().tolist()  
+    
     most_recent_event = calendar[calendar['EventDate'] <= today].sort_values(by='EventDate', ascending=False).iloc[0]
     default_event = most_recent_event['EventName']
+    
     return locations, default_event, calendar
 
 
