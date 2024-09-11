@@ -280,8 +280,6 @@ with col1:
     year = st.number_input('Select Year', min_value=2000, max_value=2024, value=2024, label_visibility="hidden")
 
 with col2:
-
-with col2:
     locations, default_event, calendar = get_available_locations(year)
     if default_event in locations:
         default_location_index = locations.index(default_event)
