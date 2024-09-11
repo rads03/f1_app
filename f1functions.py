@@ -373,6 +373,7 @@ def get_circuit_map(df, driver=None):
 
 
 def compare_driver_stats(df, driver_1, driver_2, stat, year):
+ 
     driver_mapping_dict = globals().get(f'driver_map_{year}')
     
     if not driver_mapping_dict:
