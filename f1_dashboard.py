@@ -59,9 +59,11 @@ qdf.set_index(['Year', 'Location', 'Session'], inplace=True)
 results_df = pd.read_csv('results_data.csv')
 results_df.set_index(['Year', 'Location'], inplace=True)
 
+files = ['telemetry_data_2018.csv','telemetry_data_2019.csv', 'telemetry_data_2020.csv', 'telemetry_data_2021.csv',
+        'telemetry_data_2022.csv', 'telemetry_data_2023.csv', 'telemetry_data_2024.csv']
 df_list = []
-for file in glob.glob('telemetry_data_*.csv'):
-    year = file.split('_')[-1].split('.')[0] 
+for file in files:
+    year = int(file.split('_')[-1].split('.')[0])
     df = pd.read_csv(file)
     df['Year'] = year
     df_list.append(df)
