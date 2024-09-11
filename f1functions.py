@@ -454,12 +454,22 @@ def get_circuit_corners_map():
 
 # In[69]:
 
-
-def plot_track_dominance(df, driver1, driver2):
+def plot_track_dominance(df, driver1, driver2, year, driver_mappings):
     
-    telemetry1 = df.iloc[[df[df['Driver']==driver1].LapTime.idxmin()]].get_telemetry().add_distance()
-    telemetry2 = df.iloc[[df[df['Driver']==driver2].LapTime.idxmin()]].get_telemetry().add_distance()
-
+    driver_mapping_dict = driver_mappings.get(year)
+    
+    if not driver_mapping_dict:
+        raise ValueError(f"No driver mapping dictionary found for the year {year}")
+    
+    driver1 = driver_mapping_dict.get(driver_1)
+    driver2 = driver_mapping_dict.get(driver_2)
+    
+    if driver1 is None or driver2 is None:
+        raise ValueError(f"Driver names '{driver_1}' or '{driver_2}' not found in the mapping dictionary for the year {year}")
+    
+    telemetry1 = df.loc[int(driver1)]
+    telemetry2 = df.loc[int(driver2)]
+   
     x_pos1 = telemetry1['X'].values
     y_pos1 = telemetry1['Y'].values
     x_pos2 = telemetry2['X'].values
@@ -483,7 +493,7 @@ def plot_track_dominance(df, driver1, driver2):
             ax.plot([x2[i], x2[i+1]], [y2[i], y2[i+1]], color=dominance_color, linewidth=10)
     
     plot_dominance_along_track(x_pos1, y_pos1, x_pos2, y_pos2, 'orange', 'lightsteelblue')
-
+    
     indigo_patch = plt.Line2D([0], [0], color='orange', linewidth=8, alpha=0.6)
     blue_patch = plt.Line2D([0], [0], color='lightsteelblue', linewidth=8, alpha=0.6)
     
