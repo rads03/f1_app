@@ -536,9 +536,9 @@ with col[2]:
 
 # In[29]:
 
-
 st.write("\n\n")
 st.write("\n\n")
+driver_mapping_dict = globals().get(f'driver_map_{year}')
 if 'df' in locals() and 'results' in locals():
     try:
         plot_type = st.selectbox('Select Plot Type', ['Race Pace Comparison', 'Track Dominance', 'Driver Stat Comparison'])
