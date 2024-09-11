@@ -390,6 +390,16 @@ driver_map_2024 = {'VER': '1',
  'RIC': '3',
  'BEA': '38',
  'COL': '43'}
+
+driver_mappings = {
+    2018: driver_map_2018,
+    2019: driver_map_2019,
+    2020: driver_map_2020,
+    2021: driver_map_2021,
+    2022: driver_map_2022,
+    2023: driver_map_2023,
+    2024: driver_map_2024
+}
                 
 
 # In[12]:
