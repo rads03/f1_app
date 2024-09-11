@@ -22,6 +22,7 @@ from PIL import ImageChops
 from matplotlib.patches import FancyBboxPatch
 from matplotlib.ticker import FuncFormatter
 from datetime import datetime
+import glob
 import warnings
 warnings.filterwarnings('ignore')
 
@@ -57,7 +58,12 @@ qdf = pd.read_csv('quali_data.csv')
 qdf.set_index(['Year', 'Location', 'Session'], inplace=True)
 results_df = pd.read_csv('results_data.csv')
 results_df.set_index(['Year', 'Location'], inplace=True)
-tel = pd.read_csv('telemetry_data.csv')
+
+df_list = []
+for file in glob.glob('telemetry_data_*.csv'):
+    df = pd.read_csv(file)
+    df_list.append(df)
+tel = pd.concat(df_list)
 tel.set_index(['Year', 'Race', 'DriverNumber'], inplace=True)
 
 
