@@ -454,7 +454,7 @@ def get_circuit_corners_map():
 
 # In[69]:
 
-def plot_track_dominance(df, driver1, driver2, year, driver_mappings):
+def plot_track_dominance(df, driver_1, driver_2, year, driver_mappings):
     
     driver_mapping_dict = driver_mappings.get(year)
     
