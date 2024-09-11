@@ -214,7 +214,6 @@ def get_circuit_map(df, driver=None):
 
 # In[53]:
 
-
 def compare_driver_stats(df, driver_1, driver_2, stat, year, driver_mappings):
  
     driver_mapping_dict = driver_mappings.get(year)
@@ -231,9 +230,12 @@ def compare_driver_stats(df, driver_1, driver_2, stat, year, driver_mappings):
     telemetry1 = df.loc[int(driver1)]
     telemetry2 = df.loc[int(driver2)]
     
+    x_values_1 = range(len(telemetry1))
+    x_values_2 = range(len(telemetry2))
+    
     fig, ax = plt.subplots(figsize=(14, 6))
-    sns.lineplot(x=telemetry1.Time, y=telemetry1[stat], label=driver_1, linewidth=3.5, color='cornflowerblue')
-    sns.lineplot(x=telemetry2.Time, y=telemetry2[stat], label=driver_2, linewidth=3.5, color='orange')
+    sns.lineplot(x=x_values_1, y=telemetry1[stat], label=driver_1, linewidth=3.5, color='cornflowerblue')
+    sns.lineplot(x=x_values_2, y=telemetry2[stat], label=driver_2, linewidth=3.5, color='orange')
 
     ax.set_xlabel('')
     ax.set_ylabel('')
