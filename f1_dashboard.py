@@ -43,6 +43,7 @@ from f1functions import compare_teammates
 from f1functions import compare_driver_stats
 from f1functions import create_race_results_table
 from f1functions import plot_tyre_strategy
+from f1functions import plot_tyre_strategy_2018
 import warnings
 warnings.filterwarnings('ignore')
 
@@ -609,14 +610,21 @@ st.write("\n\n")
 st.write("\n\n")
 if 'df' in locals():
     try:
-        fig9 = plot_tyre_strategy(df)
-        
-        st.image(Image.open('pics/tyres.png'), use_column_width=True)
-        st.markdown('##### Tyre Strategy')
-        st.pyplot(fig9)
+        if year == 2018:
+            fig10 = plot_tyre_strategy_2018(df)
+
+            st.markdown('##### Tyre Strategy')
+            st.pyplot(fig10)
+
+        else:
+            fig9 = plot_tyre_strategy(df)
+            
+            st.image(Image.open('pics/tyres.png'), use_column_width=True)
+            st.markdown('##### Tyre Strategy')
+            st.pyplot(fig9)
         
     except Exception as e:
-        st.error(f'Error: {e}') 
+        st.error(f'Error: {e}')
 
 
 # In[ ]:
