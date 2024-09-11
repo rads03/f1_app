@@ -432,7 +432,7 @@ def filter_and_split(df, year, location):
 col1, col2, col3 = st.columns((2.9, 2.9, 2.8), gap='large')
 
 with col1:
-    year = st.number_input('Select Year', min_value=2000, max_value=2024, value=2024, label_visibility="hidden")
+    year = st.number_input('Select Year', min_value=2018, max_value=2024, value=2024, label_visibility="hidden")
 
 with col2:
     locations, default_event, calendar = get_available_locations(year)
