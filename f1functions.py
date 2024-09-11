@@ -264,7 +264,6 @@ def compare_driver_stats(df, driver_1, driver_2, stat, year, driver_mappings):
 
 # In[55]:
 
-
 def compare_teammates(df, Driver1, Driver2):
     
     def format_lap_time(seconds):
@@ -278,6 +277,7 @@ def compare_teammates(df, Driver1, Driver2):
     
     for Driver in [Driver1, Driver2]:
         driver_data = df_sorted[df_sorted['Driver'] == Driver]
+        driver_data = driver_data.reset_index(drop=True)
         sns.lineplot(x='LapNumber', y='LapTime', data=driver_data, marker='o', markersize=4, 
                      markerfacecolor='white', markeredgewidth=4, linestyle='-', linewidth=3.5, 
                      color=colors.get(Driver, 'gray'), label=Driver, ax=ax)
@@ -306,7 +306,6 @@ def compare_teammates(df, Driver1, Driver2):
     plt.tight_layout()
     
     return fig
-
 
 # In[21]:
 
@@ -498,7 +497,7 @@ def plot_track_dominance(df, driver_1, driver_2, year, driver_mappings):
     blue_patch = plt.Line2D([0], [0], color='lightsteelblue', linewidth=8, alpha=0.6)
     
     legend = ax.legend([indigo_patch, blue_patch], 
-          [f'{driver1} Dominance', f'{driver2} Dominance'], 
+          [f'{driver_1} Dominance', f'{driver_2} Dominance'], 
           loc='best', 
           fontsize=20, 
           facecolor='black', 
