@@ -612,7 +612,8 @@ if 'df' in locals():
     try:
         if year == 2018:
             fig10 = plot_tyre_strategy_2018(df)
-
+            
+            st.image(Image.open('pics/tyres_2018.png'), use_column_width=True)
             st.markdown('##### Tyre Strategy')
             st.pyplot(fig10)
 
