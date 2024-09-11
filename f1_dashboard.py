@@ -286,7 +286,7 @@ with col3:
 
 filename = f'telemetry_data_{year}.csv'
 tel = pd.read_csv(filename)
-tel.set_index(['Year', 'Race', 'DriverNumber'], inplace=True)
+tel.set_index(['Race', 'DriverNumber'], inplace=True)
 
 
 
