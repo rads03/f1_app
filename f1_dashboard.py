@@ -564,7 +564,7 @@ if 'df' in locals() and 'results' in locals():
         
         if plot_type == 'Race Pace Comparison':
             if driver1 and driver2:
-                fig6 = compare_teammates(df, driver1, driver2) 
+                fig6 = compare_teammates(tel_df, driver1, driver2) 
                 st.markdown("#### Race Pace Comparison")
                 st.pyplot(fig6)
             else:
@@ -573,7 +573,7 @@ if 'df' in locals() and 'results' in locals():
             if driver1 and driver2:
                 col1, col2, col3 = st.columns([1, 2, 1])
                 with col2:
-                    fig5 = plot_track_dominance(df, driver1, driver2, year, driver_mappings) 
+                    fig5 = plot_track_dominance(tel_df, driver1, driver2, year, driver_mappings) 
                     st.markdown("#### Track Dominance")
                     st.pyplot(fig5)
             else:
