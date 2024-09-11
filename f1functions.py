@@ -234,7 +234,7 @@ def compare_driver_stats(df, driver_1, driver_2, stat, year, driver_mappings):
     fig, ax = plt.subplots(figsize=(14, 6))
     sns.lineplot(x=telemetry1.Time, y=telemetry1[stat], label=driver_1, linewidth=3.5, color='cornflowerblue')
     sns.lineplot(x=telemetry2.Time, y=telemetry2[stat], label=driver_2, linewidth=3.5, color='orange')
-    
+
     ax.set_xlabel('')
     ax.set_ylabel('')
     legend = ax.legend(fontsize='20', loc='best', facecolor='black', edgecolor='white', labelcolor='white')
@@ -260,7 +260,6 @@ def compare_driver_stats(df, driver_1, driver_2, stat, year, driver_mappings):
     plt.close()
     
     return fig
-    
 
 
 # In[55]:
