@@ -583,7 +583,7 @@ if 'df' in locals() and 'results' in locals():
             stat = st.selectbox('Select Stat', ['Speed', 'nGear', 'Throttle', 'DRS'])
                 
             if driver1 and driver2 and stat:
-                fig7 = compare_driver_stats(tel_df, driver1, driver2, stat, year)
+                fig7 = compare_driver_stats(tel_df, driver1, driver2, stat, year, driver_mappings)
                 st.markdown("#### Driver Comparison")
                 st.pyplot(fig7)
             else:
