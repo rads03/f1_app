@@ -57,6 +57,8 @@ qdf = pd.read_csv('quali_data.csv')
 qdf.set_index(['Year', 'Location', 'Session'], inplace=True)
 results_df = pd.read_csv('results_data.csv')
 results_df.set_index(['Year', 'Location'], inplace=True)
+tel = pd.read_csv('telemetry_data.csv')
+tel.set_index(['Year', 'Race', 'DriverNumber'], inplace=True)
 
 
 # In[5]:
@@ -323,6 +325,7 @@ with col[0]:
         df = filter_and_split(lap_df, year, location)
         df_weather = filter_and_split(weather_dfs, year, location)
         results = filter_and_split(results_df, year, location)
+        tel_df = tel.loc[(year, location)]
         
         WinningDriver = results.iloc[0]['BroadcastName']
         WinningDriver = WinningDriver.values[0] if isinstance(WinningDriver, pd.Series) else WinningDriver
@@ -335,7 +338,7 @@ with col[0]:
         st.image(Image.open(driver_image_path), caption=f"Winning Driver: {WinningDriver}", use_column_width=True)  
             
             
-        fig3 = get_circuit_map(df, driver=None)
+        fig3 = get_circuit_map(tel_df, driver=None)
         st.write("\n\n")
         st.pyplot(fig3)
             

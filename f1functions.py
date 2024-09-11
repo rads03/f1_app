@@ -179,12 +179,15 @@ def get_sector_times(q3):
 
 def get_circuit_map(df, driver=None):
     if driver is None:
-        driver = df['Driver'].unique()[0] 
+        unique_driver_numbers = df.index.unique()
+        if len(unique_driver_numbers) == 0:
+            raise ValueError("No drivers found in the dataset.")
+        driver_number = unique_driver_numbers[0]
+    else:
+        if driver not in df.index:
+            raise ValueError(f"Driver {driver} did not participate in this race.")
     
-    if driver not in df['Driver'].unique():
-        raise ValueError(f"Driver {driver} did not participate in this race.")
-    
-    telemetry = df.iloc[[df[df['Driver']==driver].LapTime.idxmin()]].get_telemetry()
+    telemetry = df.loc[driver_number]
     x_pos = telemetry['X'].values
     y_pos = telemetry['Y'].values
     
@@ -206,6 +209,7 @@ def get_circuit_map(df, driver=None):
     fig.patch.set_facecolor('black')
     
     return fig
+
 
 
 # In[53]:
