@@ -231,7 +231,9 @@ driver_images = {
     'V BOTTAS': 'pics/BOT.png',
     'G ZHOU': 'pics/ZHO.png',
     'K MAGNUSSEN': 'pics/MAG.png',
-    'N HULKENBERG': 'pics/HUL.png'
+    'N HULKENBERG': 'pics/HUL.png',
+    'S VETTEL': 'pics/VET.png',
+    'K RAIKKONEN': 'pics/RAI.png'
 }
 
 driver_map_2018 = {'GAS': '10',
