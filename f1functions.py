@@ -228,8 +228,8 @@ def compare_driver_stats(df, driver_1, driver_2, stat, year, driver_mappings):
     if driver1 is None or driver2 is None:
         raise ValueError(f"Driver names '{driver_1}' or '{driver_2}' not found in the mapping dictionary for the year {year}")
     
-    telemetry1 = df.loc[driver1]
-    telemetry2 = df.loc[driver2]
+    telemetry1 = df.loc[int(driver1)]
+    telemetry2 = df.loc[int(driver2)]
     
     fig, ax = plt.subplots(figsize=(14, 6))
     sns.lineplot(x=telemetry1.index, y=telemetry1[stat], label=driver_1, linewidth=3.5, color='cornflowerblue')
