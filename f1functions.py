@@ -683,6 +683,85 @@ def plot_tyre_strategy(df):
     return fig
 
 
+def plot_tyre_strategy_2018(df):
+    
+    colors = {
+    'SOFT': '#ffd31a',
+    'HYPERSOFT': '#ffb3c5',
+    'ULTRASOFT': '#b24ba7',
+    'SUPERSOFT': '#e31c1f',   
+    'MEDIUM': '#Fefefe',   
+    'HARD': '#00a2f3',
+    'SUPERHARD': '#ff8041'}
+
+    driver_list = df['Driver'].unique()
+    
+    grouped_df = df.groupby(['Driver', 'Stint', 'Compound']).agg({'LapNumber': 'count'}).reset_index()
+    grouped_df.rename(columns={'LapNumber': 'Number of Laps'}, inplace=True)
+
+    fig, ax = plt.subplots(figsize=(12, 7))
+
+    gap = 0.2
+    radius = 0.3
+
+    driver_names = sorted(set(driver_list))
+    driver_mapping = {name: i for i, name in enumerate(driver_names)}
+
+    driver_positions = {driver: 0 for driver in driver_names}
+
+    for i, row in grouped_df.iterrows():
+        driver = row['Driver']
+        stint = row['Stint']
+        compound = row['Compound']
+        num_laps = row['Number of Laps']
+        
+        left_position = driver_positions[driver]
+        
+        height = 0.7
+        width = num_laps 
+        left = left_position
+        y_position = driver_mapping[driver]
+  
+        
+        rect = FancyBboxPatch((left, y_position - height / 2), width, height,
+                              boxstyle="round,pad=0.05,rounding_size={}".format(radius),
+                              edgecolor=None, linewidth=0.5, facecolor=colors[compound],
+                              zorder=3)
+        ax.add_patch(rect)
+        
+        ax.text(left + (width / 2), y_position, str(num_laps), 
+                va='center', ha='center', fontsize=7, fontweight='bold', color='black')
+        
+        driver_positions[driver] += num_laps + gap
+
+    ax.set_xlim(0, df['LapNumber'].max() + 1)
+    ax.set_ylim(-0.6, len(driver_names)) 
+    ax.set_yticks(range(len(driver_names)))
+    ax.set_yticklabels(driver_names, fontsize=5)
+    ax.tick_params(axis='x', labelsize=5, colors='white')
+    ax.tick_params(axis='y', labelsize=5, colors='white')
+    plt.grid(False)
+    
+    fig.patch.set_facecolor('black')
+    ax.set_facecolor('black')
+                   
+    for tick in ax.get_yticklabels():
+        tick.set_fontweight('bold')
+    for tick in ax.get_xticklabels():
+        tick.set_fontweight('bold')
+    for tick in ax.get_xticks():
+        ax.axvline(x=tick, color='white', linestyle='--', linewidth=0.7, ymax=0.05)
+
+    ax.spines['top'].set_color('none')
+    ax.spines['right'].set_color('none')
+    ax.spines['left'].set_color('white')
+    ax.spines['left'].set_linewidth(0.5)
+    ax.spines['bottom'].set_color('white')
+    ax.spines['bottom'].set_linewidth(0.5)
+
+    return fig
+
+
 # In[ ]:
 
 
