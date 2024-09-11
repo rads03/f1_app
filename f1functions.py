@@ -372,23 +372,24 @@ def get_circuit_map(df, driver=None):
 # In[53]:
 
 
-def compare_driver_stats(df, driver_1, driver_2, stat):
+def compare_driver_stats(df, driver_1, driver_2, stat, year):
+    driver_mapping_dict = globals().get(f'driver_map_{year}')
+    
+    if not driver_mapping_dict:
+        raise ValueError(f"No driver mapping dictionary found for the year {year}")
     
     driver1 = driver_mapping_dict.get(driver_1)
     driver2 = driver_mapping_dict.get(driver_2)
     
     if driver1 is None or driver2 is None:
-        raise ValueError(f"Driver names '{driver1_name}' or '{driver2_name}' not found in the mapping dictionary for the year {year}")
+        raise ValueError(f"Driver names '{driver_1}' or '{driver_2}' not found in the mapping dictionary for the year {year}")
     
-
-    telemetry1 = df.loc[int(driver1)]
-    telemetry2 = df.loc[int(driver2)]
+    telemetry1 = df.loc[driver1]
+    telemetry2 = df.loc[driver2]
     
     fig, ax = plt.subplots(figsize=(14, 6))
-    sns.lineplot(x=telemetry1.Time, y=telemetry1[stat], label=driver1, linewidth=3.5, 
-                color='cornflowerblue')
-    sns.lineplot(x=telemetry2.Time, y=telemetry2[stat], label=driver2, linewidth=3.5,
-                color='orange')
+    sns.lineplot(x=telemetry1.index, y=telemetry1[stat], label=driver_1, linewidth=3.5, color='cornflowerblue')
+    sns.lineplot(x=telemetry2.index, y=telemetry2[stat], label=driver_2, linewidth=3.5, color='orange')
     
     ax.set_xlabel('')
     ax.set_ylabel('')
