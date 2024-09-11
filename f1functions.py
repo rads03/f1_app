@@ -234,8 +234,8 @@ def compare_driver_stats(df, driver_1, driver_2, stat, year, driver_mappings):
     x_values_2 = range(len(telemetry2))
     
     fig, ax = plt.subplots(figsize=(14, 6))
-    sns.lineplot(x=x_values_1, y=telemetry1[stat], label=driver_1, linewidth=3.5, color='cornflowerblue')
-    sns.lineplot(x=x_values_2, y=telemetry2[stat], label=driver_2, linewidth=3.5, color='orange')
+    sns.lineplot(x=x_values_1, y=telemetry1[stat], label=driver_1, linewidth=3, color='cornflowerblue')
+    sns.lineplot(x=x_values_2, y=telemetry2[stat], label=driver_2, linewidth=3, color='orange')
 
     ax.set_xlabel('')
     ax.set_ylabel('')
@@ -281,7 +281,7 @@ def compare_teammates(df, Driver1, Driver2):
         driver_data = df_sorted[df_sorted['Driver'] == Driver]
         driver_data = driver_data.reset_index(drop=True)
         sns.lineplot(x='LapNumber', y='LapTime', data=driver_data, marker='o', markersize=4, 
-                     markerfacecolor='white', markeredgewidth=4, linestyle='-', linewidth=3.5, 
+                     markerfacecolor='white', markeredgewidth=4, linestyle='-', linewidth=3, 
                      color=colors.get(Driver, 'gray'), label=Driver, ax=ax)
     
     ax.set_xlabel('')
