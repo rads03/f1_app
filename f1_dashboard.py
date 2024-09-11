@@ -61,11 +61,13 @@ results_df.set_index(['Year', 'Location'], inplace=True)
 
 df_list = []
 for file in glob.glob('telemetry_data_*.csv'):
+    year = file.split('_')[-1].split('.')[0] 
     df = pd.read_csv(file)
+    df['Year'] = year
     df_list.append(df)
+
 tel = pd.concat(df_list)
 tel.set_index(['Year', 'Race', 'DriverNumber'], inplace=True)
-
 
 # In[5]:
 
