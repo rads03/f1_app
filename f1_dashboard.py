@@ -564,7 +564,7 @@ if 'df' in locals() and 'results' in locals():
         
         if plot_type == 'Race Pace Comparison':
             if driver1 and driver2:
-                fig6 = compare_teammates(tel_df, driver1, driver2) 
+                fig6 = compare_teammates(df, driver1, driver2) 
                 st.markdown("#### Race Pace Comparison")
                 st.pyplot(fig6)
             else:
