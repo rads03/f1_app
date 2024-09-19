@@ -506,8 +506,8 @@ with col[0]:
         results = filter_and_split(results_df, year, location)
         tel_df = tel.loc[(location)]
         
-        WinningDriver = results.iloc[0]['BroadcastName']
-        WinningDriver = WinningDriver.values[0] if isinstance(WinningDriver, pd.Series) else WinningDriver
+        WinningDriverRow = results[results['ClassifiedPosition'] == '1']
+        WinningDriver = WinningDriverRow.iloc[0]['BroadcastName']
             
         driver_image_path = driver_images.get(WinningDriver, 'pics/default_driver.png')
             
