@@ -24,7 +24,7 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2018,Abu Dhabi Grand Prix,22.277116666666668,32.6,38.3,1012.6,False,35.0,303,0.0
 2018,Abu Dhabi Grand Prix,23.277300000000004,32.6,38.7,1012.7,False,34.9,191,0.6
 2018,Abu Dhabi Grand Prix,24.2775,32.6,38.5,1012.7,False,34.9,339,0.5
-2018,Abu Dhabi Grand Prix,25.277783333333332,32.6,38.5,1012.6,False,34.8,249,0.6
+2018,Abu Dhabi Grand Prix,25.27778333333333,32.6,38.5,1012.6,False,34.8,249,0.6
 2018,Abu Dhabi Grand Prix,26.278383333333338,32.6,38.7,1012.7,False,34.7,303,0.9
 2018,Abu Dhabi Grand Prix,27.278233333333336,32.7,38.4,1012.8,False,34.7,311,1.1
 2018,Abu Dhabi Grand Prix,28.278466666666667,32.7,38.2,1012.7,False,34.7,312,0.6
@@ -557,7 +557,7 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2018,Bahrain Grand Prix,101.84596666666668,27.6,50.2,1010.0,False,31.5,352,0.9
 2018,Bahrain Grand Prix,102.84618333333334,27.6,50.4,1010.0,False,31.1,74,1.0
 2018,Belgian Grand Prix,0.8428833333333333,17.2,38.7,967.3,False,29.5,152,1.1
-2018,Belgian Grand Prix,1.8430833333333332,17.2,39.3,967.4,False,29.5,173,1.5
+2018,Belgian Grand Prix,1.8430833333333327,17.2,39.3,967.4,False,29.5,173,1.5
 2018,Belgian Grand Prix,2.8432833333333334,17.3,39.0,967.3,False,29.8,176,2.1
 2018,Belgian Grand Prix,3.843516666666667,17.4,38.5,967.3,False,30.1,257,1.9
 2018,Belgian Grand Prix,4.84375,17.3,39.5,967.3,False,30.2,111,1.8
@@ -577,7 +577,7 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2018,Belgian Grand Prix,18.84695,17.3,38.7,967.1,False,29.7,161,2.3
 2018,Belgian Grand Prix,19.84723333333333,17.4,38.5,967.1,False,30.0,160,2.9
 2018,Belgian Grand Prix,20.8474,17.4,38.4,967.2,False,30.1,152,4.3
-2018,Belgian Grand Prix,21.847633333333334,17.3,38.1,967.1,False,29.7,140,3.3
+2018,Belgian Grand Prix,21.84763333333333,17.3,38.1,967.1,False,29.7,140,3.3
 2018,Belgian Grand Prix,22.84785,17.3,38.1,967.2,False,29.7,145,2.4
 2018,Belgian Grand Prix,23.848066666666668,17.4,39.0,967.1,False,30.1,128,2.9
 2018,Belgian Grand Prix,24.84835,17.7,38.1,967.0,False,30.3,174,1.7
@@ -906,7 +906,7 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2018,Canadian Grand Prix,18.351133333333333,20.4,28.1,1017.8,False,40.5,28,3.7
 2018,Canadian Grand Prix,19.353866666666665,20.6,27.3,1017.8,False,40.1,359,2.0
 2018,Canadian Grand Prix,20.351266666666668,20.6,27.3,1017.8,False,40.1,359,2.0
-2018,Canadian Grand Prix,21.351483333333334,20.6,28.6,1017.7,False,39.7,356,2.6
+2018,Canadian Grand Prix,21.35148333333333,20.6,28.6,1017.7,False,39.7,356,2.6
 2018,Canadian Grand Prix,22.35171666666667,20.7,27.8,1017.8,False,39.2,358,3.5
 2018,Canadian Grand Prix,23.35195,20.6,27.8,1017.8,False,39.1,350,2.0
 2018,Canadian Grand Prix,24.35216666666667,20.6,27.8,1017.8,False,39.1,350,2.0
@@ -1017,10 +1017,10 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2018,Chinese Grand Prix,23.55121666666667,19.4,23.3,1018.3,False,38.2,143,2.2
 2018,Chinese Grand Prix,24.55145,19.4,23.4,1018.3,False,37.9,157,1.5
 2018,Chinese Grand Prix,25.5517,19.4,23.3,1018.4,False,37.9,190,2.0
-2018,Chinese Grand Prix,26.551933333333334,19.3,22.7,1018.3,False,37.9,80,1.7
+2018,Chinese Grand Prix,26.55193333333333,19.3,22.7,1018.3,False,37.9,80,1.7
 2018,Chinese Grand Prix,27.552200000000003,19.4,22.9,1018.3,False,37.9,200,1.9
 2018,Chinese Grand Prix,28.557916666666667,19.2,23.7,1018.3,False,37.6,95,2.3
-2018,Chinese Grand Prix,29.552583333333335,19.3,23.5,1018.3,False,37.6,98,1.1
+2018,Chinese Grand Prix,29.55258333333333,19.3,23.5,1018.3,False,37.6,98,1.1
 2018,Chinese Grand Prix,30.55278333333333,19.3,23.5,1018.3,False,37.6,98,1.1
 2018,Chinese Grand Prix,31.55366666666667,19.3,24.3,1018.3,False,37.6,139,1.5
 2018,Chinese Grand Prix,32.55328333333333,19.4,24.3,1018.3,False,37.6,95,1.7
@@ -1106,7 +1106,7 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2018,French Grand Prix,0.8360500000000001,25.0,48.6,966.4,False,44.3,116,2.5
 2018,French Grand Prix,1.8362666666666667,24.7,49.3,966.4,False,44.1,188,2.9
 2018,French Grand Prix,2.836516666666667,24.5,50.5,966.5,False,43.1,57,1.4
-2018,French Grand Prix,3.8367166666666663,24.4,50.3,966.4,False,42.7,75,1.7
+2018,French Grand Prix,3.8367166666666654,24.4,50.3,966.4,False,42.7,75,1.7
 2018,French Grand Prix,4.8369333333333335,24.3,50.5,966.5,False,42.7,72,2.2
 2018,French Grand Prix,5.83715,24.5,50.1,966.5,False,42.7,117,1.4
 2018,French Grand Prix,6.837366666666667,24.5,50.0,966.5,True,42.7,90,1.6
@@ -1228,7 +1228,7 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2018,German Grand Prix,20.411316666666668,27.1,49.9,1001.5,False,43.1,317,1.9
 2018,German Grand Prix,21.41153333333333,27.2,49.2,1001.5,False,43.1,195,2.3
 2018,German Grand Prix,22.41176666666667,27.1,49.9,1001.4,False,43.9,267,1.1
-2018,German Grand Prix,23.411983333333332,27.1,49.0,1001.4,False,43.5,169,2.0
+2018,German Grand Prix,23.41198333333333,27.1,49.0,1001.4,False,43.5,169,2.0
 2018,German Grand Prix,24.41221666666667,26.9,49.9,1001.4,False,43.5,40,1.0
 2018,German Grand Prix,25.41245,27.1,49.7,1001.5,False,44.4,350,1.4
 2018,German Grand Prix,26.412666666666667,27.3,48.6,1001.4,False,44.4,153,1.8
@@ -1441,7 +1441,7 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2018,Italian Grand Prix,22.945533333333337,21.8,66.2,995.4,False,30.3,187,0.8
 2018,Italian Grand Prix,23.94578333333333,21.9,65.6,995.3,False,30.4,233,2.1
 2018,Italian Grand Prix,24.94601666666667,21.9,65.9,995.3,False,30.5,0,1.3
-2018,Italian Grand Prix,25.946233333333332,22.0,64.7,995.3,False,30.6,73,1.8
+2018,Italian Grand Prix,25.94623333333333,22.0,64.7,995.3,False,30.6,73,1.8
 2018,Italian Grand Prix,26.94653333333333,22.2,64.3,995.3,False,30.9,251,0.8
 2018,Italian Grand Prix,27.94675,22.3,63.7,995.3,False,30.9,317,1.5
 2018,Italian Grand Prix,28.946916666666667,22.3,64.0,995.4,False,30.4,172,2.0
@@ -1518,7 +1518,7 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2018,Japanese Grand Prix,0.87495,28.6,49.4,1008.2,False,39.4,351,1.5
 2018,Japanese Grand Prix,1.875133333333333,28.4,50.3,1008.1,False,39.4,343,0.8
 2018,Japanese Grand Prix,2.8753833333333336,28.4,50.3,1008.1,False,39.0,354,1.2
-2018,Japanese Grand Prix,3.8756166666666663,28.2,51.2,1008.1,False,39.0,214,1.8
+2018,Japanese Grand Prix,3.875616666666666,28.2,51.2,1008.1,False,39.0,214,1.8
 2018,Japanese Grand Prix,4.8758333333333335,28.4,51.0,1008.1,False,39.8,327,1.6
 2018,Japanese Grand Prix,5.876083333333333,28.7,50.1,1008.1,False,39.9,287,0.9
 2018,Japanese Grand Prix,6.8763000000000005,28.8,49.6,1008.0,False,39.7,227,0.9
@@ -2248,7 +2248,7 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2018,United States Grand Prix,23.6628,20.8,40.6,1006.6,False,28.4,97,3.9
 2018,United States Grand Prix,24.66303333333333,20.8,40.7,1006.7,False,28.4,97,3.3
 2018,United States Grand Prix,25.66336666666667,20.8,40.0,1006.5,False,28.5,85,2.1
-2018,United States Grand Prix,26.663483333333332,20.8,40.0,1006.5,False,28.5,85,2.1
+2018,United States Grand Prix,26.66348333333333,20.8,40.0,1006.5,False,28.5,85,2.1
 2018,United States Grand Prix,27.663733333333333,20.7,40.2,1006.5,False,28.9,85,1.5
 2018,United States Grand Prix,28.663950000000003,20.8,41.0,1006.4,False,28.8,86,2.4
 2018,United States Grand Prix,29.66416666666667,20.9,40.8,1006.5,False,29.1,109,3.6
@@ -2744,7 +2744,7 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2019,Azerbaijan Grand Prix,15.770216666666668,21.0,46.4,1013.9,False,43.0,52,1.3
 2019,Azerbaijan Grand Prix,16.770433333333337,20.8,46.6,1013.9,False,42.6,51,0.8
 2019,Azerbaijan Grand Prix,17.770683333333334,20.8,46.1,1013.9,False,42.9,311,0.8
-2019,Azerbaijan Grand Prix,18.770933333333332,20.9,45.8,1013.9,False,43.0,119,0.9
+2019,Azerbaijan Grand Prix,18.77093333333333,20.9,45.8,1013.9,False,43.0,119,0.9
 2019,Azerbaijan Grand Prix,19.771166666666662,21.0,46.3,1013.9,False,43.0,9,1.1
 2019,Azerbaijan Grand Prix,20.771500000000003,20.8,46.3,1013.8,False,42.9,29,1.4
 2019,Azerbaijan Grand Prix,21.77165,20.8,46.9,1013.9,False,42.7,338,1.0
@@ -3107,7 +3107,7 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2019,Brazilian Grand Prix,0.9683333333333334,21.2,60.2,925.2,False,48.2,295,1.3
 2019,Brazilian Grand Prix,1.9683666666666668,21.0,60.9,925.3,False,49.1,54,1.0
 2019,Brazilian Grand Prix,2.9681,21.0,61.2,925.3,False,49.0,240,0.9
-2019,Brazilian Grand Prix,3.9687666666666663,20.9,61.8,925.2,False,49.1,165,0.5
+2019,Brazilian Grand Prix,3.9687666666666654,20.9,61.8,925.2,False,49.1,165,0.5
 2019,Brazilian Grand Prix,4.96865,21.3,61.1,925.2,False,49.3,152,1.5
 2019,Brazilian Grand Prix,5.9728,21.3,60.8,925.2,False,49.9,176,2.1
 2019,Brazilian Grand Prix,6.9689000000000005,21.2,61.4,925.2,False,49.6,153,1.7
@@ -3498,7 +3498,7 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2019,Chinese Grand Prix,16.604766666666666,19.4,45.0,1019.2,False,29.5,105,2.3
 2019,Chinese Grand Prix,17.605,19.4,44.8,1019.2,False,29.4,113,2.6
 2019,Chinese Grand Prix,18.60525,19.4,45.4,1019.2,False,29.3,85,2.4
-2019,Chinese Grand Prix,19.605583333333332,19.5,45.4,1019.2,False,29.3,114,3.7
+2019,Chinese Grand Prix,19.60558333333333,19.5,45.4,1019.2,False,29.3,114,3.7
 2019,Chinese Grand Prix,20.60568333333333,19.4,45.4,1019.2,False,29.3,147,3.7
 2019,Chinese Grand Prix,21.605933333333333,19.3,45.9,1019.2,False,29.0,92,1.5
 2019,Chinese Grand Prix,22.607516666666665,19.4,45.9,1019.2,False,29.2,105,2.3
@@ -3630,7 +3630,7 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2019,French Grand Prix,21.31161666666667,26.4,41.3,967.0,False,55.4,96,1.1
 2019,French Grand Prix,22.3118,26.7,40.6,966.9,False,55.4,140,1.0
 2019,French Grand Prix,23.31198333333333,27.0,39.9,966.9,False,55.4,54,1.6
-2019,French Grand Prix,24.312883333333332,26.9,40.4,966.9,False,55.9,0,1.1
+2019,French Grand Prix,24.31288333333333,26.9,40.4,966.9,False,55.9,0,1.1
 2019,French Grand Prix,25.31236666666667,26.9,40.4,966.9,False,55.6,15,0.8
 2019,French Grand Prix,26.31263333333333,27.1,39.3,966.9,False,55.6,113,1.1
 2019,French Grand Prix,27.31273333333333,27.0,39.7,966.8,False,55.0,39,1.5
@@ -4032,7 +4032,7 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2019,Italian Grand Prix,25.557400000000005,20.2,53.8,989.5,False,32.4,246,0.9
 2019,Italian Grand Prix,26.557616666666668,20.2,55.1,989.4,False,32.4,277,0.0
 2019,Italian Grand Prix,27.557816666666668,20.4,54.0,989.4,False,32.5,293,0.5
-2019,Italian Grand Prix,28.558283333333332,20.5,53.9,989.4,False,33.0,38,0.9
+2019,Italian Grand Prix,28.55828333333333,20.5,53.9,989.4,False,33.0,38,0.9
 2019,Italian Grand Prix,29.55953333333333,20.5,53.9,989.4,False,33.2,34,0.4
 2019,Italian Grand Prix,30.563916666666668,20.5,53.0,989.5,False,33.4,188,1.0
 2019,Italian Grand Prix,31.55891666666667,20.4,53.9,989.5,False,33.7,147,1.8
@@ -5622,7 +5622,7 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2020,Bahrain Grand Prix,189.65221666666667,24.9,71.4,1016.4,False,26.6,250,0.8
 2020,Bahrain Grand Prix,190.65211666666667,25.0,71.9,1016.5,False,26.6,280,1.0
 2020,Bahrain Grand Prix,191.65226666666663,24.9,71.8,1016.5,False,26.4,183,0.9
-2020,Bahrain Grand Prix,192.65248333333332,24.9,72.3,1016.5,False,26.4,242,0.6
+2020,Bahrain Grand Prix,192.6524833333333,24.9,72.3,1016.5,False,26.4,242,0.6
 2020,Bahrain Grand Prix,193.65226666666663,24.8,72.6,1016.4,False,26.3,296,0.9
 2020,Bahrain Grand Prix,194.6521666666667,24.7,73.2,1016.5,False,26.1,203,0.8
 2020,Bahrain Grand Prix,195.6524666666667,24.7,73.5,1016.5,False,26.3,225,1.2
@@ -5630,7 +5630,7 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2020,Bahrain Grand Prix,197.6523666666667,24.7,74.0,1016.6,False,26.2,0,0.6
 2020,Bahrain Grand Prix,198.65226666666663,24.7,74.3,1016.5,False,26.1,187,0.9
 2020,Bahrain Grand Prix,199.65230000000005,24.6,74.0,1016.5,False,26.2,231,0.8
-2020,Bahrain Grand Prix,200.65228333333332,24.7,74.1,1016.5,False,26.3,294,1.0
+2020,Bahrain Grand Prix,200.6522833333333,24.7,74.1,1016.5,False,26.3,294,1.0
 2020,Bahrain Grand Prix,201.65275000000003,24.7,74.2,1016.5,False,26.3,260,0.9
 2020,Bahrain Grand Prix,202.6529166666667,24.7,74.2,1016.5,False,26.5,195,0.7
 2020,Bahrain Grand Prix,203.65303333333333,24.7,74.3,1016.5,False,26.4,225,0.7
@@ -5640,12 +5640,12 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2020,Bahrain Grand Prix,207.6539,24.6,74.9,1016.4,False,26.3,202,0.6
 2020,Bahrain Grand Prix,208.65393333333336,24.6,75.1,1016.3,False,26.4,226,0.9
 2020,Bahrain Grand Prix,209.65401666666668,24.6,74.9,1016.4,False,26.4,319,0.7
-2020,Bahrain Grand Prix,210.65418333333332,24.6,74.9,1016.4,False,26.3,0,0.7
+2020,Bahrain Grand Prix,210.6541833333333,24.6,74.9,1016.4,False,26.3,0,0.7
 2020,Bahrain Grand Prix,211.654,24.5,75.2,1016.4,False,26.1,248,0.0
 2020,Bahrain Grand Prix,212.65405,24.5,75.3,1016.4,False,26.0,231,0.6
 2020,Bahrain Grand Prix,213.65458333333336,24.5,75.4,1016.4,False,26.0,0,0.8
 2020,Bahrain Grand Prix,214.6544166666667,24.4,75.5,1016.4,False,26.0,252,0.0
-2020,Bahrain Grand Prix,215.65463333333332,24.4,75.5,1016.4,False,26.0,135,0.5
+2020,Bahrain Grand Prix,215.6546333333333,24.4,75.5,1016.4,False,26.0,135,0.5
 2020,Belgian Grand Prix,0.3127666666666667,17.5,60.4,962.5,False,27.4,0,1.0
 2020,Belgian Grand Prix,1.3130166666666667,17.5,60.4,962.6,False,27.1,339,0.7
 2020,Belgian Grand Prix,2.3127500000000003,17.4,60.0,962.5,False,26.9,298,0.7
@@ -6144,9 +6144,9 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2020,Hungarian Grand Prix,23.093466666666668,20.9,78.6,986.5,False,27.0,113,0.0
 2020,Hungarian Grand Prix,24.093366666666668,21.5,76.9,986.4,False,28.1,232,0.7
 2020,Hungarian Grand Prix,25.0934,21.3,75.8,986.4,False,27.7,322,1.2
-2020,Hungarian Grand Prix,26.093383333333332,21.5,77.2,986.3,False,27.0,251,1.0
+2020,Hungarian Grand Prix,26.09338333333333,21.5,77.2,986.3,False,27.0,251,1.0
 2020,Hungarian Grand Prix,27.093416666666663,21.6,77.5,986.4,False,27.5,204,0.8
-2020,Hungarian Grand Prix,28.093383333333332,21.6,75.2,986.4,False,27.6,125,1.1
+2020,Hungarian Grand Prix,28.09338333333333,21.6,75.2,986.4,False,27.6,125,1.1
 2020,Hungarian Grand Prix,29.093650000000004,21.1,76.5,986.3,False,27.6,0,1.1
 2020,Hungarian Grand Prix,30.093450000000004,21.4,78.6,986.3,False,27.6,107,0.7
 2020,Hungarian Grand Prix,31.0939,21.6,77.1,986.3,False,28.0,234,0.7
@@ -6274,7 +6274,7 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2020,Italian Grand Prix,19.55636666666667,28.2,40.5,991.4,False,44.8,310,1.4
 2020,Italian Grand Prix,20.55633333333333,28.0,39.7,991.4,False,44.8,273,0.7
 2020,Italian Grand Prix,21.55636666666667,27.8,40.0,991.3,False,44.6,343,0.8
-2020,Italian Grand Prix,22.556433333333334,27.8,39.9,991.3,False,44.6,355,1.3
+2020,Italian Grand Prix,22.55643333333333,27.8,39.9,991.3,False,44.6,355,1.3
 2020,Italian Grand Prix,23.5564,27.7,39.7,991.3,False,44.8,133,0.8
 2020,Italian Grand Prix,24.5564,27.8,39.7,991.2,False,45.0,184,0.6
 2020,Italian Grand Prix,25.55625,27.8,39.6,991.3,False,44.9,145,0.8
@@ -6552,9 +6552,9 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2020,Russian Grand Prix,26.68518333333333,30.0,47.7,1012.5,False,41.2,73,0.6
 2020,Russian Grand Prix,27.685233333333333,29.9,47.2,1012.5,False,40.9,0,0.9
 2020,Russian Grand Prix,28.68525,29.9,46.6,1012.5,False,40.9,311,0.9
-2020,Russian Grand Prix,29.685283333333334,30.0,46.2,1012.5,False,41.1,68,0.5
+2020,Russian Grand Prix,29.68528333333333,30.0,46.2,1012.5,False,41.1,68,0.5
 2020,Russian Grand Prix,30.68551666666667,30.1,46.1,1012.6,False,41.1,292,0.0
-2020,Russian Grand Prix,31.685283333333334,30.2,45.7,1012.6,False,40.9,265,0.4
+2020,Russian Grand Prix,31.68528333333333,30.2,45.7,1012.6,False,40.9,265,0.4
 2020,Russian Grand Prix,32.68531666666667,30.3,45.9,1012.5,False,41.0,46,0.5
 2020,Russian Grand Prix,33.68533333333333,30.4,46.0,1012.5,False,41.1,34,0.5
 2020,Russian Grand Prix,34.68528333333334,30.2,46.5,1012.6,False,41.1,61,0.9
@@ -6681,7 +6681,7 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2020,Sakhir Grand Prix,23.42711666666667,21.4,59.8,1015.7,False,24.2,330,1.8
 2020,Sakhir Grand Prix,24.42731666666667,21.4,59.8,1015.6,False,24.2,16,1.5
 2020,Sakhir Grand Prix,25.42693333333333,21.4,59.7,1015.6,False,24.2,350,1.8
-2020,Sakhir Grand Prix,26.427183333333332,21.4,59.5,1015.6,False,24.2,14,2.0
+2020,Sakhir Grand Prix,26.42718333333333,21.4,59.5,1015.6,False,24.2,14,2.0
 2020,Sakhir Grand Prix,27.42711666666667,21.4,59.2,1015.7,False,24.2,17,2.3
 2020,Sakhir Grand Prix,28.427100000000003,21.3,59.3,1015.7,False,24.2,356,1.6
 2020,Sakhir Grand Prix,29.42716666666667,21.3,59.2,1015.7,False,24.0,21,2.9
@@ -7504,9 +7504,9 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2021,Abu Dhabi Grand Prix,155.07205000000002,23.5,64.8,1018.1,False,25.7,283,0.4
 2021,Abu Dhabi Grand Prix,156.0721,23.5,64.8,1018.1,False,25.7,283,0.4
 2021,Austrian Grand Prix,0.9597,19.0,58.3,935.8,False,27.8,193,0.1
-2021,Austrian Grand Prix,1.9596833333333332,19.0,58.7,935.8,True,27.7,160,0.1
+2021,Austrian Grand Prix,1.9596833333333328,19.0,58.7,935.8,True,27.7,160,0.1
 2021,Austrian Grand Prix,2.959616666666667,19.1,58.8,935.7,True,27.6,213,0.1
-2021,Austrian Grand Prix,3.9594666666666662,19.1,57.2,935.7,True,27.8,213,0.1
+2021,Austrian Grand Prix,3.959466666666666,19.1,57.2,935.7,True,27.8,213,0.1
 2021,Austrian Grand Prix,4.959883333333334,19.2,57.9,935.7,True,27.8,234,0.2
 2021,Austrian Grand Prix,5.960166666666667,19.2,57.9,935.8,False,28.0,244,0.2
 2021,Austrian Grand Prix,6.960166666666667,19.1,57.5,935.6,False,28.0,0,0.1
@@ -7677,7 +7677,7 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2021,Azerbaijan Grand Prix,15.0804,24.8,51.4,1015.4,False,40.7,0,0.2
 2021,Azerbaijan Grand Prix,16.080383333333334,24.8,51.8,1015.4,False,40.5,171,0.1
 2021,Azerbaijan Grand Prix,17.0804,24.8,51.7,1015.4,False,40.5,226,0.1
-2021,Azerbaijan Grand Prix,18.080433333333332,24.8,50.9,1015.4,False,40.5,255,0.2
+2021,Azerbaijan Grand Prix,18.08043333333333,24.8,50.9,1015.4,False,40.5,255,0.2
 2021,Azerbaijan Grand Prix,19.0804,24.7,51.5,1015.4,False,40.4,50,0.3
 2021,Azerbaijan Grand Prix,20.080566666666662,24.7,51.5,1015.4,False,40.4,50,0.3
 2021,Azerbaijan Grand Prix,21.08036666666667,24.7,49.7,1015.2,False,40.3,212,0.3
@@ -8147,7 +8147,7 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2021,Belgian Grand Prix,180.27608333333333,13.2,96.3,970.1,True,15.8,260,0.4
 2021,Belgian Grand Prix,181.2761166666667,13.3,97.0,970.1,True,15.7,325,0.2
 2021,Belgian Grand Prix,182.27606666666668,13.2,96.5,970.1,True,15.7,322,0.6
-2021,Belgian Grand Prix,183.27623333333332,13.2,96.5,970.1,True,15.7,322,0.6
+2021,Belgian Grand Prix,183.27623333333327,13.2,96.5,970.1,True,15.7,322,0.6
 2021,Belgian Grand Prix,184.2761,13.3,96.6,970.0,True,15.8,334,0.4
 2021,Belgian Grand Prix,185.27608333333333,13.3,96.6,970.0,True,15.8,334,0.4
 2021,Belgian Grand Prix,186.2761,13.3,96.2,970.1,True,15.7,315,0.6
@@ -8156,11 +8156,11 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2021,Belgian Grand Prix,189.27608333333333,13.3,96.4,970.0,True,15.8,333,0.5
 2021,Belgian Grand Prix,190.27606666666668,13.3,96.8,970.1,True,15.6,331,0.6
 2021,Belgian Grand Prix,191.27608333333333,13.3,96.8,970.1,True,15.6,331,0.6
-2021,Belgian Grand Prix,192.27613333333332,13.3,97.0,969.9,True,15.8,330,0.5
+2021,Belgian Grand Prix,192.2761333333333,13.3,97.0,969.9,True,15.8,330,0.5
 2021,Belgian Grand Prix,193.27635,13.3,96.7,970.0,True,15.7,317,0.2
 2021,Belgian Grand Prix,194.2763166666667,13.4,96.7,970.0,True,15.7,2,0.4
 2021,Belgian Grand Prix,195.27636666666663,13.4,96.5,969.9,True,15.7,38,0.3
-2021,Belgian Grand Prix,196.27668333333332,13.4,96.5,969.9,True,15.7,38,0.3
+2021,Belgian Grand Prix,196.27668333333327,13.4,96.5,969.9,True,15.7,38,0.3
 2021,Belgian Grand Prix,197.27635,13.4,96.6,970.0,True,15.7,337,0.4
 2021,Belgian Grand Prix,198.27643333333336,13.3,96.6,970.0,True,15.7,338,0.4
 2021,Belgian Grand Prix,199.27685,13.3,96.6,970.0,True,15.7,338,0.4
@@ -8174,7 +8174,7 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2021,Belgian Grand Prix,207.27855,13.2,96.6,970.0,True,15.4,328,0.5
 2021,Belgian Grand Prix,208.27815,13.2,97.0,970.0,True,15.4,333,0.3
 2021,Belgian Grand Prix,209.2792666666667,13.2,96.7,969.9,True,15.4,310,0.5
-2021,Belgian Grand Prix,210.27818333333332,13.3,96.8,969.9,True,15.5,319,0.5
+2021,Belgian Grand Prix,210.2781833333333,13.3,96.8,969.9,True,15.5,319,0.5
 2021,Belgian Grand Prix,211.27825,13.3,96.8,969.9,True,15.5,319,0.5
 2021,Belgian Grand Prix,212.27821666666668,13.3,96.8,969.8,True,15.5,348,0.3
 2021,Belgian Grand Prix,213.27816666666664,13.3,96.8,969.8,True,15.5,348,0.3
@@ -8186,36 +8186,36 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2021,Belgian Grand Prix,219.27816666666664,13.2,96.8,969.9,True,15.5,354,0.8
 2021,Belgian Grand Prix,220.2783666666667,13.3,96.7,969.9,True,15.4,27,0.3
 2021,Belgian Grand Prix,221.27813333333333,13.3,96.7,969.9,True,15.4,27,0.3
-2021,Belgian Grand Prix,222.27818333333332,13.3,96.5,969.9,True,15.5,321,0.3
+2021,Belgian Grand Prix,222.2781833333333,13.3,96.5,969.9,True,15.5,321,0.3
 2021,Belgian Grand Prix,223.27820000000003,13.3,96.7,969.9,True,15.5,284,0.7
 2021,Belgian Grand Prix,224.27816666666664,13.3,96.5,969.9,True,15.5,347,0.5
 2021,Belgian Grand Prix,225.27820000000003,13.3,96.5,969.9,True,15.5,347,0.5
 2021,Belgian Grand Prix,226.27813333333333,13.3,96.5,969.9,True,15.5,313,0.6
 2021,Belgian Grand Prix,227.27816666666664,13.3,96.5,969.9,True,15.5,313,0.6
-2021,Belgian Grand Prix,228.27838333333332,13.3,96.3,969.9,True,15.5,26,0.6
+2021,Belgian Grand Prix,228.27838333333327,13.3,96.3,969.9,True,15.5,26,0.6
 2021,Belgian Grand Prix,229.27831666666668,13.3,96.6,969.8,True,15.5,347,0.6
 2021,Belgian Grand Prix,230.27815,13.3,96.6,969.8,True,15.5,344,0.5
 2021,Belgian Grand Prix,231.27821666666668,13.3,96.5,969.7,True,15.4,303,0.7
 2021,Belgian Grand Prix,232.27803333333333,13.3,96.8,969.8,True,15.4,345,0.5
 2021,Belgian Grand Prix,233.2782666666667,13.4,96.4,969.8,True,15.6,336,0.5
-2021,Belgian Grand Prix,234.27818333333332,13.4,96.5,969.8,True,15.7,325,0.5
-2021,Belgian Grand Prix,235.27818333333332,13.4,96.5,969.8,True,15.7,306,0.5
-2021,Belgian Grand Prix,236.27818333333332,13.4,96.5,969.8,True,15.6,273,0.5
+2021,Belgian Grand Prix,234.2781833333333,13.4,96.5,969.8,True,15.7,325,0.5
+2021,Belgian Grand Prix,235.2781833333333,13.4,96.5,969.8,True,15.7,306,0.5
+2021,Belgian Grand Prix,236.2781833333333,13.4,96.5,969.8,True,15.6,273,0.5
 2021,Belgian Grand Prix,237.2783666666667,13.4,96.7,969.8,True,15.5,11,0.3
 2021,Belgian Grand Prix,238.27820000000003,13.4,96.8,969.8,True,15.6,353,0.4
-2021,Belgian Grand Prix,239.27818333333332,13.4,96.5,969.8,True,15.6,6,0.5
+2021,Belgian Grand Prix,239.2781833333333,13.4,96.5,969.8,True,15.6,6,0.5
 2021,Belgian Grand Prix,240.27816666666664,13.4,96.8,969.9,True,15.6,334,0.3
 2021,Belgian Grand Prix,241.27816666666664,13.4,96.6,969.8,True,15.6,329,0.4
-2021,Belgian Grand Prix,242.27818333333332,13.4,96.4,969.8,True,15.6,315,0.5
-2021,Belgian Grand Prix,243.27818333333332,13.3,96.4,969.8,True,15.6,315,0.5
+2021,Belgian Grand Prix,242.2781833333333,13.4,96.4,969.8,True,15.6,315,0.5
+2021,Belgian Grand Prix,243.2781833333333,13.3,96.4,969.8,True,15.6,315,0.5
 2021,Belgian Grand Prix,244.27816666666664,13.3,96.1,969.9,False,15.6,6,0.6
 2021,Belgian Grand Prix,245.27825,13.3,96.5,969.8,False,15.5,316,0.4
 2021,Belgian Grand Prix,246.27823333333336,13.4,96.2,969.9,False,15.5,341,0.5
 2021,Belgian Grand Prix,247.27831666666668,13.4,96.5,969.8,False,15.5,343,0.5
 2021,Belgian Grand Prix,248.27821666666668,13.3,96.2,969.8,False,15.5,300,0.6
 2021,Belgian Grand Prix,249.27831666666668,13.3,96.4,969.8,False,15.4,340,0.6
-2021,Belgian Grand Prix,250.27828333333332,13.3,96.2,969.8,False,15.4,346,0.6
-2021,Belgian Grand Prix,251.27818333333332,13.3,96.3,969.8,False,15.4,0,0.8
+2021,Belgian Grand Prix,250.2782833333333,13.3,96.2,969.8,False,15.4,346,0.6
+2021,Belgian Grand Prix,251.2781833333333,13.3,96.3,969.8,False,15.4,0,0.8
 2021,Belgian Grand Prix,252.27813333333333,13.3,96.5,969.7,False,15.4,0,0.6
 2021,Belgian Grand Prix,253.2783,13.3,96.5,969.7,False,15.4,0,0.6
 2021,Belgian Grand Prix,254.27820000000003,13.3,96.1,969.7,False,15.3,348,0.5
@@ -9063,9 +9063,9 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2021,Hungarian Grand Prix,178.53270000000003,26.3,72.4,976.9,False,37.4,97,0.6
 2021,Hungarian Grand Prix,179.53270000000003,26.3,71.7,976.8,False,37.3,102,0.5
 2021,Hungarian Grand Prix,180.53278333333336,26.3,72.2,976.9,False,37.0,113,0.6
-2021,Hungarian Grand Prix,181.53268333333332,26.2,71.7,977.0,False,36.8,117,0.6
+2021,Hungarian Grand Prix,181.53268333333327,26.2,71.7,977.0,False,36.8,117,0.6
 2021,Hungarian Grand Prix,182.53270000000003,26.2,71.9,976.8,False,36.8,106,0.6
-2021,Hungarian Grand Prix,183.53268333333332,26.2,72.1,976.7,False,36.8,111,0.4
+2021,Hungarian Grand Prix,183.53268333333327,26.2,72.1,976.7,False,36.8,111,0.4
 2021,Hungarian Grand Prix,184.53270000000003,26.2,71.5,976.6,False,36.8,101,0.4
 2021,Hungarian Grand Prix,185.5327166666667,26.2,71.2,976.6,False,36.7,101,0.5
 2021,Hungarian Grand Prix,186.53270000000003,26.2,71.6,976.5,False,36.4,105,0.6
@@ -9096,10 +9096,10 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2021,Italian Grand Prix,20.1255,28.1,39.1,995.0,False,43.9,348,0.3
 2021,Italian Grand Prix,21.125333333333334,28.1,38.6,994.8,False,44.6,336,0.6
 2021,Italian Grand Prix,22.125333333333334,27.8,39.8,994.9,False,44.6,345,0.6
-2021,Italian Grand Prix,23.125383333333332,27.8,40.1,994.9,False,44.2,338,0.4
+2021,Italian Grand Prix,23.12538333333333,27.8,40.1,994.9,False,44.2,338,0.4
 2021,Italian Grand Prix,24.125366666666668,27.8,40.1,994.9,False,44.2,338,0.4
-2021,Italian Grand Prix,25.125383333333332,28.2,39.2,994.8,False,45.0,178,0.1
-2021,Italian Grand Prix,26.125383333333332,28.5,38.3,994.9,False,45.3,163,0.4
+2021,Italian Grand Prix,25.12538333333333,28.2,39.2,994.8,False,45.0,178,0.1
+2021,Italian Grand Prix,26.12538333333333,28.5,38.3,994.9,False,45.3,163,0.4
 2021,Italian Grand Prix,27.125616666666662,28.7,38.1,994.8,False,45.2,147,0.3
 2021,Italian Grand Prix,28.125616666666662,28.7,38.1,994.8,False,45.2,0,0.2
 2021,Italian Grand Prix,29.1256,28.6,37.8,994.9,False,45.4,192,0.2
@@ -9251,7 +9251,7 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2021,Mexico City Grand Prix,26.92318333333333,20.3,32.0,785.2,False,46.7,359,0.5
 2021,Mexico City Grand Prix,27.92305,20.3,32.1,785.1,False,46.4,66,0.3
 2021,Mexico City Grand Prix,28.923583333333337,20.4,31.6,785.2,False,46.4,158,0.1
-2021,Mexico City Grand Prix,29.923733333333335,20.4,32.0,785.2,False,46.4,118,0.3
+2021,Mexico City Grand Prix,29.92373333333333,20.4,32.0,785.2,False,46.4,118,0.3
 2021,Mexico City Grand Prix,30.923783333333336,20.4,31.2,785.1,False,46.7,319,0.1
 2021,Mexico City Grand Prix,31.92376666666667,20.4,30.8,785.1,False,46.7,76,0.3
 2021,Mexico City Grand Prix,32.92376666666667,20.3,31.0,785.2,False,46.7,253,0.2
@@ -9682,11 +9682,11 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2021,Qatar Grand Prix,24.595916666666668,27.0,70.5,1011.9,False,32.1,97,0.5
 2021,Qatar Grand Prix,25.59616666666667,27.0,70.8,1011.9,False,32.3,115,0.5
 2021,Qatar Grand Prix,26.604266666666668,27.0,70.8,1011.9,False,32.2,104,0.6
-2021,Qatar Grand Prix,27.596383333333332,26.9,71.5,1011.9,False,32.1,120,0.5
+2021,Qatar Grand Prix,27.59638333333333,26.9,71.5,1011.9,False,32.1,120,0.5
 2021,Qatar Grand Prix,28.59615,26.9,71.5,1011.9,False,32.1,120,0.5
 2021,Qatar Grand Prix,29.596000000000004,26.9,72.5,1011.9,False,32.0,194,0.2
 2021,Qatar Grand Prix,30.59625,26.9,72.8,1011.9,False,32.0,117,0.4
-2021,Qatar Grand Prix,31.596383333333332,26.9,73.1,1012.0,False,31.9,162,0.6
+2021,Qatar Grand Prix,31.59638333333333,26.9,73.1,1012.0,False,31.9,162,0.6
 2021,Qatar Grand Prix,32.59645,26.8,73.3,1012.0,True,31.9,114,0.4
 2021,Qatar Grand Prix,33.59668333333334,26.8,73.6,1012.0,True,31.8,133,0.4
 2021,Qatar Grand Prix,34.59695,26.7,74.1,1012.0,True,31.7,0,0.4
@@ -10145,18 +10145,18 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2021,Saudi Arabian Grand Prix,177.554,29.0,74.4,1014.1,False,31.0,147,0.3
 2021,Saudi Arabian Grand Prix,178.55403333333334,29.0,74.4,1014.1,False,31.0,222,0.3
 2021,Saudi Arabian Grand Prix,179.55401666666666,29.0,74.1,1014.0,False,31.1,216,0.4
-2021,Saudi Arabian Grand Prix,180.55388333333332,29.0,74.0,1014.1,False,30.7,166,0.2
+2021,Saudi Arabian Grand Prix,180.5538833333333,29.0,74.0,1014.1,False,30.7,166,0.2
 2021,Saudi Arabian Grand Prix,181.55418333333333,28.9,74.1,1014.1,False,30.8,195,0.4
 2021,Saudi Arabian Grand Prix,182.5539666666667,28.9,73.9,1014.1,False,30.8,232,0.3
 2021,Saudi Arabian Grand Prix,183.5539666666667,28.9,73.7,1014.0,False,30.8,249,0.2
 2021,Saudi Arabian Grand Prix,184.554,28.9,74.1,1014.1,False,30.6,186,0.3
-2021,Saudi Arabian Grand Prix,185.55398333333332,28.9,74.0,1014.0,False,30.8,191,0.3
-2021,Saudi Arabian Grand Prix,186.55398333333332,28.9,74.0,1014.1,False,30.8,0,0.2
+2021,Saudi Arabian Grand Prix,185.5539833333333,28.9,74.0,1014.0,False,30.8,191,0.3
+2021,Saudi Arabian Grand Prix,186.5539833333333,28.9,74.0,1014.1,False,30.8,0,0.2
 2021,Saudi Arabian Grand Prix,187.5539666666667,28.9,73.8,1014.0,False,30.9,177,0.1
 2021,Saudi Arabian Grand Prix,188.5539666666667,28.9,73.6,1014.0,False,30.9,209,0.4
 2021,Saudi Arabian Grand Prix,189.55473333333336,28.9,73.7,1014.1,False,30.8,312,0.3
 2021,Saudi Arabian Grand Prix,190.55415,28.9,73.5,1014.1,False,30.8,299,0.2
-2021,Saudi Arabian Grand Prix,191.55398333333332,28.9,73.6,1014.1,False,30.7,184,0.3
+2021,Saudi Arabian Grand Prix,191.5539833333333,28.9,73.6,1014.1,False,30.7,184,0.3
 2021,Saudi Arabian Grand Prix,192.5539666666667,28.9,73.8,1014.1,False,30.7,4,0.1
 2021,Spanish Grand Prix,0.5251166666666667,22.3,55.0,994.5,False,34.1,252,0.2
 2021,Spanish Grand Prix,1.5251333333333337,22.1,55.9,994.8,False,33.6,272,0.5
@@ -10743,7 +10743,7 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2021,United States Grand Prix,19.687900000000003,26.9,68.5,992.9,False,35.1,110,0.3
 2021,United States Grand Prix,20.687933333333334,27.2,68.0,993.0,False,35.1,341,0.1
 2021,United States Grand Prix,21.688,27.3,65.9,992.8,False,35.9,102,0.6
-2021,United States Grand Prix,22.687883333333332,27.4,65.8,992.7,False,36.0,109,1.0
+2021,United States Grand Prix,22.68788333333333,27.4,65.8,992.7,False,36.0,109,1.0
 2021,United States Grand Prix,23.687933333333334,27.3,66.7,992.8,False,36.0,107,1.4
 2021,United States Grand Prix,24.688116666666662,27.2,67.5,992.6,False,35.9,104,1.2
 2021,United States Grand Prix,25.688350000000003,27.2,67.9,992.7,False,35.6,146,1.3
@@ -12011,12 +12011,12 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2022,British Grand Prix,183.84091666666663,18.1,61.0,1002.5,False,29.6,34,1.7
 2022,British Grand Prix,184.84091666666663,18.1,61.0,1002.5,False,29.5,103,1.7
 2022,British Grand Prix,185.84116666666668,18.1,62.0,1002.5,False,29.5,0,2.0
-2022,British Grand Prix,186.84123333333332,18.1,62.0,1002.5,False,29.7,105,0.8
-2022,British Grand Prix,187.84123333333332,18.1,62.0,1002.5,False,29.7,86,1.7
+2022,British Grand Prix,186.8412333333333,18.1,62.0,1002.5,False,29.7,105,0.8
+2022,British Grand Prix,187.8412333333333,18.1,62.0,1002.5,False,29.7,86,1.7
 2022,British Grand Prix,188.8412833333333,18.1,62.0,1002.5,False,29.4,95,1.5
 2022,British Grand Prix,189.84143333333336,18.1,62.0,1002.5,False,29.4,100,2.7
 2022,British Grand Prix,190.84151666666668,18.1,63.0,1002.5,False,29.4,344,2.0
-2022,British Grand Prix,191.84168333333332,18.1,63.0,1002.5,False,29.1,155,1.2
+2022,British Grand Prix,191.8416833333333,18.1,63.0,1002.5,False,29.1,155,1.2
 2022,British Grand Prix,192.8421833333333,18.0,63.0,1002.7,False,28.9,196,1.2
 2022,British Grand Prix,193.8421833333333,17.9,63.0,1002.5,False,28.7,104,1.1
 2022,British Grand Prix,194.8422,17.9,61.0,1002.5,False,28.5,97,1.3
@@ -12217,7 +12217,7 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2022,Dutch Grand Prix,24.4498,23.2,73.0,1016.9,False,34.0,75,0.8
 2022,Dutch Grand Prix,25.44985,23.3,74.0,1016.7,False,34.5,222,1.0
 2022,Dutch Grand Prix,26.449666666666666,23.3,73.0,1016.9,False,34.6,120,0.0
-2022,Dutch Grand Prix,27.450083333333332,23.2,72.0,1016.9,False,34.7,53,0.6
+2022,Dutch Grand Prix,27.45008333333333,23.2,72.0,1016.9,False,34.7,53,0.6
 2022,Dutch Grand Prix,28.450033333333337,23.3,73.0,1016.9,False,34.7,67,0.5
 2022,Dutch Grand Prix,29.4502,23.2,73.0,1016.9,False,34.9,213,1.6
 2022,Dutch Grand Prix,30.45021666666667,23.1,74.0,1016.9,False,34.9,164,0.5
@@ -12668,8 +12668,8 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2022,Hungarian Grand Prix,26.094116666666668,19.2,67.0,985.5,False,27.1,304,4.0
 2022,Hungarian Grand Prix,27.09435,19.2,67.0,985.4,False,26.7,290,4.0
 2022,Hungarian Grand Prix,28.09425,19.3,68.0,985.5,False,27.4,279,4.5
-2022,Hungarian Grand Prix,29.094133333333332,19.3,67.0,985.4,False,27.9,291,3.7
-2022,Hungarian Grand Prix,30.094133333333332,19.2,67.0,985.5,False,28.7,277,3.9
+2022,Hungarian Grand Prix,29.09413333333333,19.3,67.0,985.4,False,27.9,291,3.7
+2022,Hungarian Grand Prix,30.09413333333333,19.2,67.0,985.5,False,28.7,277,3.9
 2022,Hungarian Grand Prix,31.09416666666667,19.3,67.0,985.5,False,29.1,294,4.0
 2022,Hungarian Grand Prix,32.09431666666667,19.3,66.0,985.4,False,29.2,282,4.4
 2022,Hungarian Grand Prix,33.09458333333334,19.3,67.0,985.4,False,29.3,283,4.0
@@ -12827,7 +12827,7 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2022,Italian Grand Prix,18.58985,26.8,38.0,994.0,False,42.5,221,0.4
 2022,Italian Grand Prix,19.58985,26.8,37.0,994.0,False,42.6,134,0.8
 2022,Italian Grand Prix,20.59085,26.9,36.0,993.9,False,43.3,176,1.1
-2022,Italian Grand Prix,21.589933333333335,27.0,36.0,994.0,False,43.3,187,1.2
+2022,Italian Grand Prix,21.58993333333333,27.0,36.0,994.0,False,43.3,187,1.2
 2022,Italian Grand Prix,22.58983333333333,27.0,36.0,993.7,False,43.2,153,0.6
 2022,Italian Grand Prix,23.589816666666668,27.1,35.0,993.9,False,43.0,180,0.6
 2022,Italian Grand Prix,24.5899,27.1,36.0,994.0,False,43.0,130,0.6
@@ -12983,8 +12983,8 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2022,Japanese Grand Prix,27.757,18.5,74.0,1016.2,True,22.4,19,1.3
 2022,Japanese Grand Prix,28.75698333333333,18.4,74.0,1016.0,True,22.4,353,1.1
 2022,Japanese Grand Prix,29.757616666666667,18.4,74.0,1016.2,True,22.5,340,1.6
-2022,Japanese Grand Prix,30.757233333333332,18.4,75.0,1016.0,True,22.4,331,1.2
-2022,Japanese Grand Prix,31.757233333333332,18.4,75.0,1016.2,True,22.2,346,1.0
+2022,Japanese Grand Prix,30.75723333333333,18.4,75.0,1016.0,True,22.4,331,1.2
+2022,Japanese Grand Prix,31.75723333333333,18.4,75.0,1016.2,True,22.2,346,1.0
 2022,Japanese Grand Prix,32.757266666666666,18.3,75.0,1016.2,True,22.2,347,1.0
 2022,Japanese Grand Prix,33.7575,18.3,75.0,1016.2,True,22.0,358,1.2
 2022,Japanese Grand Prix,34.75906666666667,18.1,74.0,1016.0,True,21.9,7,1.1
@@ -13145,15 +13145,15 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2022,Japanese Grand Prix,189.76738333333336,16.0,92.0,1015.9,True,18.9,339,2.5
 2022,Japanese Grand Prix,190.76761666666667,15.9,92.0,1015.7,True,18.9,8,2.2
 2022,Japanese Grand Prix,191.7684,16.0,91.0,1015.9,True,18.9,340,3.2
-2022,Japanese Grand Prix,192.76763333333332,16.0,91.0,1015.7,True,18.9,344,2.7
+2022,Japanese Grand Prix,192.7676333333333,16.0,91.0,1015.7,True,18.9,344,2.7
 2022,Japanese Grand Prix,193.7677666666667,15.9,91.0,1015.7,True,18.8,343,2.7
 2022,Japanese Grand Prix,194.76765000000003,15.9,92.0,1015.7,True,18.7,332,2.5
-2022,Japanese Grand Prix,195.76763333333332,15.9,91.0,1015.7,True,18.7,334,2.5
+2022,Japanese Grand Prix,195.7676333333333,15.9,91.0,1015.7,True,18.7,334,2.5
 2022,Japanese Grand Prix,196.76766666666668,15.9,91.0,1015.5,True,18.8,354,2.5
 2022,Japanese Grand Prix,197.76801666666668,15.9,91.0,1015.7,True,18.8,348,2.9
 2022,Japanese Grand Prix,198.768,15.9,91.0,1015.7,True,18.7,356,2.4
-2022,Japanese Grand Prix,199.76798333333332,15.9,91.0,1015.5,True,18.7,351,2.5
-2022,Japanese Grand Prix,200.76788333333332,15.9,91.0,1015.5,True,18.6,345,3.0
+2022,Japanese Grand Prix,199.7679833333333,15.9,91.0,1015.5,True,18.7,351,2.5
+2022,Japanese Grand Prix,200.7678833333333,15.9,91.0,1015.5,True,18.6,345,3.0
 2022,Japanese Grand Prix,201.76815,15.9,91.0,1015.5,True,18.6,350,2.7
 2022,Japanese Grand Prix,202.76846666666668,15.9,91.0,1015.4,True,18.6,347,3.2
 2022,Japanese Grand Prix,203.7684166666667,15.9,91.0,1015.5,True,18.6,349,2.7
@@ -13162,12 +13162,12 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2022,Japanese Grand Prix,206.7684,15.9,91.0,1015.5,True,18.3,350,2.7
 2022,Japanese Grand Prix,207.7685,15.9,91.0,1015.4,True,18.3,341,4.0
 2022,Japanese Grand Prix,208.7684833333333,15.9,91.0,1015.4,True,18.3,347,3.5
-2022,Japanese Grand Prix,209.76888333333332,15.9,91.0,1015.2,True,18.4,351,3.5
+2022,Japanese Grand Prix,209.7688833333333,15.9,91.0,1015.2,True,18.4,351,3.5
 2022,Japanese Grand Prix,210.76873333333336,15.9,91.0,1015.2,True,18.4,326,3.4
 2022,Japanese Grand Prix,211.76885,15.9,91.0,1015.2,True,18.4,341,3.5
 2022,Japanese Grand Prix,212.76891666666668,15.8,91.0,1015.2,True,18.2,343,3.0
 2022,Japanese Grand Prix,213.76891666666668,15.9,91.0,1015.2,True,18.2,354,2.5
-2022,Japanese Grand Prix,214.76898333333332,15.9,91.0,1015.2,True,18.2,355,1.7
+2022,Japanese Grand Prix,214.76898333333327,15.9,91.0,1015.2,True,18.2,355,1.7
 2022,Japanese Grand Prix,215.7691166666667,15.8,91.0,1015.2,True,18.3,353,3.5
 2022,Japanese Grand Prix,216.76895,15.9,91.0,1015.0,False,18.3,335,2.4
 2022,Japanese Grand Prix,217.7690166666667,15.8,91.0,1015.2,False,18.2,339,2.9
@@ -13176,13 +13176,13 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2022,Japanese Grand Prix,220.76895,15.9,91.0,1015.0,False,18.3,354,2.5
 2022,Japanese Grand Prix,221.76891666666668,15.9,91.0,1015.2,True,18.3,325,2.2
 2022,Japanese Grand Prix,222.7689,16.0,91.0,1015.2,True,18.4,351,3.0
-2022,Japanese Grand Prix,223.76968333333332,15.9,91.0,1015.2,True,18.3,324,2.2
+2022,Japanese Grand Prix,223.7696833333333,15.9,91.0,1015.2,True,18.3,324,2.2
 2022,Japanese Grand Prix,224.76895,15.9,91.0,1015.2,True,18.3,352,2.5
 2022,Japanese Grand Prix,225.76906666666667,15.8,91.0,1015.2,True,18.3,354,2.2
 2022,Japanese Grand Prix,226.76895,15.9,91.0,1015.0,True,18.3,357,3.0
 2022,Japanese Grand Prix,227.76891666666668,15.9,91.0,1015.0,True,18.3,336,1.7
 2022,Japanese Grand Prix,228.7689333333333,15.9,91.0,1015.2,True,18.3,349,2.2
-2022,Japanese Grand Prix,229.76898333333332,15.9,91.0,1015.2,True,18.3,348,2.2
+2022,Japanese Grand Prix,229.76898333333327,15.9,91.0,1015.2,True,18.3,348,2.2
 2022,Japanese Grand Prix,230.76891666666668,15.9,90.0,1015.2,True,18.3,353,2.0
 2022,Japanese Grand Prix,231.7700166666667,15.9,91.0,1015.0,True,18.3,341,2.5
 2022,Japanese Grand Prix,232.7689333333333,15.9,91.0,1015.0,True,18.2,342,1.6
@@ -13190,12 +13190,12 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2022,Japanese Grand Prix,234.7690166666667,15.9,90.0,1014.9,True,18.3,347,2.4
 2022,Japanese Grand Prix,235.76891666666668,15.9,90.0,1014.9,True,18.3,352,2.7
 2022,Japanese Grand Prix,236.76891666666668,15.9,90.0,1014.9,True,18.3,345,3.0
-2022,Japanese Grand Prix,237.76898333333332,15.9,90.0,1014.9,True,18.3,321,2.7
+2022,Japanese Grand Prix,237.76898333333327,15.9,90.0,1014.9,True,18.3,321,2.7
 2022,Japanese Grand Prix,238.76891666666668,15.9,90.0,1015.0,True,18.3,347,2.2
 2022,Japanese Grand Prix,239.76895,15.9,90.0,1015.0,True,18.2,348,2.2
-2022,Japanese Grand Prix,240.76898333333332,15.9,90.0,1015.0,True,18.1,352,1.8
+2022,Japanese Grand Prix,240.76898333333327,15.9,90.0,1015.0,True,18.1,352,1.8
 2022,Japanese Grand Prix,241.7690166666667,15.9,90.0,1014.9,True,18.2,340,2.0
-2022,Japanese Grand Prix,242.76898333333332,15.9,90.0,1014.7,True,18.2,338,2.2
+2022,Japanese Grand Prix,242.76898333333327,15.9,90.0,1014.7,True,18.2,338,2.2
 2022,Japanese Grand Prix,243.7689333333333,15.9,90.0,1014.9,True,18.2,302,2.0
 2022,Japanese Grand Prix,244.76891666666668,15.9,90.0,1014.9,True,18.2,348,2.7
 2022,Japanese Grand Prix,245.7689333333333,15.9,90.0,1015.0,True,18.1,339,1.6
@@ -13722,7 +13722,7 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2022,Monaco Grand Prix,184.07085,22.0,74.0,1003.2,False,28.5,10,0.8
 2022,Monaco Grand Prix,185.07083333333333,22.0,74.0,1003.2,False,28.6,30,0.0
 2022,Monaco Grand Prix,186.07075,22.0,74.0,1003.2,False,28.5,56,1.0
-2022,Monaco Grand Prix,187.07098333333332,22.0,75.0,1003.2,False,28.5,312,0.6
+2022,Monaco Grand Prix,187.0709833333333,22.0,75.0,1003.2,False,28.5,312,0.6
 2022,Monaco Grand Prix,188.07126666666667,21.9,74.0,1003.2,False,28.5,0,0.0
 2022,Monaco Grand Prix,189.07126666666667,21.9,73.0,1003.2,False,28.5,28,0.5
 2022,Monaco Grand Prix,190.0715166666667,21.9,74.0,1003.2,False,28.5,12,0.6
@@ -13740,26 +13740,26 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2022,Monaco Grand Prix,202.07360000000003,22.0,73.0,1003.2,False,28.8,257,1.0
 2022,Monaco Grand Prix,203.07398333333333,22.1,72.0,1003.2,False,28.8,159,1.1
 2022,Monaco Grand Prix,204.07416666666668,22.2,72.0,1003.0,False,28.9,86,0.6
-2022,Monaco Grand Prix,205.07413333333332,22.3,71.0,1003.2,False,28.9,239,0.5
-2022,Monaco Grand Prix,206.07413333333332,22.3,72.0,1003.0,True,29.1,260,1.2
+2022,Monaco Grand Prix,205.0741333333333,22.3,71.0,1003.2,False,28.9,239,0.5
+2022,Monaco Grand Prix,206.0741333333333,22.3,72.0,1003.0,True,29.1,260,1.2
 2022,Monaco Grand Prix,207.07435,22.3,70.0,1003.0,False,29.1,330,1.2
 2022,Monaco Grand Prix,208.0741833333333,22.4,70.0,1003.2,False,28.8,0,0.6
-2022,Monaco Grand Prix,209.07413333333332,22.3,70.0,1003.2,False,28.8,55,0.6
-2022,Monaco Grand Prix,210.07413333333332,22.3,71.0,1003.0,False,28.7,300,0.4
+2022,Monaco Grand Prix,209.0741333333333,22.3,70.0,1003.2,False,28.8,55,0.6
+2022,Monaco Grand Prix,210.0741333333333,22.3,71.0,1003.0,False,28.7,300,0.4
 2022,Monaco Grand Prix,211.0741833333333,22.4,71.0,1003.2,False,28.9,188,0.6
 2022,Monaco Grand Prix,212.07416666666668,22.5,71.0,1003.2,False,29.1,146,0.6
-2022,Monaco Grand Prix,213.07413333333332,22.5,71.0,1003.2,False,29.4,178,0.8
+2022,Monaco Grand Prix,213.0741333333333,22.5,71.0,1003.2,False,29.4,178,0.8
 2022,Monaco Grand Prix,214.0742833333333,22.6,70.0,1003.2,False,29.4,201,0.8
 2022,Monaco Grand Prix,215.0742,22.4,69.0,1003.2,False,29.5,161,1.1
 2022,Monaco Grand Prix,216.0742166666667,22.4,69.0,1003.2,False,29.0,189,1.0
 2022,Monaco Grand Prix,217.07425,22.3,70.0,1003.2,False,28.7,170,0.6
 2022,Monaco Grand Prix,218.07426666666663,22.4,71.0,1003.2,False,29.0,183,1.2
-2022,Monaco Grand Prix,219.07413333333332,22.5,70.0,1003.2,False,29.0,158,0.8
+2022,Monaco Grand Prix,219.0741333333333,22.5,70.0,1003.2,False,29.0,158,0.8
 2022,Monaco Grand Prix,220.07415,22.5,69.0,1003.2,False,29.6,0,1.5
 2022,Monaco Grand Prix,221.0742833333333,22.6,69.0,1003.2,False,29.7,195,0.8
 2022,Monaco Grand Prix,222.07441666666668,22.5,68.0,1003.2,False,29.8,211,1.5
 2022,Monaco Grand Prix,223.0741833333333,22.6,68.0,1003.2,False,29.5,200,1.2
-2022,Monaco Grand Prix,224.07413333333332,22.6,68.0,1003.2,False,29.5,185,1.2
+2022,Monaco Grand Prix,224.0741333333333,22.6,68.0,1003.2,False,29.5,185,1.2
 2022,Monaco Grand Prix,225.07416666666668,22.6,68.0,1003.2,False,29.2,300,1.7
 2022,Monaco Grand Prix,226.07416666666668,22.5,67.0,1003.2,False,29.2,296,1.1
 2022,Monaco Grand Prix,227.07438333333337,22.4,64.0,1003.4,False,29.2,121,1.0
@@ -14120,7 +14120,7 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2022,Singapore Grand Prix,185.31315,27.2,88.0,1008.7,False,27.3,177,0.5
 2022,Singapore Grand Prix,186.3133833333333,27.2,88.0,1008.5,False,27.3,177,0.6
 2022,Singapore Grand Prix,187.31365,27.1,88.0,1008.5,False,27.3,188,1.2
-2022,Singapore Grand Prix,188.31373333333332,27.1,88.0,1008.5,False,27.3,193,0.5
+2022,Singapore Grand Prix,188.3137333333333,27.1,88.0,1008.5,False,27.3,193,0.5
 2022,Singapore Grand Prix,189.3139,27.1,88.0,1008.5,False,27.5,201,0.6
 2022,Singapore Grand Prix,190.31391666666667,27.1,88.0,1008.7,False,27.3,167,1.3
 2022,Singapore Grand Prix,191.3142,27.1,89.0,1008.5,False,27.5,135,0.5
@@ -14143,7 +14143,7 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2022,Singapore Grand Prix,208.31536666666668,27.2,89.0,1008.9,False,29.0,319,0.0
 2022,Singapore Grand Prix,209.31536666666668,27.1,89.0,1009.0,False,29.0,15,0.6
 2022,Singapore Grand Prix,210.3153166666667,27.1,89.0,1009.0,False,28.8,272,1.0
-2022,Singapore Grand Prix,211.31553333333332,27.0,89.0,1009.0,False,28.8,121,0.5
+2022,Singapore Grand Prix,211.3155333333333,27.0,89.0,1009.0,False,28.8,121,0.5
 2022,Singapore Grand Prix,212.31526666666667,27.1,89.0,1009.0,False,28.8,2,0.5
 2022,Singapore Grand Prix,213.31538333333336,27.0,89.0,1009.0,False,28.8,26,0.8
 2022,Singapore Grand Prix,214.31535,27.0,88.0,1008.9,False,28.7,4,0.8
@@ -14163,7 +14163,7 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2022,Singapore Grand Prix,228.3166,27.3,86.0,1009.2,False,29.4,195,0.6
 2022,Singapore Grand Prix,229.3165666666667,27.3,86.0,1009.2,False,29.4,0,1.1
 2022,Singapore Grand Prix,230.31725000000003,27.4,86.0,1009.2,False,29.3,210,0.4
-2022,Singapore Grand Prix,231.31678333333332,27.4,86.0,1009.2,False,29.3,0,0.8
+2022,Singapore Grand Prix,231.3167833333333,27.4,86.0,1009.2,False,29.3,0,0.8
 2022,Singapore Grand Prix,232.3167,27.5,86.0,1009.0,False,29.2,146,0.8
 2022,Singapore Grand Prix,233.31655,27.5,86.0,1009.2,False,28.8,184,0.8
 2022,Singapore Grand Prix,234.3166,27.5,87.0,1009.2,False,28.8,169,0.8
@@ -15043,7 +15043,7 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2023,Australian Grand Prix,196.60111666666668,17.0,58.0,1018.2,False,25.4,129,0.8
 2023,Australian Grand Prix,197.60111666666668,17.0,59.0,1018.2,False,25.3,0,0.8
 2023,Australian Grand Prix,198.6011,16.9,59.0,1018.2,False,25.2,148,1.6
-2023,Australian Grand Prix,199.60108333333332,16.9,57.0,1018.2,False,25.2,134,1.5
+2023,Australian Grand Prix,199.6010833333333,16.9,57.0,1018.2,False,25.2,134,1.5
 2023,Australian Grand Prix,200.60106666666667,16.9,58.0,1018.2,False,25.1,135,1.2
 2023,Australian Grand Prix,201.60158333333337,16.8,59.0,1018.2,False,25.1,129,1.2
 2023,Australian Grand Prix,202.6013166666667,16.9,60.0,1018.2,False,25.0,90,1.0
@@ -15060,7 +15060,7 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2023,Australian Grand Prix,213.60275,16.9,58.0,1018.2,False,24.2,81,1.1
 2023,Australian Grand Prix,214.60273333333333,16.9,58.0,1018.4,False,24.0,115,1.5
 2023,Australian Grand Prix,215.60298333333333,16.9,58.0,1018.2,False,24.0,145,2.0
-2023,Australian Grand Prix,216.60323333333332,16.9,59.0,1018.4,False,23.9,137,1.6
+2023,Australian Grand Prix,216.6032333333333,16.9,59.0,1018.4,False,23.9,137,1.6
 2023,Australian Grand Prix,217.6029666666667,16.9,58.0,1018.4,False,23.8,143,1.7
 2023,Australian Grand Prix,218.6032166666667,16.9,57.0,1018.4,False,24.0,128,1.2
 2023,Australian Grand Prix,219.6032,16.9,57.0,1018.4,False,23.8,165,1.2
@@ -15089,7 +15089,7 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2023,Austrian Grand Prix,20.152566666666665,21.8,53.0,934.0,True,30.7,80,1.3
 2023,Austrian Grand Prix,21.15255,21.7,53.0,934.2,False,30.8,102,1.5
 2023,Austrian Grand Prix,22.152800000000003,21.9,53.0,934.0,False,31.1,67,1.0
-2023,Austrian Grand Prix,23.152783333333332,21.9,53.0,934.0,False,31.7,67,1.7
+2023,Austrian Grand Prix,23.15278333333333,21.9,53.0,934.0,False,31.7,67,1.7
 2023,Austrian Grand Prix,24.15276666666667,21.9,53.0,934.0,False,32.0,73,1.8
 2023,Austrian Grand Prix,25.152750000000005,22.0,53.0,934.0,False,32.0,67,1.2
 2023,Austrian Grand Prix,26.153250000000003,22.0,51.0,934.0,False,32.5,68,1.7
@@ -15245,7 +15245,7 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2023,Azerbaijan Grand Prix,23.170133333333336,24.4,48.0,1009.2,False,44.2,28,1.2
 2023,Azerbaijan Grand Prix,24.170366666666663,24.4,49.0,1009.4,False,43.7,49,1.1
 2023,Azerbaijan Grand Prix,25.17035,24.4,50.0,1009.2,False,41.3,42,1.0
-2023,Azerbaijan Grand Prix,26.170333333333332,24.5,50.0,1009.2,False,41.8,149,0.8
+2023,Azerbaijan Grand Prix,26.17033333333333,24.5,50.0,1009.2,False,41.8,149,0.8
 2023,Azerbaijan Grand Prix,27.17031666666667,24.5,49.0,1009.2,False,43.5,213,1.2
 2023,Azerbaijan Grand Prix,28.1703,24.5,49.0,1009.2,False,43.8,195,1.1
 2023,Azerbaijan Grand Prix,29.17028333333333,24.5,50.0,1009.0,False,43.2,324,1.1
@@ -15401,7 +15401,7 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2023,Bahrain Grand Prix,19.758516666666665,29.1,21.0,1016.5,False,33.6,172,0.8
 2023,Bahrain Grand Prix,20.758766666666663,29.1,21.0,1016.5,False,33.6,181,1.0
 2023,Bahrain Grand Prix,21.75848333333333,29.1,22.0,1016.5,False,33.5,185,1.6
-2023,Bahrain Grand Prix,22.758733333333332,29.0,24.0,1016.5,False,33.3,180,1.7
+2023,Bahrain Grand Prix,22.75873333333333,29.0,24.0,1016.5,False,33.3,180,1.7
 2023,Bahrain Grand Prix,23.7587,29.0,25.0,1016.5,False,33.2,186,2.2
 2023,Bahrain Grand Prix,24.75871666666667,28.9,25.0,1016.5,False,33.2,187,2.0
 2023,Bahrain Grand Prix,25.75866666666667,28.9,25.0,1016.5,False,32.9,185,2.0
@@ -15566,7 +15566,7 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2023,Belgian Grand Prix,23.39271666666667,17.5,63.0,966.5,False,28.2,110,0.8
 2023,Belgian Grand Prix,24.392433333333333,17.5,63.0,966.5,False,28.3,134,1.6
 2023,Belgian Grand Prix,25.39268333333333,17.5,62.0,966.5,False,28.2,159,1.8
-2023,Belgian Grand Prix,26.392933333333332,17.5,62.0,966.5,False,27.7,14,2.0
+2023,Belgian Grand Prix,26.39293333333333,17.5,62.0,966.5,False,27.7,14,2.0
 2023,Belgian Grand Prix,27.3924,17.5,62.0,966.5,False,27.5,107,0.4
 2023,Belgian Grand Prix,28.39238333333333,17.4,63.0,966.5,False,27.4,35,0.8
 2023,Belgian Grand Prix,29.392633333333336,17.4,62.0,966.5,False,27.7,136,1.7
@@ -15872,7 +15872,7 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2023,Canadian Grand Prix,28.9932,17.7,68.0,1011.5,False,28.5,238,1.3
 2023,Canadian Grand Prix,29.993450000000003,17.7,67.0,1011.4,False,28.5,305,1.2
 2023,Canadian Grand Prix,30.993683333333333,17.7,66.0,1011.5,False,30.2,255,2.0
-2023,Canadian Grand Prix,31.993933333333334,17.6,66.0,1011.5,False,30.2,255,2.0
+2023,Canadian Grand Prix,31.99393333333333,17.6,66.0,1011.5,False,30.2,255,2.0
 2023,Canadian Grand Prix,32.99391666666667,17.7,66.0,1011.5,False,32.1,204,1.2
 2023,Canadian Grand Prix,33.993900000000004,17.8,64.0,1011.5,False,32.1,317,1.8
 2023,Canadian Grand Prix,34.99386666666667,17.8,65.0,1011.4,False,32.1,314,2.4
@@ -16196,7 +16196,7 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2023,Dutch Grand Prix,190.7853333333333,15.9,77.0,1008.2,False,20.2,163,2.5
 2023,Dutch Grand Prix,191.7853166666667,15.9,76.0,1008.2,False,20.1,150,3.0
 2023,Dutch Grand Prix,192.78528333333333,15.9,78.0,1008.2,False,20.0,210,2.5
-2023,Dutch Grand Prix,193.78553333333332,15.9,79.0,1008.2,False,19.9,159,2.0
+2023,Dutch Grand Prix,193.7855333333333,15.9,79.0,1008.2,False,19.9,159,2.0
 2023,Dutch Grand Prix,194.7855166666667,16.0,80.0,1008.2,False,19.9,169,3.5
 2023,Dutch Grand Prix,195.78601666666663,16.1,81.0,1008.2,False,19.9,175,3.0
 2023,Dutch Grand Prix,196.786,16.0,80.0,1008.2,False,19.9,171,2.9
@@ -16204,13 +16204,13 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2023,Dutch Grand Prix,198.7859666666667,15.9,77.0,1008.2,False,19.6,162,3.5
 2023,Dutch Grand Prix,199.7862,15.8,77.0,1008.2,False,19.4,163,2.7
 2023,Dutch Grand Prix,200.78618333333333,15.8,79.0,1008.2,False,19.3,188,2.7
-2023,Dutch Grand Prix,201.78643333333332,15.8,79.0,1008.2,True,19.1,159,2.7
+2023,Dutch Grand Prix,201.7864333333333,15.8,79.0,1008.2,True,19.1,159,2.7
 2023,Dutch Grand Prix,202.78615,15.8,79.0,1008.4,True,19.0,134,3.2
 2023,Dutch Grand Prix,203.7864,15.7,79.0,1008.2,False,19.0,204,2.5
 2023,Dutch Grand Prix,204.78638333333336,15.7,79.0,1008.2,True,19.0,176,3.0
 2023,Dutch Grand Prix,205.78636666666668,15.8,77.0,1008.2,True,19.1,161,3.0
 2023,Dutch Grand Prix,206.78635,15.8,77.0,1008.2,True,19.1,163,2.7
-2023,Dutch Grand Prix,207.78633333333332,15.7,74.0,1008.4,False,18.9,192,3.2
+2023,Dutch Grand Prix,207.7863333333333,15.7,74.0,1008.4,False,18.9,192,3.2
 2023,Dutch Grand Prix,208.78605,15.6,73.0,1008.2,False,18.9,164,2.9
 2023,Hungarian Grand Prix,0.8570166666666668,28.0,34.0,989.0,False,50.9,287,1.8
 2023,Hungarian Grand Prix,1.8572666666666668,28.1,32.0,989.0,False,50.9,195,1.2
@@ -16241,7 +16241,7 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2023,Hungarian Grand Prix,26.858383333333336,28.2,32.0,988.9,False,50.0,75,1.6
 2023,Hungarian Grand Prix,27.85836666666667,28.3,32.0,988.9,False,48.6,188,2.0
 2023,Hungarian Grand Prix,28.858350000000005,28.3,33.0,988.9,False,49.1,225,1.6
-2023,Hungarian Grand Prix,29.858583333333332,28.3,34.0,988.7,False,49.2,257,1.7
+2023,Hungarian Grand Prix,29.85858333333333,28.3,34.0,988.7,False,49.2,257,1.7
 2023,Hungarian Grand Prix,30.85856666666667,28.3,34.0,988.7,False,49.9,60,1.3
 2023,Hungarian Grand Prix,31.859066666666667,28.3,33.0,988.7,False,49.7,138,1.1
 2023,Hungarian Grand Prix,32.85931666666667,28.2,34.0,988.7,False,49.7,193,1.0
@@ -16799,7 +16799,7 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2023,Las Vegas Grand Prix,106.11366666666667,18.0,49.0,939.7,False,17.6,74,1.0
 2023,Las Vegas Grand Prix,107.11365,17.9,48.0,939.7,False,17.6,231,2.2
 2023,Mexico City Grand Prix,0.8840000000000001,24.7,31.0,781.2,False,47.3,278,1.0
-2023,Mexico City Grand Prix,1.8839833333333331,24.7,30.0,781.0,False,47.3,289,2.5
+2023,Mexico City Grand Prix,1.883983333333333,24.7,30.0,781.0,False,47.3,289,2.5
 2023,Mexico City Grand Prix,2.883966666666667,24.5,29.0,781.2,False,47.2,281,1.7
 2023,Mexico City Grand Prix,3.88395,24.5,30.0,781.0,False,47.3,275,1.6
 2023,Mexico City Grand Prix,4.883933333333333,24.6,27.0,781.2,False,47.5,257,2.0
@@ -17146,7 +17146,7 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2023,Monaco Grand Prix,0.7070333333333334,25.8,39.0,1013.7,False,47.4,149,1.0
 2023,Monaco Grand Prix,1.7070166666666668,25.8,40.0,1013.7,False,48.2,158,1.0
 2023,Monaco Grand Prix,2.706983333333333,25.8,41.0,1013.7,False,48.2,137,1.0
-2023,Monaco Grand Prix,3.7069666666666663,25.8,41.0,1013.7,False,48.3,0,0.8
+2023,Monaco Grand Prix,3.7069666666666654,25.8,41.0,1013.7,False,48.3,0,0.8
 2023,Monaco Grand Prix,4.707216666666667,25.8,41.0,1013.7,False,48.3,0,0.5
 2023,Monaco Grand Prix,5.7072,25.8,41.0,1013.7,False,47.4,288,0.0
 2023,Monaco Grand Prix,6.707433333333333,25.9,41.0,1013.5,False,47.2,334,0.6
@@ -17167,8 +17167,8 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2023,Monaco Grand Prix,21.708483333333334,25.8,41.0,1013.5,False,47.9,303,1.0
 2023,Monaco Grand Prix,22.708466666666663,25.6,41.0,1013.4,False,47.6,69,0.8
 2023,Monaco Grand Prix,23.708450000000003,25.6,41.0,1013.4,False,47.5,321,1.5
-2023,Monaco Grand Prix,24.708433333333332,25.6,42.0,1013.5,False,47.5,35,0.6
-2023,Monaco Grand Prix,25.709183333333332,25.7,43.0,1013.4,False,47.5,122,0.8
+2023,Monaco Grand Prix,24.70843333333333,25.6,42.0,1013.5,False,47.5,35,0.6
+2023,Monaco Grand Prix,25.70918333333333,25.7,43.0,1013.4,False,47.5,122,0.8
 2023,Monaco Grand Prix,26.70865,25.9,41.0,1013.5,False,47.8,123,0.8
 2023,Monaco Grand Prix,27.70863333333333,26.0,41.0,1013.5,False,48.0,81,0.8
 2023,Monaco Grand Prix,28.708883333333336,26.2,41.0,1013.5,False,48.2,150,0.6
@@ -17341,11 +17341,11 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2023,Qatar Grand Prix,19.34926666666667,32.0,69.0,1009.5,False,38.1,252,0.6
 2023,Qatar Grand Prix,20.34925,31.9,69.0,1009.5,False,38.1,277,0.6
 2023,Qatar Grand Prix,21.349233333333338,32.0,69.0,1009.5,False,38.4,295,0.8
-2023,Qatar Grand Prix,22.349483333333332,31.9,69.0,1009.5,False,38.5,283,0.8
+2023,Qatar Grand Prix,22.34948333333333,31.9,69.0,1009.5,False,38.5,283,0.8
 2023,Qatar Grand Prix,23.349733333333337,31.9,70.0,1009.5,False,38.0,296,1.2
 2023,Qatar Grand Prix,24.34998333333333,31.8,69.0,1009.5,False,37.9,269,1.2
-2023,Qatar Grand Prix,25.350233333333332,31.9,71.0,1009.7,False,37.7,294,1.3
-2023,Qatar Grand Prix,26.350233333333332,31.9,71.0,1009.5,False,37.1,342,1.2
+2023,Qatar Grand Prix,25.35023333333333,31.9,71.0,1009.7,False,37.7,294,1.3
+2023,Qatar Grand Prix,26.35023333333333,31.9,71.0,1009.5,False,37.1,342,1.2
 2023,Qatar Grand Prix,27.350483333333333,31.8,70.0,1009.7,False,37.6,292,0.6
 2023,Qatar Grand Prix,28.350200000000005,31.8,72.0,1009.7,False,37.6,301,1.1
 2023,Qatar Grand Prix,29.350200000000005,31.8,72.0,1009.7,False,37.6,317,0.6
@@ -17479,7 +17479,7 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2023,Qatar Grand Prix,157.35683333333333,30.8,77.0,1009.7,False,34.8,297,1.0
 2023,Qatar Grand Prix,158.3568166666667,30.8,77.0,1009.7,False,34.8,291,1.1
 2023,Saudi Arabian Grand Prix,0.99785,26.0,62.0,1010.5,False,34.0,315,2.7
-2023,Saudi Arabian Grand Prix,1.9978333333333331,26.0,61.0,1010.5,False,34.1,305,2.9
+2023,Saudi Arabian Grand Prix,1.997833333333333,26.0,61.0,1010.5,False,34.1,305,2.9
 2023,Saudi Arabian Grand Prix,2.9978166666666666,26.0,61.0,1010.5,False,34.2,325,2.7
 2023,Saudi Arabian Grand Prix,3.9978,26.0,61.0,1010.5,False,34.2,325,2.7
 2023,Saudi Arabian Grand Prix,4.9977833333333335,26.0,60.0,1010.5,False,34.3,322,2.7
@@ -17986,8 +17986,8 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2023,São Paulo Grand Prix,27.960483333333336,20.5,57.0,928.2,False,47.9,208,1.2
 2023,São Paulo Grand Prix,28.96046666666667,20.4,58.0,928.2,False,47.9,166,1.3
 2023,São Paulo Grand Prix,29.96045,20.5,58.0,928.2,False,48.2,161,1.0
-2023,São Paulo Grand Prix,30.960433333333334,20.5,60.0,928.0,False,49.6,190,1.1
-2023,São Paulo Grand Prix,31.960433333333334,20.5,59.0,928.0,False,50.5,134,1.1
+2023,São Paulo Grand Prix,30.96043333333333,20.5,60.0,928.0,False,49.6,190,1.1
+2023,São Paulo Grand Prix,31.96043333333333,20.5,59.0,928.0,False,50.5,134,1.1
 2023,São Paulo Grand Prix,32.96041666666667,20.5,59.0,928.0,False,50.8,218,1.1
 2023,São Paulo Grand Prix,33.96066666666667,20.6,58.0,928.0,False,50.8,166,0.8
 2023,São Paulo Grand Prix,34.96065,20.5,57.0,928.0,False,50.5,204,1.1
@@ -18167,7 +18167,7 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2023,United States Grand Prix,25.751933333333334,29.0,47.0,994.5,False,39.2,102,2.5
 2023,United States Grand Prix,26.751916666666663,29.0,48.0,994.7,False,39.4,97,3.0
 2023,United States Grand Prix,27.7519,29.0,48.0,994.7,False,39.4,124,3.7
-2023,United States Grand Prix,28.751883333333332,29.0,48.0,994.5,False,39.6,98,3.7
+2023,United States Grand Prix,28.75188333333333,29.0,48.0,994.5,False,39.6,98,3.7
 2023,United States Grand Prix,29.75211666666667,29.0,48.0,994.5,False,39.8,111,3.2
 2023,United States Grand Prix,30.75183333333333,29.2,47.0,994.5,False,39.6,105,4.4
 2023,United States Grand Prix,31.75208333333334,29.3,45.0,994.5,False,39.7,94,3.5
@@ -18594,6 +18594,158 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2024,Austrian Grand Prix,141.0052,29.6,34.0,932.8,False,43.5,329,1.0
 2024,Austrian Grand Prix,142.00533333333334,29.4,34.0,932.7,False,43.5,322,2.3
 2024,Austrian Grand Prix,143.00533333333334,29.2,35.0,932.8,False,43.4,295,1.5
+2024,Azerbaijan Grand Prix,0.4350666666666667,26.5,39.0,1017.7,False,47.2,63,1.4
+2024,Azerbaijan Grand Prix,1.435366666666667,26.6,39.0,1017.6,False,47.2,83,0.8
+2024,Azerbaijan Grand Prix,2.4356500000000003,26.6,39.0,1017.6,False,47.5,141,0.8
+2024,Azerbaijan Grand Prix,3.435883333333334,26.9,38.0,1017.6,False,47.5,12,2.4
+2024,Azerbaijan Grand Prix,4.435916666666667,27.1,38.0,1017.7,False,47.5,267,1.8
+2024,Azerbaijan Grand Prix,5.4359,27.0,37.0,1017.8,False,46.6,358,1.1
+2024,Azerbaijan Grand Prix,6.435916666666667,26.8,37.0,1017.6,False,46.6,148,1.2
+2024,Azerbaijan Grand Prix,7.435933333333334,26.6,38.0,1017.7,False,46.6,112,1.6
+2024,Azerbaijan Grand Prix,8.436016666666667,26.4,39.0,1017.6,False,47.1,80,1.5
+2024,Azerbaijan Grand Prix,9.43595,26.4,39.0,1017.6,False,47.0,220,1.6
+2024,Azerbaijan Grand Prix,10.435966666666667,26.7,39.0,1017.8,False,47.1,62,0.5
+2024,Azerbaijan Grand Prix,11.435983333333333,26.7,38.0,1017.7,False,47.0,110,2.6
+2024,Azerbaijan Grand Prix,12.436033333333334,27.0,38.0,1017.7,False,47.0,339,1.8
+2024,Azerbaijan Grand Prix,13.43605,26.9,39.0,1017.7,False,46.1,98,1.2
+2024,Azerbaijan Grand Prix,14.43605,26.8,39.0,1017.8,False,46.4,244,1.1
+2024,Azerbaijan Grand Prix,15.436083333333334,26.9,38.0,1017.7,False,47.1,202,1.5
+2024,Azerbaijan Grand Prix,16.43606666666667,27.0,37.0,1017.7,False,47.1,179,1.4
+2024,Azerbaijan Grand Prix,17.436083333333332,26.9,38.0,1017.8,False,47.4,249,0.5
+2024,Azerbaijan Grand Prix,18.43611666666667,27.2,38.0,1017.7,False,47.6,186,1.2
+2024,Azerbaijan Grand Prix,19.436100000000003,27.5,38.0,1017.8,False,47.5,154,1.6
+2024,Azerbaijan Grand Prix,20.43608333333333,27.5,38.0,1017.7,False,47.2,220,1.2
+2024,Azerbaijan Grand Prix,21.436183333333336,27.4,39.0,1017.6,False,46.6,108,1.6
+2024,Azerbaijan Grand Prix,22.43611666666667,27.0,40.0,1017.6,False,46.6,144,1.0
+2024,Azerbaijan Grand Prix,23.43626666666667,27.0,41.0,1017.6,False,45.6,65,1.7
+2024,Azerbaijan Grand Prix,24.43613333333333,26.9,39.0,1017.5,False,46.3,112,2.7
+2024,Azerbaijan Grand Prix,25.43613333333333,26.7,39.0,1017.5,False,46.3,84,2.9
+2024,Azerbaijan Grand Prix,26.436183333333336,26.5,39.0,1017.7,False,46.3,88,4.0
+2024,Azerbaijan Grand Prix,27.436250000000005,26.6,40.0,1017.6,False,46.3,78,2.9
+2024,Azerbaijan Grand Prix,28.43638333333333,26.8,40.0,1017.6,False,46.3,81,1.1
+2024,Azerbaijan Grand Prix,29.436183333333336,27.1,40.0,1017.6,False,45.7,80,1.8
+2024,Azerbaijan Grand Prix,30.4362,27.1,40.0,1017.7,False,46.5,232,1.6
+2024,Azerbaijan Grand Prix,31.43621666666667,26.9,40.0,1017.5,False,46.5,32,0.9
+2024,Azerbaijan Grand Prix,32.43625,27.1,41.0,1017.5,False,46.5,151,1.4
+2024,Azerbaijan Grand Prix,33.43626666666667,27.3,41.0,1017.6,False,46.5,149,1.4
+2024,Azerbaijan Grand Prix,34.43631666666667,27.3,42.0,1017.6,False,46.4,219,1.1
+2024,Azerbaijan Grand Prix,35.436683333333335,27.5,42.0,1017.6,False,46.7,124,0.8
+2024,Azerbaijan Grand Prix,36.4363,27.8,41.0,1017.5,False,47.9,53,0.5
+2024,Azerbaijan Grand Prix,37.4363,28.2,39.0,1017.5,False,46.7,105,1.4
+2024,Azerbaijan Grand Prix,38.43633333333334,28.1,39.0,1017.6,False,46.4,128,1.4
+2024,Azerbaijan Grand Prix,39.43631666666667,27.7,40.0,1017.5,False,46.4,38,0.8
+2024,Azerbaijan Grand Prix,40.436416666666666,27.8,40.0,1017.6,False,46.7,122,0.9
+2024,Azerbaijan Grand Prix,41.43635,27.3,43.0,1017.6,False,45.9,186,0.8
+2024,Azerbaijan Grand Prix,42.43633333333334,27.3,41.0,1017.6,False,39.9,215,1.0
+2024,Azerbaijan Grand Prix,43.43635,27.1,41.0,1017.7,False,39.3,0,0.9
+2024,Azerbaijan Grand Prix,44.43636666666667,26.8,43.0,1017.6,False,44.5,101,0.9
+2024,Azerbaijan Grand Prix,45.43636666666667,26.9,43.0,1017.6,False,45.6,0,1.3
+2024,Azerbaijan Grand Prix,46.436933333333336,27.3,41.0,1017.6,False,46.4,111,1.0
+2024,Azerbaijan Grand Prix,47.4365,27.0,42.0,1017.6,False,46.1,332,1.5
+2024,Azerbaijan Grand Prix,48.436400000000006,27.2,42.0,1017.5,False,45.1,27,1.2
+2024,Azerbaijan Grand Prix,49.43643333333333,26.9,42.0,1017.6,False,45.3,189,1.0
+2024,Azerbaijan Grand Prix,50.43645000000001,26.9,41.0,1017.6,False,45.9,219,1.7
+2024,Azerbaijan Grand Prix,51.43645000000001,27.3,39.0,1017.7,False,46.7,64,1.2
+2024,Azerbaijan Grand Prix,52.43646666666667,27.7,39.0,1017.7,False,46.7,74,1.3
+2024,Azerbaijan Grand Prix,53.43646666666667,27.2,39.0,1017.7,False,44.8,0,1.4
+2024,Azerbaijan Grand Prix,54.436483333333335,26.8,40.0,1017.8,False,45.2,240,0.7
+2024,Azerbaijan Grand Prix,55.43651666666667,26.8,40.0,1017.8,False,45.2,195,1.0
+2024,Azerbaijan Grand Prix,56.4365,26.8,41.0,1017.7,False,45.3,204,1.4
+2024,Azerbaijan Grand Prix,57.43653333333334,26.8,41.0,1017.7,False,45.3,241,0.8
+2024,Azerbaijan Grand Prix,58.43656666666667,26.8,41.0,1017.6,False,45.6,249,2.0
+2024,Azerbaijan Grand Prix,59.43653333333334,26.8,41.0,1017.6,False,45.6,117,1.7
+2024,Azerbaijan Grand Prix,60.43663333333334,26.7,40.0,1017.4,False,45.7,0,2.4
+2024,Azerbaijan Grand Prix,61.43655,26.9,37.0,1017.7,False,45.7,65,1.0
+2024,Azerbaijan Grand Prix,62.43656666666667,26.8,38.0,1017.7,False,45.4,76,2.4
+2024,Azerbaijan Grand Prix,63.4367,26.8,37.0,1017.5,False,44.9,116,1.5
+2024,Azerbaijan Grand Prix,64.43675,26.6,38.0,1017.6,False,44.5,66,2.8
+2024,Azerbaijan Grand Prix,65.43761666666667,26.4,39.0,1017.6,False,44.5,87,1.7
+2024,Azerbaijan Grand Prix,66.43663333333333,26.3,40.0,1017.7,False,45.0,118,0.8
+2024,Azerbaijan Grand Prix,67.43671666666667,26.5,39.0,1017.7,False,44.9,82,2.4
+2024,Azerbaijan Grand Prix,68.43665000000001,26.3,39.0,1017.6,False,44.6,130,2.3
+2024,Azerbaijan Grand Prix,69.43681666666666,26.2,40.0,1017.6,False,44.7,0,1.8
+2024,Azerbaijan Grand Prix,70.43696666666666,26.3,40.0,1017.7,False,44.7,97,0.9
+2024,Azerbaijan Grand Prix,71.43683333333334,26.2,40.0,1017.6,False,44.4,40,1.6
+2024,Azerbaijan Grand Prix,72.43688333333334,26.5,40.0,1017.7,False,44.7,104,0.9
+2024,Azerbaijan Grand Prix,73.43703333333335,26.7,38.0,1017.7,False,44.8,76,1.5
+2024,Azerbaijan Grand Prix,74.43825,26.8,37.0,1017.6,False,44.7,61,2.2
+2024,Azerbaijan Grand Prix,75.4377,26.7,37.0,1017.7,False,44.7,67,0.8
+2024,Azerbaijan Grand Prix,76.4376,26.8,36.0,1017.8,False,44.7,59,1.1
+2024,Azerbaijan Grand Prix,77.43778333333334,26.9,37.0,1017.7,False,44.8,65,0.9
+2024,Azerbaijan Grand Prix,78.43753333333333,26.9,38.0,1017.7,False,44.8,72,2.2
+2024,Azerbaijan Grand Prix,79.43761666666667,26.8,38.0,1017.6,False,44.3,99,0.8
+2024,Azerbaijan Grand Prix,80.4376,27.0,37.0,1017.6,False,44.7,43,0.9
+2024,Azerbaijan Grand Prix,81.43756666666667,27.0,36.0,1017.6,False,44.7,95,1.4
+2024,Azerbaijan Grand Prix,82.43763333333335,26.8,37.0,1017.6,False,44.1,137,2.9
+2024,Azerbaijan Grand Prix,83.4376,26.5,37.0,1017.6,False,44.1,60,2.3
+2024,Azerbaijan Grand Prix,84.43766666666667,26.5,36.0,1017.7,False,44.1,193,1.3
+2024,Azerbaijan Grand Prix,85.43763333333335,26.5,36.0,1017.6,False,44.0,291,1.5
+2024,Azerbaijan Grand Prix,86.43763333333335,26.5,36.0,1017.5,False,44.0,44,1.4
+2024,Azerbaijan Grand Prix,87.4377,26.5,36.0,1017.6,False,43.8,146,1.2
+2024,Azerbaijan Grand Prix,88.43768333333334,26.3,37.0,1017.7,False,43.8,89,1.2
+2024,Azerbaijan Grand Prix,89.43798333333334,26.4,36.0,1017.6,False,44.0,194,1.7
+2024,Azerbaijan Grand Prix,90.43808333333337,26.4,36.0,1017.6,False,43.9,0,1.9
+2024,Azerbaijan Grand Prix,91.43811666666667,26.5,36.0,1017.6,False,43.9,266,1.2
+2024,Azerbaijan Grand Prix,92.43925,26.6,36.0,1017.6,False,44.1,6,0.9
+2024,Azerbaijan Grand Prix,93.4388,26.9,34.0,1017.6,False,44.4,248,1.1
+2024,Azerbaijan Grand Prix,94.43866666666668,27.1,35.0,1017.5,False,44.4,78,1.9
+2024,Azerbaijan Grand Prix,95.4386,26.9,36.0,1017.6,False,43.2,37,1.3
+2024,Azerbaijan Grand Prix,96.43931666666668,27.0,36.0,1017.6,False,43.4,75,1.7
+2024,Azerbaijan Grand Prix,97.43890000000002,27.0,37.0,1017.6,False,44.2,110,1.5
+2024,Azerbaijan Grand Prix,98.43926666666668,26.9,36.0,1017.7,False,44.1,107,2.5
+2024,Azerbaijan Grand Prix,99.43911666666668,26.7,36.0,1017.6,False,43.6,267,2.6
+2024,Azerbaijan Grand Prix,100.43945,26.5,37.0,1017.6,False,43.6,134,2.5
+2024,Azerbaijan Grand Prix,101.43975,26.2,38.0,1017.6,False,42.8,98,2.6
+2024,Azerbaijan Grand Prix,102.43993333333334,26.2,39.0,1017.6,False,43.3,84,1.6
+2024,Azerbaijan Grand Prix,103.44,26.3,38.0,1017.6,False,43.3,30,2.9
+2024,Azerbaijan Grand Prix,104.43995,26.2,38.0,1017.6,False,43.1,245,1.0
+2024,Azerbaijan Grand Prix,105.43995,26.5,38.0,1017.7,False,43.3,0,0.7
+2024,Azerbaijan Grand Prix,106.44003333333332,26.7,38.0,1017.6,False,43.3,238,0.5
+2024,Azerbaijan Grand Prix,107.44008333333336,26.8,38.0,1017.6,False,43.3,236,0.7
+2024,Azerbaijan Grand Prix,108.44,27.1,37.0,1017.6,False,43.5,65,1.7
+2024,Azerbaijan Grand Prix,109.44036666666668,27.0,37.0,1017.7,False,43.1,223,1.4
+2024,Azerbaijan Grand Prix,110.44041666666666,26.9,36.0,1017.6,False,42.6,352,1.5
+2024,Azerbaijan Grand Prix,111.44053333333336,26.7,36.0,1017.7,False,43.2,330,1.3
+2024,Azerbaijan Grand Prix,112.44083333333334,26.6,36.0,1017.6,False,42.6,216,1.9
+2024,Azerbaijan Grand Prix,113.44108333333334,26.7,36.0,1017.6,False,42.6,51,1.2
+2024,Azerbaijan Grand Prix,114.44145,26.5,37.0,1017.6,False,42.4,116,1.0
+2024,Azerbaijan Grand Prix,115.44146666666668,26.5,37.0,1017.6,False,42.4,148,1.5
+2024,Azerbaijan Grand Prix,116.44138333333332,26.5,37.0,1017.7,False,42.8,76,1.7
+2024,Azerbaijan Grand Prix,117.4414,26.6,37.0,1017.6,False,42.8,89,1.4
+2024,Azerbaijan Grand Prix,118.44145,26.8,36.0,1017.6,False,43.0,193,1.6
+2024,Azerbaijan Grand Prix,119.44145,26.9,36.0,1017.7,False,43.1,243,1.0
+2024,Azerbaijan Grand Prix,120.44145,26.9,36.0,1017.6,False,42.6,214,2.7
+2024,Azerbaijan Grand Prix,121.44148333333334,26.5,38.0,1017.7,False,42.6,103,1.6
+2024,Azerbaijan Grand Prix,122.44143333333336,26.5,36.0,1017.6,False,42.6,83,2.6
+2024,Azerbaijan Grand Prix,123.44146666666668,26.4,35.0,1017.7,False,42.7,55,1.5
+2024,Azerbaijan Grand Prix,124.44153333333334,26.4,35.0,1017.6,False,42.7,19,1.8
+2024,Azerbaijan Grand Prix,125.44148333333334,26.4,36.0,1017.7,False,42.3,95,1.6
+2024,Azerbaijan Grand Prix,126.4415,26.3,36.0,1017.6,False,42.1,106,2.8
+2024,Azerbaijan Grand Prix,127.4415,26.0,38.0,1017.8,False,41.8,74,3.1
+2024,Azerbaijan Grand Prix,128.44151666666667,25.8,38.0,1017.6,False,41.8,102,2.7
+2024,Azerbaijan Grand Prix,129.44155,25.7,38.0,1017.6,False,41.6,94,3.8
+2024,Azerbaijan Grand Prix,130.44158333333334,25.7,38.0,1017.6,False,41.6,98,2.8
+2024,Azerbaijan Grand Prix,131.44173333333336,25.7,36.0,1017.7,False,41.8,93,2.2
+2024,Azerbaijan Grand Prix,132.4415666666667,25.8,37.0,1017.8,False,41.3,0,3.6
+2024,Azerbaijan Grand Prix,133.44206666666668,25.7,38.0,1017.5,False,41.3,106,1.7
+2024,Azerbaijan Grand Prix,134.44163333333333,25.8,38.0,1017.6,False,41.4,70,2.8
+2024,Azerbaijan Grand Prix,135.44161666666668,25.8,38.0,1017.7,False,41.4,88,2.1
+2024,Azerbaijan Grand Prix,136.44165,25.8,38.0,1017.7,False,41.7,90,2.0
+2024,Azerbaijan Grand Prix,137.44168333333334,25.9,35.0,1017.6,False,41.6,94,2.4
+2024,Azerbaijan Grand Prix,138.44163333333336,25.9,34.0,1017.6,False,41.6,208,1.3
+2024,Azerbaijan Grand Prix,139.4417,25.9,32.0,1017.6,False,41.6,288,0.9
+2024,Azerbaijan Grand Prix,140.44165,26.0,33.0,1017.7,False,42.0,16,1.1
+2024,Azerbaijan Grand Prix,141.44171666666668,26.4,33.0,1017.7,False,42.0,62,0.7
+2024,Azerbaijan Grand Prix,142.44168333333334,26.6,33.0,1017.7,False,41.5,76,0.6
+2024,Azerbaijan Grand Prix,143.44186666666667,26.6,34.0,1017.7,False,41.3,218,0.8
+2024,Azerbaijan Grand Prix,144.44175,26.5,35.0,1017.7,False,41.3,15,1.0
+2024,Azerbaijan Grand Prix,145.44198333333333,26.6,36.0,1017.7,False,41.3,66,1.1
+2024,Azerbaijan Grand Prix,146.44193333333337,26.6,36.0,1017.7,False,40.9,99,1.5
+2024,Azerbaijan Grand Prix,147.44173333333336,26.5,37.0,1017.7,False,40.8,117,0.9
+2024,Azerbaijan Grand Prix,148.4419,26.5,37.0,1017.7,False,40.8,77,2.0
+2024,Azerbaijan Grand Prix,149.4417666666667,26.4,39.0,1017.8,False,40.7,0,1.2
+2024,Azerbaijan Grand Prix,150.4418,26.5,39.0,1017.7,False,40.3,99,0.7
+2024,Azerbaijan Grand Prix,151.44188333333335,26.4,40.0,1017.7,False,41.1,238,0.6
 2024,Bahrain Grand Prix,0.2348833333333333,18.9,46.0,1017.1,False,26.5,162,0.9
 2024,Bahrain Grand Prix,1.2347333333333337,18.9,46.0,1017.0,False,26.5,55,1.0
 2024,Bahrain Grand Prix,2.2348833333333338,18.9,46.0,1017.0,False,26.5,55,1.0
@@ -19331,7 +19483,7 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2024,Dutch Grand Prix,15.670333333333334,18.5,65.0,1019.9,False,30.7,210,3.8
 2024,Dutch Grand Prix,16.670416666666668,18.5,66.0,1019.9,False,31.2,233,4.3
 2024,Dutch Grand Prix,17.67035,18.5,64.0,1020.0,False,31.5,234,5.7
-2024,Dutch Grand Prix,18.670333333333332,18.5,64.0,1019.9,False,31.1,231,4.1
+2024,Dutch Grand Prix,18.67033333333333,18.5,64.0,1019.9,False,31.1,231,4.1
 2024,Dutch Grand Prix,19.670466666666663,18.6,64.0,1020.0,False,30.3,225,3.9
 2024,Dutch Grand Prix,20.67093333333333,18.6,64.0,1020.1,False,29.9,213,4.2
 2024,Dutch Grand Prix,21.670916666666667,18.7,64.0,1019.9,False,29.7,230,5.6
@@ -19919,7 +20071,7 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2024,Japanese Grand Prix,19.677866666666667,22.0,42.0,1012.3,False,39.3,200,2.4
 2024,Japanese Grand Prix,20.67788333333333,22.2,43.0,1012.3,False,39.5,191,2.1
 2024,Japanese Grand Prix,21.678583333333336,22.2,43.0,1012.3,False,39.5,174,1.6
-2024,Japanese Grand Prix,22.677933333333332,22.2,43.0,1012.3,False,39.8,191,2.3
+2024,Japanese Grand Prix,22.67793333333333,22.2,43.0,1012.3,False,39.8,191,2.3
 2024,Japanese Grand Prix,23.67778333333333,22.1,43.0,1012.3,False,39.9,186,2.2
 2024,Japanese Grand Prix,24.677983333333334,22.1,42.0,1012.4,False,39.7,194,2.1
 2024,Japanese Grand Prix,25.677900000000005,22.0,41.0,1012.3,False,39.5,193,1.4
@@ -20408,12 +20560,12 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2024,Monaco Grand Prix,177.91358333333335,21.8,59.0,1018.4,False,42.0,264,1.2
 2024,Monaco Grand Prix,178.9139166666667,22.0,60.0,1018.5,False,42.0,284,0.8
 2024,Monaco Grand Prix,179.91408333333337,21.9,60.0,1018.3,False,41.2,47,0.8
-2024,Monaco Grand Prix,180.91403333333332,21.9,60.0,1018.4,False,42.0,215,0.9
+2024,Monaco Grand Prix,180.9140333333333,21.9,60.0,1018.4,False,42.0,215,0.9
 2024,Monaco Grand Prix,181.91413333333333,21.9,59.0,1018.4,False,41.7,283,1.2
 2024,Monaco Grand Prix,182.914,22.0,59.0,1018.3,False,41.7,325,1.7
-2024,Monaco Grand Prix,183.91383333333332,22.0,60.0,1018.3,False,41.6,58,1.0
+2024,Monaco Grand Prix,183.9138333333333,22.0,60.0,1018.3,False,41.6,58,1.0
 2024,Monaco Grand Prix,184.91386666666668,21.8,60.0,1018.4,False,40.9,14,0.7
-2024,Monaco Grand Prix,185.91403333333332,21.7,61.0,1018.4,False,41.1,229,0.8
+2024,Monaco Grand Prix,185.9140333333333,21.7,61.0,1018.4,False,41.1,229,0.8
 2024,Monaco Grand Prix,186.9141166666667,21.8,60.0,1018.5,False,41.6,224,0.8
 2024,Monaco Grand Prix,187.914,21.8,60.0,1018.4,False,41.6,209,1.0
 2024,Monaco Grand Prix,188.91396666666668,21.7,60.0,1018.4,False,41.1,0,0.4
@@ -20426,7 +20578,7 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2024,Monaco Grand Prix,195.91475,21.7,61.0,1018.4,False,40.6,224,0.9
 2024,Monaco Grand Prix,196.91498333333337,21.8,61.0,1018.4,False,40.9,219,1.2
 2024,Monaco Grand Prix,197.91501666666667,21.8,61.0,1018.4,False,40.9,284,0.8
-2024,Monaco Grand Prix,198.91493333333332,21.8,62.0,1018.4,False,40.2,0,0.8
+2024,Monaco Grand Prix,198.91493333333327,21.8,62.0,1018.4,False,40.2,0,0.8
 2024,Monaco Grand Prix,199.915,21.7,62.0,1018.5,False,40.3,168,0.6
 2024,Saudi Arabian Grand Prix,0.1389999999999999,25.5,67.0,1012.0,False,33.6,342,2.6
 2024,Saudi Arabian Grand Prix,1.13895,25.5,67.0,1012.0,False,33.6,20,1.9
@@ -20728,155 +20880,163 @@ Year,Location,SessionTime(Minutes),AirTemp,Humidity,Pressure,Rainfall,TrackTemp,
 2024,Spanish Grand Prix,151.35688333333334,24.0,61.0,1001.0,False,40.2,245,2.3
 2024,Spanish Grand Prix,152.35696666666666,23.7,62.0,1001.1,False,40.3,259,2.1
 2024,Spanish Grand Prix,153.35696666666666,23.7,63.0,1001.2,False,39.9,247,1.9
-2024,Azerbaijan Grand Prix,0.4350666666666667,26.5,39.0,1017.7,False,47.2,63,1.4
-2024,Azerbaijan Grand Prix,1.4353666666666667,26.6,39.0,1017.6,False,47.2,83,0.8
-2024,Azerbaijan Grand Prix,2.4356500000000003,26.6,39.0,1017.6,False,47.5,141,0.8
-2024,Azerbaijan Grand Prix,3.435883333333334,26.9,38.0,1017.6,False,47.5,12,2.4
-2024,Azerbaijan Grand Prix,4.435916666666667,27.1,38.0,1017.7,False,47.5,267,1.8
-2024,Azerbaijan Grand Prix,5.4359,27.0,37.0,1017.8,False,46.6,358,1.1
-2024,Azerbaijan Grand Prix,6.435916666666667,26.8,37.0,1017.6,False,46.6,148,1.2
-2024,Azerbaijan Grand Prix,7.435933333333334,26.6,38.0,1017.7,False,46.6,112,1.6
-2024,Azerbaijan Grand Prix,8.436016666666667,26.4,39.0,1017.6,False,47.1,80,1.5
-2024,Azerbaijan Grand Prix,9.43595,26.4,39.0,1017.6,False,47.0,220,1.6
-2024,Azerbaijan Grand Prix,10.435966666666667,26.7,39.0,1017.8,False,47.1,62,0.5
-2024,Azerbaijan Grand Prix,11.435983333333333,26.7,38.0,1017.7,False,47.0,110,2.6
-2024,Azerbaijan Grand Prix,12.436033333333334,27.0,38.0,1017.7,False,47.0,339,1.8
-2024,Azerbaijan Grand Prix,13.43605,26.9,39.0,1017.7,False,46.1,98,1.2
-2024,Azerbaijan Grand Prix,14.43605,26.8,39.0,1017.8,False,46.4,244,1.1
-2024,Azerbaijan Grand Prix,15.436083333333334,26.9,38.0,1017.7,False,47.1,202,1.5
-2024,Azerbaijan Grand Prix,16.43606666666667,27.0,37.0,1017.7,False,47.1,179,1.4
-2024,Azerbaijan Grand Prix,17.436083333333332,26.9,38.0,1017.8,False,47.4,249,0.5
-2024,Azerbaijan Grand Prix,18.43611666666667,27.2,38.0,1017.7,False,47.6,186,1.2
-2024,Azerbaijan Grand Prix,19.436100000000003,27.5,38.0,1017.8,False,47.5,154,1.6
-2024,Azerbaijan Grand Prix,20.436083333333332,27.5,38.0,1017.7,False,47.2,220,1.2
-2024,Azerbaijan Grand Prix,21.436183333333336,27.4,39.0,1017.6,False,46.6,108,1.6
-2024,Azerbaijan Grand Prix,22.43611666666667,27.0,40.0,1017.6,False,46.6,144,1.0
-2024,Azerbaijan Grand Prix,23.43626666666667,27.0,41.0,1017.6,False,45.6,65,1.7
-2024,Azerbaijan Grand Prix,24.436133333333334,26.9,39.0,1017.5,False,46.3,112,2.7
-2024,Azerbaijan Grand Prix,25.436133333333334,26.7,39.0,1017.5,False,46.3,84,2.9
-2024,Azerbaijan Grand Prix,26.436183333333336,26.5,39.0,1017.7,False,46.3,88,4.0
-2024,Azerbaijan Grand Prix,27.436250000000005,26.6,40.0,1017.6,False,46.3,78,2.9
-2024,Azerbaijan Grand Prix,28.436383333333332,26.8,40.0,1017.6,False,46.3,81,1.1
-2024,Azerbaijan Grand Prix,29.436183333333336,27.1,40.0,1017.6,False,45.7,80,1.8
-2024,Azerbaijan Grand Prix,30.4362,27.1,40.0,1017.7,False,46.5,232,1.6
-2024,Azerbaijan Grand Prix,31.43621666666667,26.9,40.0,1017.5,False,46.5,32,0.9
-2024,Azerbaijan Grand Prix,32.43625,27.1,41.0,1017.5,False,46.5,151,1.4
-2024,Azerbaijan Grand Prix,33.43626666666667,27.3,41.0,1017.6,False,46.5,149,1.4
-2024,Azerbaijan Grand Prix,34.43631666666667,27.3,42.0,1017.6,False,46.4,219,1.1
-2024,Azerbaijan Grand Prix,35.436683333333335,27.5,42.0,1017.6,False,46.7,124,0.8
-2024,Azerbaijan Grand Prix,36.4363,27.8,41.0,1017.5,False,47.9,53,0.5
-2024,Azerbaijan Grand Prix,37.4363,28.2,39.0,1017.5,False,46.7,105,1.4
-2024,Azerbaijan Grand Prix,38.43633333333334,28.1,39.0,1017.6,False,46.4,128,1.4
-2024,Azerbaijan Grand Prix,39.43631666666667,27.7,40.0,1017.5,False,46.4,38,0.8
-2024,Azerbaijan Grand Prix,40.436416666666666,27.8,40.0,1017.6,False,46.7,122,0.9
-2024,Azerbaijan Grand Prix,41.43635,27.3,43.0,1017.6,False,45.9,186,0.8
-2024,Azerbaijan Grand Prix,42.43633333333334,27.3,41.0,1017.6,False,39.9,215,1.0
-2024,Azerbaijan Grand Prix,43.43635,27.1,41.0,1017.7,False,39.3,0,0.9
-2024,Azerbaijan Grand Prix,44.43636666666667,26.8,43.0,1017.6,False,44.5,101,0.9
-2024,Azerbaijan Grand Prix,45.43636666666667,26.9,43.0,1017.6,False,45.6,0,1.3
-2024,Azerbaijan Grand Prix,46.436933333333336,27.3,41.0,1017.6,False,46.4,111,1.0
-2024,Azerbaijan Grand Prix,47.4365,27.0,42.0,1017.6,False,46.1,332,1.5
-2024,Azerbaijan Grand Prix,48.436400000000006,27.2,42.0,1017.5,False,45.1,27,1.2
-2024,Azerbaijan Grand Prix,49.43643333333333,26.9,42.0,1017.6,False,45.3,189,1.0
-2024,Azerbaijan Grand Prix,50.43645000000001,26.9,41.0,1017.6,False,45.9,219,1.7
-2024,Azerbaijan Grand Prix,51.43645000000001,27.3,39.0,1017.7,False,46.7,64,1.2
-2024,Azerbaijan Grand Prix,52.43646666666667,27.7,39.0,1017.7,False,46.7,74,1.3
-2024,Azerbaijan Grand Prix,53.43646666666667,27.2,39.0,1017.7,False,44.8,0,1.4
-2024,Azerbaijan Grand Prix,54.436483333333335,26.8,40.0,1017.8,False,45.2,240,0.7
-2024,Azerbaijan Grand Prix,55.43651666666667,26.8,40.0,1017.8,False,45.2,195,1.0
-2024,Azerbaijan Grand Prix,56.4365,26.8,41.0,1017.7,False,45.3,204,1.4
-2024,Azerbaijan Grand Prix,57.43653333333334,26.8,41.0,1017.7,False,45.3,241,0.8
-2024,Azerbaijan Grand Prix,58.43656666666667,26.8,41.0,1017.6,False,45.6,249,2.0
-2024,Azerbaijan Grand Prix,59.43653333333334,26.8,41.0,1017.6,False,45.6,117,1.7
-2024,Azerbaijan Grand Prix,60.43663333333334,26.7,40.0,1017.4,False,45.7,0,2.4
-2024,Azerbaijan Grand Prix,61.436550000000004,26.9,37.0,1017.7,False,45.7,65,1.0
-2024,Azerbaijan Grand Prix,62.43656666666667,26.8,38.0,1017.7,False,45.4,76,2.4
-2024,Azerbaijan Grand Prix,63.4367,26.8,37.0,1017.5,False,44.9,116,1.5
-2024,Azerbaijan Grand Prix,64.43675,26.6,38.0,1017.6,False,44.5,66,2.8
-2024,Azerbaijan Grand Prix,65.43761666666667,26.4,39.0,1017.6,False,44.5,87,1.7
-2024,Azerbaijan Grand Prix,66.43663333333333,26.3,40.0,1017.7,False,45.0,118,0.8
-2024,Azerbaijan Grand Prix,67.43671666666667,26.5,39.0,1017.7,False,44.9,82,2.4
-2024,Azerbaijan Grand Prix,68.43665000000001,26.3,39.0,1017.6,False,44.6,130,2.3
-2024,Azerbaijan Grand Prix,69.43681666666666,26.2,40.0,1017.6,False,44.7,0,1.8
-2024,Azerbaijan Grand Prix,70.43696666666666,26.3,40.0,1017.7,False,44.7,97,0.9
-2024,Azerbaijan Grand Prix,71.43683333333334,26.2,40.0,1017.6,False,44.4,40,1.6
-2024,Azerbaijan Grand Prix,72.43688333333334,26.5,40.0,1017.7,False,44.7,104,0.9
-2024,Azerbaijan Grand Prix,73.43703333333335,26.7,38.0,1017.7,False,44.8,76,1.5
-2024,Azerbaijan Grand Prix,74.43825,26.8,37.0,1017.6,False,44.7,61,2.2
-2024,Azerbaijan Grand Prix,75.4377,26.7,37.0,1017.7,False,44.7,67,0.8
-2024,Azerbaijan Grand Prix,76.4376,26.8,36.0,1017.8,False,44.7,59,1.1
-2024,Azerbaijan Grand Prix,77.43778333333334,26.9,37.0,1017.7,False,44.8,65,0.9
-2024,Azerbaijan Grand Prix,78.43753333333333,26.9,38.0,1017.7,False,44.8,72,2.2
-2024,Azerbaijan Grand Prix,79.43761666666667,26.8,38.0,1017.6,False,44.3,99,0.8
-2024,Azerbaijan Grand Prix,80.4376,27.0,37.0,1017.6,False,44.7,43,0.9
-2024,Azerbaijan Grand Prix,81.43756666666667,27.0,36.0,1017.6,False,44.7,95,1.4
-2024,Azerbaijan Grand Prix,82.43763333333335,26.8,37.0,1017.6,False,44.1,137,2.9
-2024,Azerbaijan Grand Prix,83.4376,26.5,37.0,1017.6,False,44.1,60,2.3
-2024,Azerbaijan Grand Prix,84.43766666666667,26.5,36.0,1017.7,False,44.1,193,1.3
-2024,Azerbaijan Grand Prix,85.43763333333335,26.5,36.0,1017.6,False,44.0,291,1.5
-2024,Azerbaijan Grand Prix,86.43763333333335,26.5,36.0,1017.5,False,44.0,44,1.4
-2024,Azerbaijan Grand Prix,87.4377,26.5,36.0,1017.6,False,43.8,146,1.2
-2024,Azerbaijan Grand Prix,88.43768333333334,26.3,37.0,1017.7,False,43.8,89,1.2
-2024,Azerbaijan Grand Prix,89.43798333333334,26.4,36.0,1017.6,False,44.0,194,1.7
-2024,Azerbaijan Grand Prix,90.43808333333335,26.4,36.0,1017.6,False,43.9,0,1.9
-2024,Azerbaijan Grand Prix,91.43811666666667,26.5,36.0,1017.6,False,43.9,266,1.2
-2024,Azerbaijan Grand Prix,92.43925,26.6,36.0,1017.6,False,44.1,6,0.9
-2024,Azerbaijan Grand Prix,93.4388,26.9,34.0,1017.6,False,44.4,248,1.1
-2024,Azerbaijan Grand Prix,94.43866666666668,27.1,35.0,1017.5,False,44.4,78,1.9
-2024,Azerbaijan Grand Prix,95.43860000000001,26.9,36.0,1017.6,False,43.2,37,1.3
-2024,Azerbaijan Grand Prix,96.43931666666667,27.0,36.0,1017.6,False,43.4,75,1.7
-2024,Azerbaijan Grand Prix,97.43890000000002,27.0,37.0,1017.6,False,44.2,110,1.5
-2024,Azerbaijan Grand Prix,98.43926666666668,26.9,36.0,1017.7,False,44.1,107,2.5
-2024,Azerbaijan Grand Prix,99.43911666666668,26.7,36.0,1017.6,False,43.6,267,2.6
-2024,Azerbaijan Grand Prix,100.43945000000001,26.5,37.0,1017.6,False,43.6,134,2.5
-2024,Azerbaijan Grand Prix,101.43975,26.2,38.0,1017.6,False,42.8,98,2.6
-2024,Azerbaijan Grand Prix,102.43993333333334,26.2,39.0,1017.6,False,43.3,84,1.6
-2024,Azerbaijan Grand Prix,103.44000000000001,26.3,38.0,1017.6,False,43.3,30,2.9
-2024,Azerbaijan Grand Prix,104.43995000000001,26.2,38.0,1017.6,False,43.1,245,1.0
-2024,Azerbaijan Grand Prix,105.43995000000001,26.5,38.0,1017.7,False,43.3,0,0.7
-2024,Azerbaijan Grand Prix,106.44003333333333,26.7,38.0,1017.6,False,43.3,238,0.5
-2024,Azerbaijan Grand Prix,107.44008333333335,26.8,38.0,1017.6,False,43.3,236,0.7
-2024,Azerbaijan Grand Prix,108.44000000000001,27.1,37.0,1017.6,False,43.5,65,1.7
-2024,Azerbaijan Grand Prix,109.44036666666668,27.0,37.0,1017.7,False,43.1,223,1.4
-2024,Azerbaijan Grand Prix,110.44041666666666,26.9,36.0,1017.6,False,42.6,352,1.5
-2024,Azerbaijan Grand Prix,111.44053333333335,26.7,36.0,1017.7,False,43.2,330,1.3
-2024,Azerbaijan Grand Prix,112.44083333333334,26.6,36.0,1017.6,False,42.6,216,1.9
-2024,Azerbaijan Grand Prix,113.44108333333334,26.7,36.0,1017.6,False,42.6,51,1.2
-2024,Azerbaijan Grand Prix,114.44145,26.5,37.0,1017.6,False,42.4,116,1.0
-2024,Azerbaijan Grand Prix,115.44146666666667,26.5,37.0,1017.6,False,42.4,148,1.5
-2024,Azerbaijan Grand Prix,116.44138333333333,26.5,37.0,1017.7,False,42.8,76,1.7
-2024,Azerbaijan Grand Prix,117.4414,26.6,37.0,1017.6,False,42.8,89,1.4
-2024,Azerbaijan Grand Prix,118.44145,26.8,36.0,1017.6,False,43.0,193,1.6
-2024,Azerbaijan Grand Prix,119.44145,26.9,36.0,1017.7,False,43.1,243,1.0
-2024,Azerbaijan Grand Prix,120.44145,26.9,36.0,1017.6,False,42.6,214,2.7
-2024,Azerbaijan Grand Prix,121.44148333333334,26.5,38.0,1017.7,False,42.6,103,1.6
-2024,Azerbaijan Grand Prix,122.44143333333335,26.5,36.0,1017.6,False,42.6,83,2.6
-2024,Azerbaijan Grand Prix,123.44146666666667,26.4,35.0,1017.7,False,42.7,55,1.5
-2024,Azerbaijan Grand Prix,124.44153333333334,26.4,35.0,1017.6,False,42.7,19,1.8
-2024,Azerbaijan Grand Prix,125.44148333333334,26.4,36.0,1017.7,False,42.3,95,1.6
-2024,Azerbaijan Grand Prix,126.4415,26.3,36.0,1017.6,False,42.1,106,2.8
-2024,Azerbaijan Grand Prix,127.4415,26.0,38.0,1017.8,False,41.8,74,3.1
-2024,Azerbaijan Grand Prix,128.44151666666667,25.8,38.0,1017.6,False,41.8,102,2.7
-2024,Azerbaijan Grand Prix,129.44155,25.7,38.0,1017.6,False,41.6,94,3.8
-2024,Azerbaijan Grand Prix,130.44158333333334,25.7,38.0,1017.6,False,41.6,98,2.8
-2024,Azerbaijan Grand Prix,131.44173333333336,25.7,36.0,1017.7,False,41.8,93,2.2
-2024,Azerbaijan Grand Prix,132.4415666666667,25.8,37.0,1017.8,False,41.3,0,3.6
-2024,Azerbaijan Grand Prix,133.44206666666668,25.7,38.0,1017.5,False,41.3,106,1.7
-2024,Azerbaijan Grand Prix,134.44163333333333,25.8,38.0,1017.6,False,41.4,70,2.8
-2024,Azerbaijan Grand Prix,135.44161666666668,25.8,38.0,1017.7,False,41.4,88,2.1
-2024,Azerbaijan Grand Prix,136.44165,25.8,38.0,1017.7,False,41.7,90,2.0
-2024,Azerbaijan Grand Prix,137.44168333333334,25.9,35.0,1017.6,False,41.6,94,2.4
-2024,Azerbaijan Grand Prix,138.44163333333336,25.9,34.0,1017.6,False,41.6,208,1.3
-2024,Azerbaijan Grand Prix,139.4417,25.9,32.0,1017.6,False,41.6,288,0.9
-2024,Azerbaijan Grand Prix,140.44165,26.0,33.0,1017.7,False,42.0,16,1.1
-2024,Azerbaijan Grand Prix,141.44171666666668,26.4,33.0,1017.7,False,42.0,62,0.7
-2024,Azerbaijan Grand Prix,142.44168333333334,26.6,33.0,1017.7,False,41.5,76,0.6
-2024,Azerbaijan Grand Prix,143.44186666666667,26.6,34.0,1017.7,False,41.3,218,0.8
-2024,Azerbaijan Grand Prix,144.44175,26.5,35.0,1017.7,False,41.3,15,1.0
-2024,Azerbaijan Grand Prix,145.44198333333333,26.6,36.0,1017.7,False,41.3,66,1.1
-2024,Azerbaijan Grand Prix,146.44193333333337,26.6,36.0,1017.7,False,40.9,99,1.5
-2024,Azerbaijan Grand Prix,147.44173333333336,26.5,37.0,1017.7,False,40.8,117,0.9
-2024,Azerbaijan Grand Prix,148.4419,26.5,37.0,1017.7,False,40.8,77,2.0
-2024,Azerbaijan Grand Prix,149.4417666666667,26.4,39.0,1017.8,False,40.7,0,1.2
-2024,Azerbaijan Grand Prix,150.4418,26.5,39.0,1017.7,False,40.3,99,0.7
-2024,Azerbaijan Grand Prix,151.44188333333335,26.4,40.0,1017.7,False,41.1,238,0.6
+2024,Singapore Grand Prix,0.8407666666666668,31.0,74.0,1006.9,False,37.6,0,0.6
+2024,Singapore Grand Prix,1.8415500000000002,30.9,74.0,1007.0,False,37.7,258,0.0
+2024,Singapore Grand Prix,2.8405833333333335,30.9,74.0,1007.0,False,37.9,300,1.1
+2024,Singapore Grand Prix,3.8408666666666673,30.9,75.0,1007.0,False,37.9,28,0.8
+2024,Singapore Grand Prix,4.8409,30.8,75.0,1007.1,False,38.0,287,0.3
+2024,Singapore Grand Prix,5.84115,30.8,75.0,1007.1,False,38.5,219,0.8
+2024,Singapore Grand Prix,6.841616666666667,30.8,74.0,1007.0,False,38.2,217,1.0
+2024,Singapore Grand Prix,7.841483333333334,30.8,75.0,1007.1,False,37.6,167,0.7
+2024,Singapore Grand Prix,8.841883333333334,30.7,75.0,1007.1,False,37.5,0,0.6
+2024,Singapore Grand Prix,9.841983333333333,30.7,75.0,1007.1,False,37.3,269,0.0
+2024,Singapore Grand Prix,10.842133333333333,30.7,75.0,1007.1,False,37.4,282,0.5
+2024,Singapore Grand Prix,11.842350000000001,30.7,75.0,1007.1,False,37.7,135,0.5
+2024,Singapore Grand Prix,12.842416666666669,30.8,75.0,1007.1,False,37.7,110,0.6
+2024,Singapore Grand Prix,13.842566666666668,30.7,75.0,1007.1,False,38.3,208,0.7
+2024,Singapore Grand Prix,14.842716666666668,30.7,75.0,1007.2,False,38.5,138,0.6
+2024,Singapore Grand Prix,15.84285,30.8,75.0,1007.3,False,38.2,204,1.0
+2024,Singapore Grand Prix,16.842883333333337,30.7,75.0,1007.2,False,37.8,212,0.8
+2024,Singapore Grand Prix,17.843200000000003,30.9,74.0,1007.2,False,38.2,179,0.9
+2024,Singapore Grand Prix,18.843083333333333,31.0,74.0,1007.2,False,38.5,179,0.7
+2024,Singapore Grand Prix,19.843483333333335,31.0,73.0,1007.2,False,38.1,154,0.5
+2024,Singapore Grand Prix,20.843700000000002,31.0,74.0,1007.3,False,37.9,0,0.8
+2024,Singapore Grand Prix,21.843950000000003,31.0,74.0,1007.2,False,37.9,163,0.7
+2024,Singapore Grand Prix,22.8444,31.1,74.0,1007.2,False,37.9,218,0.8
+2024,Singapore Grand Prix,23.844350000000002,31.1,74.0,1007.2,False,37.8,180,1.0
+2024,Singapore Grand Prix,24.84456666666667,31.1,74.0,1007.2,False,38.1,161,0.9
+2024,Singapore Grand Prix,25.8444,31.1,74.0,1007.2,False,37.6,231,1.0
+2024,Singapore Grand Prix,26.844450000000002,31.0,75.0,1007.3,False,37.4,244,0.5
+2024,Singapore Grand Prix,27.84446666666667,31.0,75.0,1007.3,False,37.5,249,0.9
+2024,Singapore Grand Prix,28.8447,31.0,75.0,1007.3,False,37.2,267,0.7
+2024,Singapore Grand Prix,29.844400000000004,30.9,75.0,1007.3,False,37.0,201,0.8
+2024,Singapore Grand Prix,30.844450000000002,30.8,76.0,1007.3,False,37.2,0,0.7
+2024,Singapore Grand Prix,31.844316666666668,30.8,76.0,1007.4,False,37.2,62,0.4
+2024,Singapore Grand Prix,32.84456666666667,30.8,76.0,1007.3,False,37.3,226,0.7
+2024,Singapore Grand Prix,33.844366666666666,30.7,76.0,1007.3,False,37.6,206,0.5
+2024,Singapore Grand Prix,34.84433333333334,30.7,76.0,1007.4,False,37.9,0,0.4
+2024,Singapore Grand Prix,35.8444,30.7,75.0,1007.4,False,37.6,217,0.0
+2024,Singapore Grand Prix,36.84431666666667,30.7,75.0,1007.4,False,37.5,229,0.9
+2024,Singapore Grand Prix,37.84446666666667,30.6,76.0,1007.4,False,37.3,0,1.0
+2024,Singapore Grand Prix,38.844550000000005,30.6,76.0,1007.5,False,37.0,0,0.3
+2024,Singapore Grand Prix,39.84461666666667,30.6,76.0,1007.5,False,37.2,0,0.5
+2024,Singapore Grand Prix,40.844500000000004,30.7,76.0,1007.5,False,37.2,287,0.5
+2024,Singapore Grand Prix,41.8446,30.6,76.0,1007.5,False,37.2,270,1.1
+2024,Singapore Grand Prix,42.84445000000001,30.6,76.0,1007.5,False,37.3,36,0.7
+2024,Singapore Grand Prix,43.844550000000005,30.7,76.0,1007.6,False,37.3,305,0.6
+2024,Singapore Grand Prix,44.84460000000001,30.6,76.0,1007.5,False,37.0,282,0.0
+2024,Singapore Grand Prix,45.84461666666667,30.6,76.0,1007.5,False,37.3,280,0.5
+2024,Singapore Grand Prix,46.844683333333336,30.6,76.0,1007.6,False,37.6,295,0.6
+2024,Singapore Grand Prix,47.84458333333334,30.6,76.0,1007.6,False,37.0,320,0.6
+2024,Singapore Grand Prix,48.84466666666667,30.6,76.0,1007.6,False,37.0,82,0.9
+2024,Singapore Grand Prix,49.8447,30.6,76.0,1007.6,False,37.1,0,0.4
+2024,Singapore Grand Prix,50.84463333333334,30.6,76.0,1007.6,False,37.1,0,0.0
+2024,Singapore Grand Prix,51.844500000000004,30.7,76.0,1007.6,False,37.7,213,0.0
+2024,Singapore Grand Prix,52.84463333333334,30.7,75.0,1007.7,False,37.7,232,0.6
+2024,Singapore Grand Prix,53.84478333333334,30.7,75.0,1007.7,False,37.6,298,0.4
+2024,Singapore Grand Prix,54.84476666666667,30.7,76.0,1007.6,False,37.3,329,0.7
+2024,Singapore Grand Prix,55.84471666666666,30.7,75.0,1007.7,False,37.3,213,0.8
+2024,Singapore Grand Prix,56.844750000000005,30.7,76.0,1007.7,False,37.3,216,0.6
+2024,Singapore Grand Prix,57.8448,30.8,75.0,1007.7,False,37.3,0,0.4
+2024,Singapore Grand Prix,58.84485,30.8,75.0,1007.7,False,37.3,239,0.3
+2024,Singapore Grand Prix,59.844883333333335,30.8,75.0,1007.7,False,37.4,192,0.9
+2024,Singapore Grand Prix,60.84485,30.8,75.0,1007.7,False,37.4,200,0.8
+2024,Singapore Grand Prix,61.84485,30.9,75.0,1007.8,False,37.4,217,1.4
+2024,Singapore Grand Prix,62.844750000000005,31.0,74.0,1007.8,False,37.2,203,1.1
+2024,Singapore Grand Prix,63.84511666666667,31.1,75.0,1007.7,False,37.0,218,0.7
+2024,Singapore Grand Prix,64.8454,31.1,74.0,1007.8,False,36.6,195,1.4
+2024,Singapore Grand Prix,65.84568333333334,31.1,75.0,1007.8,False,36.8,155,1.3
+2024,Singapore Grand Prix,66.84595,31.1,75.0,1007.9,False,36.5,180,0.7
+2024,Singapore Grand Prix,67.8461,31.1,75.0,1007.9,False,36.5,228,1.0
+2024,Singapore Grand Prix,68.84641666666667,31.1,76.0,1007.8,False,36.5,0,0.4
+2024,Singapore Grand Prix,69.84651666666667,31.0,75.0,1007.9,False,36.9,155,0.9
+2024,Singapore Grand Prix,70.8463,31.1,75.0,1007.8,False,37.0,251,0.8
+2024,Singapore Grand Prix,71.84675,31.1,75.0,1007.9,False,37.1,219,1.1
+2024,Singapore Grand Prix,72.84688333333334,31.1,75.0,1008.0,False,37.0,245,0.8
+2024,Singapore Grand Prix,73.84706666666668,31.1,75.0,1008.0,False,36.9,221,1.1
+2024,Singapore Grand Prix,74.84703333333333,31.1,75.0,1007.9,False,36.8,183,0.7
+2024,Singapore Grand Prix,75.84700000000001,31.1,75.0,1008.0,False,36.8,196,1.6
+2024,Singapore Grand Prix,76.84701666666666,31.1,74.0,1008.0,False,36.8,220,1.1
+2024,Singapore Grand Prix,77.84718333333333,31.1,74.0,1008.0,False,36.3,216,1.1
+2024,Singapore Grand Prix,78.85,31.1,75.0,1008.1,False,36.3,195,1.8
+2024,Singapore Grand Prix,79.84928333333333,31.2,74.0,1008.0,False,36.3,275,1.1
+2024,Singapore Grand Prix,80.84960000000001,31.2,75.0,1008.0,False,36.4,192,1.1
+2024,Singapore Grand Prix,81.84981666666667,31.1,74.0,1008.0,False,36.5,228,1.1
+2024,Singapore Grand Prix,82.85023333333334,31.1,74.0,1008.0,False,36.0,224,1.0
+2024,Singapore Grand Prix,83.85061666666667,31.1,74.0,1008.0,False,35.9,191,1.4
+2024,Singapore Grand Prix,84.8508,31.0,75.0,1007.9,False,35.7,161,1.1
+2024,Singapore Grand Prix,85.85075,31.0,75.0,1008.0,False,35.8,217,1.3
+2024,Singapore Grand Prix,86.85076666666667,31.0,75.0,1008.1,False,35.8,179,1.3
+2024,Singapore Grand Prix,87.85106666666667,30.9,75.0,1008.1,False,36.1,257,1.1
+2024,Singapore Grand Prix,88.85116666666667,30.9,75.0,1008.2,False,36.1,215,1.0
+2024,Singapore Grand Prix,89.85121666666667,30.8,75.0,1008.2,False,35.8,209,1.5
+2024,Singapore Grand Prix,90.85141666666667,30.8,76.0,1008.3,False,36.4,218,1.6
+2024,Singapore Grand Prix,91.85153333333334,30.8,75.0,1008.3,False,36.6,217,1.3
+2024,Singapore Grand Prix,92.8516,30.8,74.0,1008.4,False,36.4,198,1.2
+2024,Singapore Grand Prix,93.85166666666667,30.8,74.0,1008.4,False,36.0,218,1.3
+2024,Singapore Grand Prix,94.85201666666667,30.8,75.0,1008.3,False,36.0,184,1.4
+2024,Singapore Grand Prix,95.85221666666668,30.8,74.0,1008.4,False,36.0,231,1.2
+2024,Singapore Grand Prix,96.85258333333334,30.8,75.0,1008.4,False,36.1,223,1.2
+2024,Singapore Grand Prix,97.85285,30.8,75.0,1008.4,False,36.1,186,2.0
+2024,Singapore Grand Prix,98.85238333333334,30.8,75.0,1008.4,False,36.1,190,1.4
+2024,Singapore Grand Prix,99.85295,30.8,75.0,1008.4,False,36.1,202,1.3
+2024,Singapore Grand Prix,100.85271666666668,30.8,75.0,1008.4,False,35.9,245,1.6
+2024,Singapore Grand Prix,101.85305,30.8,75.0,1008.4,False,35.5,239,0.7
+2024,Singapore Grand Prix,102.85331666666667,30.8,76.0,1008.4,False,35.9,214,0.7
+2024,Singapore Grand Prix,103.85351666666666,30.8,74.0,1008.3,False,35.8,227,1.2
+2024,Singapore Grand Prix,104.85365,30.8,74.0,1008.3,False,35.7,183,1.1
+2024,Singapore Grand Prix,105.85361666666668,30.7,74.0,1008.3,False,35.8,207,1.4
+2024,Singapore Grand Prix,106.85388333333334,30.6,74.0,1008.3,False,35.8,215,1.1
+2024,Singapore Grand Prix,107.85416666666667,30.7,74.0,1008.3,False,35.8,234,0.8
+2024,Singapore Grand Prix,108.85455,30.6,74.0,1008.3,False,35.8,159,1.3
+2024,Singapore Grand Prix,109.85458333333334,30.7,74.0,1008.4,False,35.8,204,1.2
+2024,Singapore Grand Prix,110.85455,30.8,74.0,1008.4,False,36.1,185,1.0
+2024,Singapore Grand Prix,111.85473333333334,30.8,73.0,1008.4,False,36.1,228,1.3
+2024,Singapore Grand Prix,112.8554,30.8,74.0,1008.4,False,35.5,193,0.7
+2024,Singapore Grand Prix,113.85528333333333,30.8,74.0,1008.5,False,35.5,212,1.1
+2024,Singapore Grand Prix,114.85531666666667,30.8,74.0,1008.5,False,36.0,223,1.1
+2024,Singapore Grand Prix,115.85543333333334,30.7,74.0,1008.5,False,35.8,212,1.7
+2024,Singapore Grand Prix,116.85546666666667,30.7,74.0,1008.4,False,35.8,210,1.2
+2024,Singapore Grand Prix,117.85536666666667,30.8,74.0,1008.4,False,35.7,225,1.3
+2024,Singapore Grand Prix,118.85541666666668,30.8,74.0,1008.4,False,35.5,183,1.1
+2024,Singapore Grand Prix,119.85570000000001,30.8,73.0,1008.5,False,35.5,187,1.2
+2024,Singapore Grand Prix,120.85578333333335,30.8,74.0,1008.5,False,35.5,192,1.3
+2024,Singapore Grand Prix,121.85556666666668,30.8,74.0,1008.6,False,35.5,207,1.6
+2024,Singapore Grand Prix,122.85545,30.8,74.0,1008.5,False,35.5,214,1.5
+2024,Singapore Grand Prix,123.85580000000002,30.8,74.0,1008.5,False,35.2,164,1.3
+2024,Singapore Grand Prix,124.85558333333333,30.8,74.0,1008.6,False,35.3,192,1.5
+2024,Singapore Grand Prix,125.85641666666668,30.8,74.0,1008.7,False,35.4,209,1.6
+2024,Singapore Grand Prix,126.85635,30.8,74.0,1008.6,False,35.5,197,1.2
+2024,Singapore Grand Prix,127.85633333333334,30.7,74.0,1008.6,False,35.5,213,1.5
+2024,Singapore Grand Prix,128.8562,30.7,74.0,1008.5,False,35.2,0,1.1
+2024,Singapore Grand Prix,129.85646666666668,30.6,74.0,1008.6,False,34.9,230,0.7
+2024,Singapore Grand Prix,130.8567,30.6,75.0,1008.7,False,34.9,218,0.9
+2024,Singapore Grand Prix,131.85698333333335,30.6,75.0,1008.8,False,35.0,196,1.0
+2024,Singapore Grand Prix,132.8571,30.7,75.0,1008.6,False,35.2,164,1.5
+2024,Singapore Grand Prix,133.85706666666667,30.7,74.0,1008.6,False,35.2,186,0.9
+2024,Singapore Grand Prix,134.85736666666668,30.6,74.0,1008.8,False,35.2,216,1.2
+2024,Singapore Grand Prix,135.85773333333336,30.7,75.0,1008.7,False,35.3,202,1.0
+2024,Singapore Grand Prix,136.85805,30.6,74.0,1008.8,False,35.2,277,0.9
+2024,Singapore Grand Prix,137.85840000000002,30.6,74.0,1008.8,False,35.1,174,1.1
+2024,Singapore Grand Prix,138.85825000000003,30.6,74.0,1008.9,False,35.0,228,1.0
+2024,Singapore Grand Prix,139.85808333333335,30.6,74.0,1008.8,False,35.0,185,1.1
+2024,Singapore Grand Prix,140.85835,30.6,74.0,1008.8,False,35.0,233,0.9
+2024,Singapore Grand Prix,141.8583,30.6,74.0,1008.9,False,35.0,216,1.0
+2024,Singapore Grand Prix,142.85818333333333,30.5,74.0,1009.0,False,34.9,190,1.2
+2024,Singapore Grand Prix,143.85836666666668,30.5,73.0,1009.0,False,34.9,224,1.0
+2024,Singapore Grand Prix,144.8582,30.5,74.0,1009.0,False,35.2,221,1.5
+2024,Singapore Grand Prix,145.85838333333334,30.5,74.0,1008.9,False,35.3,187,1.3
+2024,Singapore Grand Prix,146.85833333333332,30.6,74.0,1008.9,False,35.5,214,1.3
+2024,Singapore Grand Prix,147.85838333333334,30.5,74.0,1009.1,False,34.9,288,1.0
+2024,Singapore Grand Prix,148.85826666666668,30.5,74.0,1009.0,False,34.9,178,0.3
+2024,Singapore Grand Prix,149.85840000000002,30.5,74.0,1009.0,False,35.0,192,1.0
+2024,Singapore Grand Prix,150.85825000000003,30.5,74.0,1009.0,False,35.0,300,0.6
+2024,Singapore Grand Prix,151.85845000000003,30.5,75.0,1009.0,False,34.4,155,1.1
+2024,Singapore Grand Prix,152.85826666666668,30.5,74.0,1009.1,False,34.4,72,1.0
+2024,Singapore Grand Prix,153.85838333333334,30.5,74.0,1009.1,False,35.0,226,1.1
+2024,Singapore Grand Prix,154.85848333333334,30.6,74.0,1009.0,False,35.0,199,1.4
+2024,Singapore Grand Prix,155.85836666666668,30.6,74.0,1009.1,False,35.0,205,1.6
+2024,Singapore Grand Prix,156.85835,30.5,74.0,1009.0,False,35.0,200,1.4
+2024,Singapore Grand Prix,157.8585666666667,30.5,73.0,1009.1,False,34.9,189,1.2
+2024,Singapore Grand Prix,158.85870000000003,30.4,74.0,1009.1,False,34.7,198,1.3
+2024,Singapore Grand Prix,159.85926666666668,30.4,74.0,1009.1,False,34.7,262,1.4
