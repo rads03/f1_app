@@ -462,16 +462,8 @@ def plot_track_dominance(df, driver_1, driver_2, year, driver_mappings):
     if not driver_mapping_dict:
         raise ValueError(f"No driver mapping dictionary found for the year {year}")
     
-    # Check if driver_1 and driver_2 are numeric (driver numbers) or abbreviations
-    if isinstance(driver_1, str) and driver_1.isdigit():
-        driver1 = driver_mapping_dict.get(driver_1)
-    else:
-        driver1 = driver_1  # Assume it's an abbreviation like 'VER'
-
-    if isinstance(driver_2, str) and driver_2.isdigit():
-        driver2 = driver_mapping_dict.get(driver_2)
-    else:
-        driver2 = driver_2  # Assume it's an abbreviation like 'ZHO'
+    driver1 = driver_mapping_dict.get(driver_1)
+    driver2 = driver_mapping_dict.get(driver_2)
 
     # Validate the driver mappings
     if driver1 is None or driver2 is None:
