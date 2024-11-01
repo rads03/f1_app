@@ -214,21 +214,21 @@ def get_circuit_map(df, driver=None):
 
 # In[53]:
 
-def compare_driver_stats(df, driver_1, driver_2, stat, year, driver_mappings):
+def compare_driver_stats(df, driver1, driver2, stat, year, driver_mappings):
  
     driver_mapping_dict = driver_mappings.get(year)
     
     if not driver_mapping_dict:
         raise ValueError(f"No driver mapping dictionary found for the year {year}")
     
-    driver1 = driver_mapping_dict.get(driver_1)
-    driver2 = driver_mapping_dict.get(driver_2)
+    driver_1 = driver_mapping_dict.get(driver1)
+    driver_2 = driver_mapping_dict.get(driver2)
     
     if driver1 is None or driver2 is None:
-        raise ValueError(f"Driver names '{driver_1}' or '{driver_2}' not found in the mapping dictionary for the year {year}")
+        raise ValueError(f"Driver names '{driver1}' or '{driver2}' not found in the mapping dictionary for the year {year}")
     
-    telemetry1 = df.loc[int(driver1)]
-    telemetry2 = df.loc[int(driver2)]
+    telemetry1 = df.loc[int(driver_1)]
+    telemetry2 = df.loc[int(driver_2)]
     
     x_values_1 = range(len(telemetry1))
     x_values_2 = range(len(telemetry2))
@@ -455,33 +455,33 @@ def get_circuit_corners_map():
 
 # In[69]:
 
-def plot_track_dominance(df, driver_1, driver_2, year, driver_mappings):
+def plot_track_dominance(df, driver1, driver2, year, driver_mappings):
     
     driver_mapping_dict = driver_mappings.get(year)
     
     if not driver_mapping_dict:
         raise ValueError(f"No driver mapping dictionary found for the year {year}")
     
-    driver1 = driver_mapping_dict.get(driver_1)
-    driver2 = driver_mapping_dict.get(driver_2)
+    driver_1 = driver_mapping_dict.get(driver1)
+    driver_2 = driver_mapping_dict.get(driver2)
 
     # Validate the driver mappings
-    if driver1 is None or driver2 is None:
-        raise ValueError(f"Driver names '{driver_1}' or '{driver_2}' not found in the mapping dictionary for the year {year}")
+    if driver_1 is None or driver_2 is None:
+        raise ValueError(f"Driver names '{driver1}' or '{driver2}' not found in the mapping dictionary for the year {year}")
 
 
     # Access telemetry data using driver numbers or abbreviations
     try:
-        telemetry1 = df.loc[str(driver1)]
+        telemetry1 = df.loc[str(driver_1)]
     except KeyError:
         # If that fails, try using driver abbreviations
-        telemetry1 = df.loc[driver_1]  # Attempt to access using abbreviation
+        telemetry1 = df.loc[driver1]  # Attempt to access using abbreviation
 
     try:
-        telemetry2 = df.loc[str(driver2)]
+        telemetry2 = df.loc[str(driver_2)]
     except KeyError:
         # If that fails, try using driver abbreviations
-        telemetry2 = df.loc[driver_2]  # Attempt to access using abbreviation
+        telemetry2 = df.loc[driver2]  # Attempt to access using abbreviation
    
     x_pos1 = telemetry1['X'].values
     y_pos1 = telemetry1['Y'].values
