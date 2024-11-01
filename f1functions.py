@@ -462,14 +462,31 @@ def plot_track_dominance(df, driver_1, driver_2, year, driver_mappings):
     if not driver_mapping_dict:
         raise ValueError(f"No driver mapping dictionary found for the year {year}")
     
-    driver1 = driver_mapping_dict.get(driver_1)
-    driver2 = driver_mapping_dict.get(driver_2)
-    
+    # Check if driver_1 and driver_2 are numeric (driver numbers)
+    if isinstance(driver_1, (int, str)) and str(driver_1).isdigit():
+        driver1 = driver_mapping_dict.get(driver_1)
+    else:
+        driver1 = driver_1  # Assume it's an abbreviation like 'VER'
+
+    if isinstance(driver_2, (int, str)) and str(driver_2).isdigit():
+        driver2 = driver_mapping_dict.get(driver_2)
+    else:
+        driver2 = driver_2  # Assume it's an abbreviation like 'ZHO'
+
+    # Check if we have valid driver mappings
     if driver1 is None or driver2 is None:
         raise ValueError(f"Driver names '{driver_1}' or '{driver_2}' not found in the mapping dictionary for the year {year}")
-    
-    telemetry1 = df.loc[int(driver1)]
-    telemetry2 = df.loc[int(driver2)]
+
+    # Access telemetry data using driver numbers
+    try:
+        telemetry1 = df.loc[int(driver1)]
+    except KeyError:
+        telemetry1 = df.loc[driver1]  # If driver1 is an abbreviation, access directly
+
+    try:
+        telemetry2 = df.loc[int(driver2)]
+    except KeyError:
+        telemetry2 = df.loc[driver2]  # If driver2 is an abbreviation, access directly
    
     x_pos1 = telemetry1['X'].values
     y_pos1 = telemetry1['Y'].values
@@ -481,7 +498,6 @@ def plot_track_dominance(df, driver_1, driver_2, year, driver_mappings):
     def plot_dominance_along_track(x1, y1, x2, y2, color1, color2):
         min_length = min(len(x1), len(x2)) - 1
         for i in range(min_length):
-     
             speed1 = telemetry1['Speed'].values[i]
             speed2 = telemetry2['Speed'].values[i]
             
@@ -510,7 +526,6 @@ def plot_track_dominance(df, driver_1, driver_2, year, driver_mappings):
         text.set_color('white')
         text.set_fontweight('bold')
 
-
     ax.set_xticks([])
     ax.set_yticks([])
     ax.spines['top'].set_visible(False)
@@ -524,7 +539,6 @@ def plot_track_dominance(df, driver_1, driver_2, year, driver_mappings):
     plt.tight_layout()
     
     return fig
-
 
 # In[59]:
 
