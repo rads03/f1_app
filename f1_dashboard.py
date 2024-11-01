@@ -243,6 +243,13 @@ st.markdown(
         color: white;
         background-color: #333333; /* Change background */
     }
+
+     /* Style for image captions */
+    .css-18cdwgb p { /* Streamlit assigns a specific class to captions */
+        color: white !important;
+        font-size: 0.9rem; /* Adjust size if necessary */
+        text-align: center;
+    }
     
     /* Button styles */
     .stButton button {
