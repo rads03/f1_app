@@ -471,17 +471,22 @@ def plot_track_dominance(df, driver1, driver2, year, driver_mappings):
 
 
     # Access telemetry data using driver numbers or abbreviations
+
     try:
         telemetry1 = df.loc[str(driver_1)]
     except KeyError:
-        # If that fails, try using driver abbreviations
-        telemetry1 = df.loc[driver1]  # Attempt to access using abbreviation
+        try:
+            telemetry1 = df.loc[int(driver_1)]  # Attempt to access using abbreviation
+        except KeyError:
+            telemetry1 = df.loc[driver1]  # Attempt to access using driver number as int
 
     try:
         telemetry2 = df.loc[str(driver_2)]
     except KeyError:
-        # If that fails, try using driver abbreviations
-        telemetry2 = df.loc[driver2]  # Attempt to access using abbreviation
+        try:
+            telemetry2 = df.loc[int(driver_2)]  # Attempt to access using abbreviation
+        except KeyError:
+            telemetry2 = df.loc[driver2] 
    
     x_pos1 = telemetry1['X'].values
     y_pos1 = telemetry1['Y'].values
@@ -510,7 +515,7 @@ def plot_track_dominance(df, driver1, driver2, year, driver_mappings):
     blue_patch = plt.Line2D([0], [0], color='lightsteelblue', linewidth=8, alpha=0.6)
     
     legend = ax.legend([indigo_patch, blue_patch], 
-          [f'{driver_1} Dominance', f'{driver_2} Dominance'], 
+          [f'{driver1} Dominance', f'{driver2} Dominance'], 
           loc='best', 
           fontsize=20, 
           facecolor='black', 
