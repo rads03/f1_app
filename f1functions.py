@@ -462,31 +462,32 @@ def plot_track_dominance(df, driver_1, driver_2, year, driver_mappings):
     if not driver_mapping_dict:
         raise ValueError(f"No driver mapping dictionary found for the year {year}")
     
-    # Check if driver_1 and driver_2 are numeric (driver numbers)
-    if isinstance(driver_1, (int, str)) and str(driver_1).isdigit():
+    # Check if driver_1 and driver_2 are numeric (driver numbers) or abbreviations
+    if isinstance(driver_1, str) and driver_1.isdigit():
         driver1 = driver_mapping_dict.get(driver_1)
     else:
         driver1 = driver_1  # Assume it's an abbreviation like 'VER'
 
-    if isinstance(driver_2, (int, str)) and str(driver_2).isdigit():
+    if isinstance(driver_2, str) and driver_2.isdigit():
         driver2 = driver_mapping_dict.get(driver_2)
     else:
         driver2 = driver_2  # Assume it's an abbreviation like 'ZHO'
 
-    # Check if we have valid driver mappings
+    # Validate the driver mappings
     if driver1 is None or driver2 is None:
         raise ValueError(f"Driver names '{driver_1}' or '{driver_2}' not found in the mapping dictionary for the year {year}")
 
-    # Access telemetry data using driver numbers
+
+    # Access telemetry data using driver numbers or abbreviations
     try:
-        telemetry1 = df.loc[int(driver1)]
+        telemetry1 = df.loc[str(driver1)]
     except KeyError:
-        telemetry1 = df.loc[driver1]  # If driver1 is an abbreviation, access directly
+        raise ValueError(f"No telemetry data found for driver '{driver1}'")
 
     try:
-        telemetry2 = df.loc[int(driver2)]
+        telemetry2 = df.loc[str(driver2)]
     except KeyError:
-        telemetry2 = df.loc[driver2]  # If driver2 is an abbreviation, access directly
+        raise ValueError(f"No telemetry data found for driver '{driver2}'")
    
     x_pos1 = telemetry1['X'].values
     y_pos1 = telemetry1['Y'].values
