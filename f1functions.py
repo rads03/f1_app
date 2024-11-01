@@ -74,35 +74,29 @@ def highlight_last_five_rows(df):
 
 
 def get_quali_results(q1, q2, q3):
-
-    rows_to_append = []
-    for driver in q1['Driver'].unique():
-        rows_to_append.append(q1.loc[q1[q1['Driver'] == driver].LapTime.idxmin()])
-    q1_pos = pd.DataFrame(rows_to_append)
-    q1_pos['Position'] = q1_pos['LapTime'].rank(method='min', ascending=True).astype(int)
-    q1_pos = q1_pos.sort_values(by='Position').reset_index(drop=True)
-    q1_pos = q1_pos[['Driver', 'LapTime', 'Position', 'FreshTyre', 'TyreLife', 'Compound']]
-    q1_pos.reset_index(drop=True, inplace=True)
-
-    rows_to_append = []
-    for driver in q2['Driver'].unique():
-        rows_to_append.append(q2.loc[q2[q2['Driver'] == driver].LapTime.idxmin()])
-    q2_pos = pd.DataFrame(rows_to_append)
-    q2_pos['Position'] = q2_pos['LapTime'].rank(method='min', ascending=True).astype(int)
-    q2_pos = q2_pos.sort_values(by='Position').reset_index(drop=True)
-    q2_pos = q2_pos[['Driver', 'LapTime', 'Position', 'FreshTyre', 'TyreLife', 'Compound']]
-
-    rows_to_append = []
-    for driver in q3['Driver'].unique():
-        rows_to_append.append(q3.loc[q3[q3['Driver'] == driver].LapTime.idxmin()])
-    q3_pos = pd.DataFrame(rows_to_append)
-    q3_pos['Position'] = q3_pos['LapTime'].rank(method='min', ascending=True).astype(int)
-    q3_pos = q3_pos.sort_values(by='Position').reset_index(drop=True)
-    q3_pos = q3_pos[['Driver', 'LapTime', 'Position', 'FreshTyre', 'TyreLife', 'Compound']]
-    q3_pos.reset_index(drop=True, inplace=True)
+    def process_qualifying_data(q):
+        rows_to_append = []
+        for driver in q['Driver'].unique():
+            driver_data = q[q['Driver'] == driver]
+            if driver_data['LapTime'].notna().any():  # Check if there are valid lap times
+                fastest_lap_idx = driver_data['LapTime'].idxmin()
+                rows_to_append.append(driver_data.loc[fastest_lap_idx])
+            else:
+                # If no valid lap times, create a row with NaN values
+                nan_row = pd.Series({col: float('nan') for col in q.columns}, index=q.columns)
+                nan_row['Driver'] = driver  # Set the driver name
+                rows_to_append.append(nan_row)
+        
+        pos_df = pd.DataFrame(rows_to_append)
+        pos_df['Position'] = pos_df['LapTime'].rank(method='min', ascending=True).astype(int)
+        pos_df = pos_df.sort_values(by='Position').reset_index(drop=True)
+        return pos_df[['Driver', 'LapTime', 'Position', 'FreshTyre', 'TyreLife', 'Compound']]
+    
+    q1_pos = process_qualifying_data(q1)
+    q2_pos = process_qualifying_data(q2)
+    q3_pos = process_qualifying_data(q3)
 
     return q1_pos, q2_pos, q3_pos
-
 
 # In[11]:
 
