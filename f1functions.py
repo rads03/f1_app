@@ -88,7 +88,7 @@ def get_quali_results(q1, q2, q3):
                 rows_to_append.append(nan_row)
         
         pos_df = pd.DataFrame(rows_to_append)
-        pos_df['Position'] = pos_df['LapTime'].rank(method='min', ascending=True).astype(int)
+        pos_df['Position'] = pos_df['LapTime'].rank(method='min', ascending=True).astype(float)  # Keep as float
         pos_df = pos_df.sort_values(by='Position').reset_index(drop=True)
         return pos_df[['Driver', 'LapTime', 'Position', 'FreshTyre', 'TyreLife', 'Compound']]
     
