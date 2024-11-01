@@ -227,8 +227,21 @@ def compare_driver_stats(df, driver1, driver2, stat, year, driver_mappings):
     if driver1 is None or driver2 is None:
         raise ValueError(f"Driver names '{driver1}' or '{driver2}' not found in the mapping dictionary for the year {year}")
     
-    telemetry1 = df.loc[int(driver_1)]
-    telemetry2 = df.loc[int(driver_2)]
+    try:
+        telemetry1 = df.loc[str(driver_1)]
+    except KeyError:
+        try:
+            telemetry1 = df.loc[int(driver_1)]  # Attempt to access using abbreviation
+        except KeyError:
+            telemetry1 = df.loc[driver1]  # Attempt to access using driver number as int
+
+    try:
+        telemetry2 = df.loc[str(driver_2)]
+    except KeyError:
+        try:
+            telemetry2 = df.loc[int(driver_2)]  # Attempt to access using abbreviation
+        except KeyError:
+            telemetry2 = df.loc[driver2]  # A
     
     x_values_1 = range(len(telemetry1))
     x_values_2 = range(len(telemetry2))
