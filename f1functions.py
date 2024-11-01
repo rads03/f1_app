@@ -126,8 +126,8 @@ def get_gap_to_pole(q3_pos):
     ax.set_yticks(range(len(driver_names)))
     ax.set_yticklabels(driver_names, fontsize=25, fontweight='bold')
     
-    fig.patch.set_facecolor('#222222')
-    ax.set_facecolor('#222222')
+    fig.patch.set_facecolor('black')
+    ax.set_facecolor('black')
     ax.tick_params(colors='white', which='both')
 
     for index, value in enumerate(q3_pos['GapToPole']):
