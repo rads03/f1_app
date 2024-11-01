@@ -497,7 +497,10 @@ def filter_and_split(df, year, location):
 
 # In[13]:
 
-st.image(Image.open('pics/header.png'), width=600)
+col1, col2, col3 = st.columns((1, 4, 1), gap='large')
+
+with col1:
+    st.image(Image.open('pics/header.png'), use_column_width=True)
 
 
 col1, col2, col3 = st.columns((2.9, 2.9, 2.8), gap='large')
