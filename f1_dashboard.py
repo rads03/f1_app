@@ -205,6 +205,60 @@ css = """
 </style>
 """
 
+
+st.markdown(
+    """
+    <style>
+    /* Set the overall background color */
+    body {
+        background-color: black !important;
+        color: white !important;
+    }
+    
+    /* Style for main content area */
+    .main {
+        background-color: black;
+        color: white;
+    }
+    
+    /* Style block containers */
+    .block-container {
+        background-color: black;
+        padding: 1rem;
+    }
+    
+    /* Change color of headings and text */
+    h4, h5 {
+        color: white;
+    }
+    
+    /* Style select boxes */
+    .stSelectbox div[data-baseweb="select"] > div {
+        color: white;
+        background-color: #333333; /* Change background */
+    }
+    
+    /* Style number inputs */
+    .stNumberInput input {
+        color: white;
+        background-color: #333333; /* Change background */
+    }
+    
+    /* Button styles */
+    .stButton button {
+        background-color: #333333;
+        color: white;
+    }
+
+    .stButton button:hover {
+        background-color: #555555;
+        color: white;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 # Apply CSS to the Streamlit app
 st.markdown(css, unsafe_allow_html=True)
 
