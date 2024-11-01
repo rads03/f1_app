@@ -474,12 +474,14 @@ def plot_track_dominance(df, driver_1, driver_2, year, driver_mappings):
     try:
         telemetry1 = df.loc[str(driver1)]
     except KeyError:
-        raise ValueError(f"No telemetry data found for driver '{driver1}'")
+        # If that fails, try using driver abbreviations
+        telemetry1 = df.loc[driver_1]  # Attempt to access using abbreviation
 
     try:
         telemetry2 = df.loc[str(driver2)]
     except KeyError:
-        raise ValueError(f"No telemetry data found for driver '{driver2}'")
+        # If that fails, try using driver abbreviations
+        telemetry2 = df.loc[driver_2]  # Attempt to access using abbreviation
    
     x_pos1 = telemetry1['X'].values
     y_pos1 = telemetry1['Y'].values
