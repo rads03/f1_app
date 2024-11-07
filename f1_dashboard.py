@@ -544,22 +544,24 @@ with col[1]:
     try:
         year_filtered_df = qdf.loc[year]
         location_filtered_df = year_filtered_df.loc[location]
-        q1 = location_filtered_df.loc['Q1']
-        q2 = location_filtered_df.loc['Q2']
-        q3 = location_filtered_df.loc['Q3']
-        q1 = q1.reset_index()
-        q2 = q2.reset_index()
-        q3 = q3.reset_index()
-        q1_pos, q2_pos, q3_pos = get_quali_results(q1, q2, q3)
-        fig1 = get_gap_to_pole(q3_pos)
+
+        if 'Q1' in location_filtered_df.index and 'Q2' in location_filtered_df.index and 'Q3' in location_filtered_df.index:
+            q1 = location_filtered_df.loc['Q1'].reset_index()
+            q2 = location_filtered_df.loc['Q2'].reset_index()
+            q3 = location_filtered_df.loc['Q3'].reset_index()
             
-        st.write("\n\n")
-        st.write("\n\n")
-        st.markdown("#### Gap to Pole")
-        st.pyplot(fig1)
-                
+            q1_pos, q2_pos, q3_pos = get_quali_results(q1, q2, q3)
+            fig1 = get_gap_to_pole(q3_pos)
+            
+            st.write("\n\n")
+            st.write("\n\n")
+            st.markdown("#### Gap to Pole")
+            st.pyplot(fig1)
+        else:
+            st.error("Sorry, qualifying data is unavailable")
+            
     except Exception as e:
-        st.error(f"An error occurred: {e}")
+        st.error("Sorry, qualifying data is unavailable")
 
 
 # In[26]:
@@ -607,7 +609,7 @@ with col[0]:
 
 with col[2]:
     try:
-        if 'q3' in locals() and 'q3_pos' in locals() and 'results' in locals():
+        if 'results' in locals():
 
             fig8 = create_race_results_table(results)
             fig8.update_layout(autosize=True, height=950)
