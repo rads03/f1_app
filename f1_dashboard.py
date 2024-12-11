@@ -500,7 +500,7 @@ def filter_and_split(df, year, location):
 col1, col2, col3 = st.columns((1.5, 4, 1.5), gap='large')
 
 with col2:
-    st.image(Image.open('pics/header.png'), use_column_width=True)
+    st.image(Image.open('pics/header.png'), use_container_width=True)
 
 
 col1, col2, col3 = st.columns((2.9, 2.9, 2.8), gap='large')
@@ -582,7 +582,7 @@ with col[0]:
         st.write("\n\n")
         st.write("\n\n")
         st.write("\n\n")
-        st.image(Image.open(driver_image_path), caption=f"Winning Driver: {WinningDriver}", use_column_width=True)  
+        st.image(Image.open(driver_image_path), caption=f"Winning Driver: {WinningDriver}", use_container_width=True)  
             
             
         fig3 = get_circuit_map(tel_df, driver=None)
@@ -681,14 +681,14 @@ if 'df' in locals():
         if year == 2018:
             fig10 = plot_tyre_strategy_2018(df)
             
-            st.image(Image.open('pics/tyres_2018.png'), use_column_width=True)
+            st.image(Image.open('pics/tyres_2018.png'), use_container_width=True)
             st.markdown('##### Tyre Strategy')
             st.pyplot(fig10)
 
         else:
             fig9 = plot_tyre_strategy(df)
             
-            st.image(Image.open('pics/tyres.png'), use_column_width=True)
+            st.image(Image.open('pics/tyres.png'), use_container_width=True)
             st.markdown('##### Tyre Strategy')
             st.pyplot(fig9)
         
