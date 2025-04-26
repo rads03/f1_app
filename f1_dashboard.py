@@ -453,7 +453,30 @@ driver_map_2024 = {'VER': '1',
  'PIA': '81',
  'RIC': '3',
  'BEA': '38',
+ 'LAW': '30',
  'COL': '43'}
+
+
+driver_map_2025 = {'VER': '1',
+ 'GAS': '10',
+ 'LAW': '30',
+ 'ALO': '14',
+ 'LEC': '16',
+ 'STR': '18',
+ 'HAD': '6',
+ 'TSU': '22',
+ 'ALB': '23',
+ 'DOO': '7',
+ 'HUL': '27',
+ 'BOR': '5',
+ 'OCO': '31',
+ 'NOR': '4',
+ 'HAM': '44',
+ 'SAI': '55',
+ 'RUS': '63',
+ 'ANT': '12',
+ 'PIA': '81',
+ 'BEA': '87'}
 
 driver_mappings = {
     2018: driver_map_2018,
@@ -462,7 +485,8 @@ driver_mappings = {
     2021: driver_map_2021,
     2022: driver_map_2022,
     2023: driver_map_2023,
-    2024: driver_map_2024
+    2024: driver_map_2024,
+    2025: driver_map_2025
 }
                 
 
@@ -506,7 +530,7 @@ with col2:
 col1, col2, col3 = st.columns((2.9, 2.9, 2.8), gap='large')
 
 with col1:
-    year = st.number_input('Select Year', min_value=2018, max_value=2024, value=2024)
+    year = st.number_input('Select Year', min_value=2018, max_value=2025, value=2025)
 
 with col2:
     locations, default_event, calendar = get_available_locations(year)
