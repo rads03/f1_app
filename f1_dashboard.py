@@ -485,7 +485,7 @@ driver_mappings = {
     2021: driver_map_2021,
     2022: driver_map_2022,
     2023: driver_map_2023,
-    2024: driver_map_2024
+    2024: driver_map_2024,
     2025: driver_map_2025
 }
                 
