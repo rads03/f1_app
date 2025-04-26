@@ -488,7 +488,14 @@ driver_mappings = {
     2024: driver_map_2024,
     2025: driver_map_2025
 }
-                
+
+2025_race_winners = {
+    'Australian Grand Prix' : 'L NORRIS',
+    'Chinese Grand Prix' : 'O PIASTRI',
+    'Japanese Grand Prix' : 'M VERSTAPPEN',
+    'Bahrain Grand Prix' : 'O PIASTRI',
+    'Saudi Arabian Grand Prix' : 'O PIASTRI'
+}
 
 # In[12]:
 
@@ -599,7 +606,10 @@ with col[0]:
         tel_df = tel.loc[(location)]
         
         WinningDriverRow = results[results['ClassifiedPosition'] == '1']
-        WinningDriver = WinningDriverRow.iloc[0]['BroadcastName']
+        if not WinningDriverRow.empty:
+            WinningDriver = WinningDriverRow.iloc[0]['BroadcastName']
+        else:
+            WinningDriver = 2025_race_winners.get(location, 'Unknown')
             
         driver_image_path = driver_images.get(WinningDriver, 'pics/default_driver.png')
             
