@@ -489,7 +489,7 @@ driver_mappings = {
     2025: driver_map_2025
 }
 
-2025_race_winners = {
+race_winners_2025 = {
     'Australian Grand Prix' : 'L NORRIS',
     'Chinese Grand Prix' : 'O PIASTRI',
     'Japanese Grand Prix' : 'M VERSTAPPEN',
@@ -609,7 +609,7 @@ with col[0]:
         if not WinningDriverRow.empty:
             WinningDriver = WinningDriverRow.iloc[0]['BroadcastName']
         else:
-            WinningDriver = 2025_race_winners.get(location, 'Unknown')
+            WinningDriver = race_winners_2025.get(location, 'Unknown')
             
         driver_image_path = driver_images.get(WinningDriver, 'pics/default_driver.png')
             
