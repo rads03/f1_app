@@ -628,11 +628,27 @@ with col[0]:
 
         col1, col2 = st.columns([1, 1])
 
-        with col1:
-            st.metric(label="Average Track Temperature", value=f"{avg_track_temp:.1f}°C")
-                
-        with col2:
-            st.metric(label="Average Air Temperature", value=f"{avg_air_temp:.1f}°C")
+       with col1:
+           st.markdown(
+        f"""
+        <div style="background-color:#0E1117; padding:10px; border-radius:10px">
+            <h4 style="color:white; text-align:center;">Average Track Temperature</h4>
+            <p style="color:white; font-size:24px; text-align:center;">{avg_track_temp:.1f}°C</p>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
+       with col2:
+           st.markdown(
+        f"""
+        <div style="background-color:#0E1117; padding:10px; border-radius:10px">
+            <h4 style="color:white; text-align:center;">Average Air Temperature</h4>
+            <p style="color:white; font-size:24px; text-align:center;">{avg_air_temp:.1f}°C</p>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
             
     except Exception as e:
         st.error(f'Error: {e}')
