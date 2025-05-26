@@ -488,7 +488,14 @@ driver_mappings = {
     2024: driver_map_2024,
     2025: driver_map_2025
 }
-                
+
+race_winners_2025 = {
+    'Australian Grand Prix' : 'L NORRIS',
+    'Chinese Grand Prix' : 'O PIASTRI',
+    'Japanese Grand Prix' : 'M VERSTAPPEN',
+    'Bahrain Grand Prix' : 'O PIASTRI',
+    'Saudi Arabian Grand Prix' : 'O PIASTRI'
+}
 
 # In[12]:
 
@@ -599,7 +606,10 @@ with col[0]:
         tel_df = tel.loc[(location)]
         
         WinningDriverRow = results[results['ClassifiedPosition'] == '1']
-        WinningDriver = WinningDriverRow.iloc[0]['BroadcastName']
+        if not WinningDriverRow.empty:
+            WinningDriver = WinningDriverRow.iloc[0]['BroadcastName']
+        else:
+            WinningDriver = race_winners_2025.get(location, 'Unknown')
             
         driver_image_path = driver_images.get(WinningDriver, 'pics/default_driver.png')
             
@@ -619,10 +629,26 @@ with col[0]:
         col1, col2 = st.columns([1, 1])
 
         with col1:
-            st.metric(label="Average Track Temperature", value=f"{avg_track_temp:.1f}°C")
-                
+           st.markdown(
+        f"""
+        <div style="background-color:#0E1117; padding:10px; border-radius:10px">
+            <h4 style="color:white; text-align:center;">Average Track Temperature</h4>
+            <p style="color:white; font-size:24px; text-align:center;">{avg_track_temp:.1f}°C</p>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
         with col2:
-            st.metric(label="Average Air Temperature", value=f"{avg_air_temp:.1f}°C")
+           st.markdown(
+        f"""
+        <div style="background-color:#0E1117; padding:10px; border-radius:10px">
+            <h4 style="color:white; text-align:center;">Average Air Temperature</h4>
+            <p style="color:white; font-size:24px; text-align:center;">{avg_air_temp:.1f}°C</p>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
             
     except Exception as e:
         st.error(f'Error: {e}')
