@@ -476,7 +476,8 @@ driver_map_2025 = {'VER': '1',
  'RUS': '63',
  'ANT': '12',
  'PIA': '81',
- 'BEA': '87'}
+ 'BEA': '87',
+ 'COL': '43'}
 
 driver_mappings = {
     2018: driver_map_2018,
@@ -494,7 +495,10 @@ race_winners_2025 = {
     'Chinese Grand Prix' : 'O PIASTRI',
     'Japanese Grand Prix' : 'M VERSTAPPEN',
     'Bahrain Grand Prix' : 'O PIASTRI',
-    'Saudi Arabian Grand Prix' : 'O PIASTRI'
+    'Saudi Arabian Grand Prix' : 'O PIASTRI',
+    'Miami Grand Prix' : 'O PIASTRI',
+    'Emilia Romagna Grand Prix' : 'M VERSTAPPEN',
+    'Monaco Grand Prix' : 'L NORRIS'
 }
 
 # In[12]:
