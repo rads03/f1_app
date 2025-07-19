@@ -498,7 +498,11 @@ race_winners_2025 = {
     'Saudi Arabian Grand Prix' : 'O PIASTRI',
     'Miami Grand Prix' : 'O PIASTRI',
     'Emilia Romagna Grand Prix' : 'M VERSTAPPEN',
-    'Monaco Grand Prix' : 'L NORRIS'
+    'Monaco Grand Prix' : 'L NORRIS',
+    'Spanish Grand Prix' : 'O PIASTRI',
+    'Canadian Grand Prix' : 'G RUSSELL',
+    'Austrian Grand Prix' : 'L NORRIS',
+    'British Grand Prix' : 'L NORRIS'
 }
 
 # In[12]:
