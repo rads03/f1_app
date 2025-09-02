@@ -545,7 +545,7 @@ with col2:
 col1, col2, col3 = st.columns((2.9, 2.9, 2.8), gap='large')
 
 with col1:
-    year = st.number_input('Select Year', min_value=2018, max_value=2025, value=2025)
+    year = st.number_input('Select Year', min_value=2018, max_value=2024, value=2024)
 
 with col2:
     locations, default_event, calendar = get_available_locations(year)
